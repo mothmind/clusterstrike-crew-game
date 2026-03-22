@@ -1,0 +1,127 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# Based on Death of the Legion, FASA's 01652 "Kell Hounds" sourcebook
+- fullname: Thunderbolt TDR-5S
+  id: 101
+  force: Command Lance|1
+  crew:
+    name: Lt. Col. Patrick M. Kell
+    portrait: Male/MekWarrior/MW_M_27.png
+    gunnery: 2
+    piloting: 3
+
+- fullname: Orion ON1-K
+  id: 102
+  force: Command Lance|1
+  crew:
+    name: Lt. Anne Finn
+    portrait: Female/MekWarrior/MW_F_41.png
+    gunnery: 3
+    piloting: 4
+
+- fullname: Marauder MAD-3R
+  id: 103
+  force: Command Lance|1
+  crew:
+    name: Sgt. Clarence Wilson
+    portrait: Male/MekWarrior/MW_M_103.png
+    callsign: Cat
+    gunnery: 2
+    piloting: 3
+
+- fullname: Crusader CRD-3R
+  id: 104
+  force: Command Lance|1
+  crew:
+    name: Bethany Connor
+    portrait: Female/MekWarrior/MW_F_48.png
+    gunnery: 4
+    piloting: 5
+
+- fullname: Wolverine WVR-6R
+  id: 105
+  force: Assault Lance|2
+  crew:
+    name: Maj. Salome Ward
+    portrait: Female/MekWarrior/MW_F_46.png
+    gunnery: 2
+    piloting: 3
+
+- fullname: Catapult CPLT-C1
+  id: 106
+  force: Assault Lance|2
+  crew:
+    name: Lt. Mike Fitzhugh
+    portrait: Male/MekWarrior/MW_M_88.png
+    gunnery: 3
+    piloting: 4
+
+- fullname: Trebuchet TBT-5N
+  id: 107
+  force: Assault Lance|2
+  crew:
+    name: Sgt. Diane McWilliams
+    portrait: Female/MekWarrior/MW_F_85.png
+    gunnery: 3
+    piloting: 4
+
+- fullname: Rifleman RFL-3N
+  id: 108
+  force: Assault Lance|2
+  crew:
+    name: Mary Lasker
+    portrait: Female/MekWarrior/MW_F_5.png
+    gunnery: 4
+    piloting: 5
+
+- fullname: Valkyrie VLK-QA
+  id: 109
+  force: Scout Lance|3
+  crew:
+    name: Cpt. Daniel W. Allard
+    portrait: Male/MekWarrior/MW_M_37.png
+    gunnery: 3
+    piloting: 4
+
+- fullname: Commando COM-2D
+  id: 110
+  force: Scout Lance|3
+  crew:
+    name: Lt. Austin Brand
+    portrait: Male/MekWarrior/MW_M_5.png
+    gunnery: 3
+    piloting: 4
+
+- fullname: Wasp WSP-1A
+  id: 111
+  force: Scout Lance|3
+  crew:
+    name: Sgt. Margaret Lang
+    callsign: Meg
+    portrait: Female/MekWarrior/MW_F_1.png
+    gunnery: 4
+    piloting: 5
+
+- fullname: Jenner JR7-D
+  id: 112
+  force: Scout Lance|3
+  crew:
+    name: Eddie Baker
+    portrait: Male/MekWarrior/MW_M_65.png
+    gunnery: 4
+    piloting: 5

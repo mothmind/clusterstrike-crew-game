@@ -1,0 +1,95 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+key: CBS
+name: Clan Blood Spirit
+capital: York (Clan)
+yearsActive:
+  - start: 2807
+    end: 3082
+tags:
+  - PLAYABLE
+  - MINOR
+  - CLAN
+  - BATCHALL
+color:
+  red: 255
+  green: 99
+  blue: 71
+logo: Clan/Clan Blood Spirit.png
+background: Clan/Clan Blood Spirit.png
+camos: Clans/Blood Spirit
+nameGenerator: Clan
+ratingLevels:
+  - Provisional Garrison
+  - Solahma
+  - Second Line
+  - Front Line
+  - Keshik
+fallBackFactions:
+  - CLAN.HW
+factionLeaders:
+  - title: "Khan"
+    firstName: "Colleen"
+    surname: "Schmitt"
+    gender: "FEMALE"
+    startYear: 2807
+    endYear: 2835
+  - title: "Khan"
+    firstName: "Devon"
+    surname: "Boques"
+    gender: "MALE"
+    startYear: 2835
+    endYear: 2854
+  - title: "Khan"
+    firstName: "Ceana"
+    surname: "Boques"
+    gender: "FEMALE"
+    startYear: 2854
+    endYear: 2866
+  - title: "Khan"
+    firstName: "Fara"
+    surname: "Church"
+    gender: "FEMALE"
+    startYear: 2975
+    # Unofficial: we don't have a clear canon endYear
+    endYear: 3010
+  - title: "Khan"
+    firstName: "Karianna"
+    surname: "Schmitt"
+    gender: "FEMALE"
+    # Unofficial: we know she reigned in 3059, but don't have a clear canon startYear
+    startYear: 3059
+    endYear: 3075
+  - title: "Khan"
+    firstName: "Troy"
+    surname: "Boques"
+    gender: "MALE"
+    startYear: 3071
+    endYear: 3074
+  - title: "Khan"
+    firstName: "Forrest"
+    surname: "Campbell"
+    gender: "MALE"
+    startYear: 3074
+    endYear: 3083
+  - title: "Khan"
+    firstName: "Bryce"
+    surname: "Schmitt"
+    gender: "MALE"
+    startYear: 3083
+    endYear: 3084

@@ -1,0 +1,61 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+key: SIC
+name: St. Ives Compact
+capital: St. Ives
+yearsActive:
+  - start: 3029
+    end: 3063
+successor: CC
+tags:
+  - PLAYABLE
+  - LENIENT
+  - MINOR
+  - IS
+  - GENEROUS
+color:
+  red: 153
+  green: 198
+  blue: 237
+logo: Periphery/St. Ives Compact.png
+nameGenerator: CC
+eraMods:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+  - 1
+ratingLevels:
+  - F
+  - D
+  - C
+  - B
+  - A
+fallBackFactions:
+  - CC
+  - IS
+factionLeaders:
+  - title: "Duchess"
+    firstName: "Candace"
+    surname: "Liao"
+    gender: "FEMALE"
+    startYear: 3029
+    endYear: 3063

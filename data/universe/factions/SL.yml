@@ -1,0 +1,114 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+key: SL
+name: Star League
+capital: Terra
+yearsActive:
+  - start: 2571
+    end: 2780
+tags:
+  - PLAYABLE
+  - IS
+  - SUPER
+  - CONTROLLING
+  - GENEROUS
+color:
+  red: 176
+  green: 196
+  blue: 222
+logo: Inner Sphere/Star League.png
+background: Inner Sphere/Star League.png
+camos: Star League Defense Force
+eraMods:
+  - 0
+  - -1
+  - -1
+ratingLevels:
+  - C
+  - B
+  - A
+factionLeaders:
+  - title: "Director-General"
+    firstName: "Ian"
+    surname: "Cameron"
+    gender: "MALE"
+    startYear: 2571
+    endYear: 2602
+  - title: "Director-General"
+    firstName: "Nicholas"
+    surname: "Cameron"
+    gender: "MALE"
+    startYear: 2602
+    endYear: 2630
+  - title: "Director-General"
+    firstName: "Joseph"
+    surname: "Cameron"
+    honorific: "II"
+    gender: "MALE"
+    startYear: 2630
+    endYear: 2738
+  - title: "Director-General"
+    firstName: "Nicholas"
+    surname: "Cameron"
+    gender: "MALE"
+    startYear: 2641
+    endYear: 2649
+  - title: "Director-General"
+    firstName: "Michael"
+    surname: "Cameron"
+    honorific: "II"
+    gender: "MALE"
+    startYear: 2649
+    endYear: 2690
+  - title: "Director-General"
+    firstName: "Jonathan"
+    surname: "Cameron"
+    gender: "MALE"
+    startYear: 2690
+    endYear: 2738
+  - title: "Director-General"
+    firstName: "Simon"
+    surname: "Cameron"
+    gender: "MALE"
+    startYear: 2738
+    endYear: 2751
+  - title: "Director-General"
+    firstName: "Jens"
+    surname: "Pinera"
+    gender: "MALE"
+    startYear: 2751
+    endYear: 2762
+  - title: "Director-General"
+    firstName: "Richard"
+    surname: "Cameron"
+    honorific: "II"
+    gender: "MALE"
+    startYear: 2762
+    endYear: 2766
+  - title: "Director-General"
+    firstName: "Frederick"
+    surname: "Oldenhof"
+    gender: "MALE"
+    startYear: 2766
+    endYear: 2767
+  - title: "Emperor"
+    firstName: "Stefan"
+    surname: "Amaris"
+    gender: "MALE"
+    startYear: 2767
+    endYear: 2779

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+-->
+<MAPSETUP>
+    <BOARDWIDTH>20</BOARDWIDTH>
+    <BOARDHEIGHT>14</BOARDHEIGHT>
+    <MAPWIDTH>2</MAPWIDTH>
+    <MAPHEIGHT>3</MAPHEIGHT>
+    <BOARDS>/unofficial/Battle of Kalnock/20x14 Battle of Kalnock (Iced) -4- Up-Left</BOARDS>
+    <BOARDS>/unofficial/Battle of Kalnock/20x14 Battle of Kalnock (Iced) -1- Up-Right</BOARDS>
+    <BOARDS>/unofficial/Battle of Kalnock/20x14 Battle of Kalnock (Iced) -5- Middle-Left</BOARDS>
+    <BOARDS>/unofficial/Battle of Kalnock/20x14 Battle of Kalnock (Iced) -2- Middle-Right</BOARDS>
+    <BOARDS>/unofficial/Battle of Kalnock/20x14 Battle of Kalnock (Iced) -6- Down-Left</BOARDS>
+    <BOARDS>/unofficial/Battle of Kalnock/20x14 Battle of Kalnock (Iced) -3- Down-Right</BOARDS>
+</MAPSETUP>

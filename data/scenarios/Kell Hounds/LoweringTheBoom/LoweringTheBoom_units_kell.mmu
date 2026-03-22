@@ -1,0 +1,84 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# Based on Battlecorps Scenario 3011, Lowering the Boom, originally published in FASA's "Kell Hounds" sourcebook
+
+- fullname: Wolverine WVR-6R
+  id: 201
+  deploymentround: 2
+  crew:
+    name: Maj. Salome Ward
+    portrait: Female/MekWarrior/MW_F_34.png
+    piloting: 4
+    gunnery: 3
+
+- fullname: Shadow Hawk SHD-2H
+  id: 202
+  crew:
+    name: Lee Kennedy
+    portrait: Male/MekWarrior/MW_M_20.png
+    piloting: 4
+    gunnery: 4
+
+- fullname: Dervish DV-6M
+  id: 203
+  deploymentround: 2
+  ammo:
+    LT:
+      - slot: 3
+        shots: 4
+    RT:
+      - slot: 3
+        shots: 4
+  crew:
+    name: Brian Martell
+    portrait: Male/MekWarrior/MW_M_90.png
+    piloting: 4
+    gunnery: 4
+
+- fullname: Trebuchet TBT-5N
+  id: 204
+  deploymentround: 2
+  crew:
+    name: Judith Nesmith
+    portrait: Female/MekWarrior/MW_F_4.png
+    piloting: 4
+    gunnery: 4
+
+- fullname: Phoenix Hawk PXH-1
+  id: 205
+  crew:
+    name: Nathan Mack
+    portrait: Male/MekWarrior/MW_M_64.png
+    piloting: 4
+    gunnery: 4
+
+- fullname: Phoenix Hawk PXH-1
+  id: 206
+  crew:
+    name: Stuart O'Grady
+    portrait: Male/MekWarrior/MW_M_16.png
+    piloting: 4
+    gunnery: 4
+
+- fullname: Jenner JR7-D
+  id: 207
+  crew:
+    name: Sarah Jette
+    portrait: Female/MekWarrior/MW_F_45.png
+    piloting: 4
+    gunnery: 4

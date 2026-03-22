@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+-->
+<rat source='FM Crusader Clans'>
+    <era year='3060'>
+        <rat name='Crusader Clan Front-Line Assault Mechs (Blood Spirit),'>
+            <factions>CBS</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>A</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Assault Mechs (Fire Mandrill),'>
+            <factions>CFM</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>A</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Assault Mechs (Hell&apos;s Horses),'>
+            <factions>CHH</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>A</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Assault Mechs (Ice Hellion),'>
+            <factions>CIH</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>A</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Assault Mechs (Jade Falcon)'>
+            <factions>CJF</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>A</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Assault Mechs (Star Adder)'>
+            <factions>CSA</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>A</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Assault Mechs (Wolf)'>
+            <factions>CW</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>A</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Heavy Mechs (Blood Spirit)'>
+            <factions>CBS</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>H</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Heavy Mechs (Fire Mandrill),'>
+            <factions>CFM</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>H</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Heavy Mechs (Hell&apos;s Horses),'>
+            <factions>CHH</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>H</weightClasses>
+            <ratings>F,D,C,B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Heavy Mechs (Ice Hellion),'>
+            <factions>CIH</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>H</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Heavy Mechs (Jade Falcon)'>
+            <factions>CJF</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>H</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Heavy Mechs (Star Adder)'>
+            <factions>CSA</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>H</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Heavy Mechs (Wolf)'>
+            <factions>CW</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>H</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Light Mechs (Blood Spirit),'>
+            <factions>CBS</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>L</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Light Mechs (Fire Mandrill),'>
+            <factions>CFM</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>L</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Light Mechs (Hell&apos;s Horses),'>
+            <factions>CHH</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>L</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Light Mechs (Ice Hellion),'>
+            <factions>CIH</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>L</weightClasses>
+            <ratings>F,D,C,B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Light Mechs (Jade Falcon)'>
+            <factions>CJF</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>L</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Light Mechs (Star Adder)'>
+            <factions>CSA</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>L</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Light Mechs (Wolf)'>
+            <factions>CW</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>L</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Medium Mechs (Blood Spirit),'>
+            <factions>CBS</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>M</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Medium Mechs (Fire Mandrill),'>
+            <factions>CFM</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>M</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Medium Mechs (Hell&apos;s Horses),'>
+            <factions>CHH</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>M</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Medium Mechs (Ice Hellion),'>
+            <factions>CIH</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>M</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Medium Mechs (Jade Falcon)'>
+            <factions>CJF</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>M</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Medium Mechs (Star Adder)'>
+            <factions>CSA</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>M</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Front-Line Medium Mechs (Wolf)'>
+            <factions>CW</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>M</weightClasses>
+            <ratings>B,A</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Assault Mechs (Blood Spirit),'>
+            <factions>CBS</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>A</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Assault Mechs (Fire Mandrill),'>
+            <factions>CFM</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>A</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Assault Mechs (Hell&apos;s Horses),'>
+            <factions>CHH</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>A</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Assault Mechs (Ice Hellion),'>
+            <factions>CIH</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>A</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Assault Mechs (Jade Falcon),'>
+            <factions>CJF</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>A</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Assault Mechs (Star Adder)'>
+            <factions>CSA</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>A</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Assault Mechs (Wolf),'>
+            <factions>CW</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>A</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Heavy Mechs (Blood Spirit),'>
+            <factions>CBS</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>H</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Heavy Mechs (Fire Mandrill),'>
+            <factions>CFM</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>H</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Heavy Mechs (Ice Hellion),'>
+            <factions>CIH</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>H</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Heavy Mechs (Jade Falcon),'>
+            <factions>CJF</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>H</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Heavy Mechs (Star Adder),'>
+            <factions>CSA</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>H</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Heavy Mechs (Wolf),'>
+            <factions>CW</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>H</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Light Mechs (Blood Spirit)'>
+            <factions>CBS</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>L</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Light Mechs (Fire Mandrill)'>
+            <factions>CFM</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>L</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Light Mechs (Hell&apos;s Horses)'>
+            <factions>CHH</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>L</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Light Mechs (Jade Falcon),'>
+            <factions>CJF</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>L</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Light Mechs (Star Adder),'>
+            <factions>CSA</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>L</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Light Mechs (Wolf),'>
+            <factions>CW</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>L</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Medium Mechs (Blood Spirit),'>
+            <factions>CBS</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>M</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Medium Mechs (Fire Mandrill),'>
+            <factions>CFM</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>M</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Medium Mechs (Hell&apos;s Horses),'>
+            <factions>CHH</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>M</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Medium Mechs (Ice hellion),'>
+            <factions>CIH</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>M</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Medium Mechs (Jade Falcon),'>
+            <factions>CJF</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>M</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Medium Mechs (Star Adder),'>
+            <factions>CSA</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>M</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+        <rat name='Crusader Clan Second-Line Medium Mechs (Wolf),'>
+            <factions>CW</factions>
+            <unitTypes>Mek</unitTypes>
+            <weightClasses>M</weightClasses>
+            <ratings>F,D,C</ratings>
+        </rat>
+    </era>
+</rat>

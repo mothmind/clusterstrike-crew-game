@@ -1,0 +1,124 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+key: TD
+name: Tortuga Dominions
+capital: Tortuga Prime
+yearsActive:
+  - start: 2785
+tags:
+  - PIRATE
+  - PERIPHERY
+color:
+  red: 34
+  green: 139
+  blue: 34
+logo: Periphery/Tortuga Dominions.png
+background: Tortuga Dominions/Tortuga Dominions.png
+eraMods:
+  - 0
+  - 1
+  - 1
+  - 1
+  - 2
+  - 3
+  - 3
+  - 2
+  - 1
+  - 2
+  - 2
+ratingLevels:
+  - F
+  - D
+  - C
+  - B
+  - A
+fallBackFactions:
+  - Periphery.HR
+  - PIR
+factionLeaders:
+  - title: "Major"
+    firstName: "Frederick"
+    surname: "Koloniv"
+    gender: "MALE"
+    startYear: 2589
+    endYear: 2604
+  - title: "Duke"
+    firstName: "Mitch"
+    surname: "Hibbert"
+    gender: "MALE"
+    startYear: 2604
+    # Unofficial, we don't have a canon endYear
+    endYear: 2644
+  - title: "Lord"
+    firstName: "Kalvin"
+    surname: "Bar-Dyness"
+    gender: "MALE"
+    # Unofficial, we don't have a canon startYear
+    startYear: 2995
+    endYear: 3015
+  - title: "Dame"
+    firstName: "Paula"
+    surname: "Trevaline"
+    gender: "FEMALE"
+    startYear: 3015
+    endYear: 3042
+  - title: "Major"
+    firstName: "Twyla"
+    surname: "Sumeral"
+    gender: "FEMALE"
+    startYear: 3054
+    # Unofficial, know her reign ended in the 3070s, but not the exact year
+    endYear: 3075
+  - title: "Precentor"
+    firstName: "William"
+    surname: "Derer"
+    gender: "MALE"
+    # Unofficial, know his reign started in the 3070s, but not the exact year
+    startYear: 3054
+    # Unofficial, we don't have canonical endYear
+    endYear: 3080
+  - title: "King"
+    firstName: "Ravannion"
+    surname: ""
+    gender: "MALE"
+    startYear: 3080
+    endYear: 3080
+  - title: "King"
+    firstName: "Kevin"
+    surname: "Langstrom"
+    gender: "MALE"
+    startYear: 3080
+    endYear: 3080
+  - title: "King"
+    firstName: "Kevin"
+    surname: "Langstrom"
+    gender: "MALE"
+    startYear: 3080
+    endYear: 3080
+  - title: "Duke"
+    firstName: "Ian"
+    surname: "Scoli"
+    gender: "MALE"
+    startYear: 3127
+    endYear: 3130
+  - title: "King"
+    firstName: "Alastar"
+    surname: "Firebeard"
+    gender: "MALE"
+    # Unofficial, we don't have a canon startYear
+    startYear: 3130

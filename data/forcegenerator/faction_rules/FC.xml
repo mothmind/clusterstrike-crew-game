@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+-->
+<ruleset faction="FC" parent="FS" ratingSystem="IS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
+
+    <defaults>
+        <unitType>Mek</unitType>
+        <echelon>%DIVISION%</echelon>
+        <rankSystem>%RANK_FC%</rankSystem>
+        <rating>C</rating>
+    </defaults>
+
+    <toc>
+        <unitType>
+            <option ifDateBetween="3051,">Mek,Tank,VTOL,Infantry,BattleArmor,AeroSpaceFighter,Conventional Fighter</option>
+            <option>Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
+        </unitType>
+
+        <echelon>
+            <option ifUnitType="">%DIVISION%</option>
+            <option ifUnitType="Mek|VTOL">%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
+            <option ifUnitType="Tank">%BRIGADE%,%REGIMENT%,%BATTALION%,%COMPANY%,%LANCE%</option>
+            <option ifUnitType="Infantry">%BRIGADE%,%REGIMENT%,%BATTALION%,%COMPANY%</option>
+            <option ifUnitType="BattleArmor">%BATTALION%,%COMPANY%,%PLATOON%</option>
+            <option ifUnitType="AeroSpaceFighter">%GROUP%,%WING%,%SQUADRON%,%FLIGHT%</option>
+            <option ifUnitType="Conventional Fighter">%WING%,%SQUADRON%,%FLIGHT%</option>
+        </echelon>
+
+        <rating>
+            <option>A,B,C,D,F</option>
+        </rating>
+    </toc>
+
+</ruleset>

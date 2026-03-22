@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+-->
+<MAPSETUP>
+    <BOARDWIDTH>30</BOARDWIDTH>
+    <BOARDHEIGHT>17</BOARDHEIGHT>
+    <MAPWIDTH>3</MAPWIDTH>
+    <MAPHEIGHT>5</MAPHEIGHT>
+    <BOARDS>/unofficial/Kajis/30x17 The Jungle 0 North-Northwest</BOARDS>
+    <BOARDS>/unofficial/Kajis/30x17 The Jungle 1 Far North</BOARDS>
+    <BOARDS>/unofficial/Kajis/30x17 The Jungle 2 North-Northeast</BOARDS>
+    <BOARDS>/unofficial/Kajis/30x17 The Jungle 3 Northwest</BOARDS>
+    <BOARDS>/unofficial/Kajis/30x17 The Jungle 4 North</BOARDS>
+    <BOARDS>/unofficial/Kajis/30x17 The Jungle 5 Northeast</BOARDS>
+    <BOARDS>/unofficial/Kajis/30x17 The Jungle 6 West</BOARDS>
+    <BOARDS>/unofficial/Kajis/30x17 The Jungle 7 Central</BOARDS>
+    <BOARDS>/unofficial/Kajis/30x17 The Jungle 8 East</BOARDS>
+    <BOARDS>/unofficial/Kajis/30x17 The Jungle 9 Southwest</BOARDS>
+    <BOARDS>/unofficial/Kajis/30x17 The Jungle 10 South</BOARDS>
+    <BOARDS>/unofficial/Kajis/30x17 The Jungle 11 Southeast</BOARDS>
+    <BOARDS>/unofficial/Kajis/30x17 The Jungle 12 South-Southwest</BOARDS>
+    <BOARDS>/unofficial/Kajis/30x17 The Jungle 13 Far South</BOARDS>
+    <BOARDS>/unofficial/Kajis/30x17 The Jungle 14 South-Southeast</BOARDS>
+</MAPSETUP>

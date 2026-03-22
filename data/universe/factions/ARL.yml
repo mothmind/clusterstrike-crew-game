@@ -1,0 +1,70 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+key: ARL
+name: Arc-Royal Liberty Coalition
+capital: Arc-Royal
+tags:
+  - MINOR
+  - IS
+color:
+  red: 39
+  green: 212
+  blue: 200
+eraMods:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+factionLeaders:
+  - title: "Grand Duke"
+    firstName: "Morgan"
+    surname: "Kell"
+    gender: "MALE"
+    startYear: 3052
+    endYear: 3083
+  - title: "Grand Duchess"
+    firstName: "Caitlin"
+    surname: "Kell"
+    gender: "FEMALE"
+    startYear: 3083
+    endYear: 3083
+  - title: "Grand Duke"
+    firstName: "Martin"
+    surname: "Kell"
+    gender: "MALE"
+    startYear: 3083
+    endYear: 3104
+  - title: "Grand Duchess"
+    firstName: "Maria"
+    surname: "Kell"
+    gender: "MALE"
+    startYear: 3104
+    endYear: 3122
+  - title: "Grand Duchess"
+    firstName: "Callandre"
+    surname: "Kell"
+    gender: "FEMALE"
+    startYear: 3122
+    endYear: 3146

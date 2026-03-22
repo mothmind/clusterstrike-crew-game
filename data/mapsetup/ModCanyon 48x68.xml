@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!--
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+-->
+<MAPSETUP>
+    <BOARDWIDTH>16</BOARDWIDTH>
+    <BOARDHEIGHT>17</BOARDHEIGHT>
+    <MAPWIDTH>3</MAPWIDTH>
+    <MAPHEIGHT>4</MAPHEIGHT>
+    <BOARDS>[SURPRISE]/unofficial/ModCan/16x17 ModCan21
+        /unofficial/ModCan/16x17 ModCan22
+        /unofficial/ModCan/16x17 ModCan23
+    </BOARDS>
+    <BOARDS>[SURPRISE]/unofficial/ModCan/16x17 ModCan17
+        /unofficial/ModCan/16x17 ModCan19
+        /unofficial/ModCan/16x17 ModCan20
+    </BOARDS>
+    <BOARDS>[SURPRISE]/unofficial/ModCan/16x17 ModCan03
+        /unofficial/ModCan/16x17 ModCan04
+    </BOARDS>
+    <BOARDS>[SURPRISE]/unofficial/ModCan/16x17 ModCan09
+        /unofficial/ModCan/16x17 ModCan10
+        /unofficial/ModCan/16x17 ModCan11
+    </BOARDS>
+    <BOARDS>/unofficial/ModCan/16x17 ModCan15</BOARDS>
+    <BOARDS>/unofficial/ModCan/16x17 ModCan16</BOARDS>
+    <BOARDS>/unofficial/ModCan/16x17 ModCan15</BOARDS>
+    <BOARDS>[SURPRISE]/unofficial/ModCan/16x17 ModCan24
+        /unofficial/ModCan/16x17 ModCan25
+        /unofficial/ModCan/16x17 ModCan26
+        /unofficial/ModCan/16x17 ModCan27
+        /unofficial/ModCan/16x17 ModCan28
+        /unofficial/ModCan/16x17 ModCan29
+        /unofficial/ModCan/16x17 ModCan30
+        /unofficial/ModCan/16x17 ModCan31
+        /unofficial/ModCan/16x17 ModCan32
+        /unofficial/ModCan/16x17 ModCan33
+        /unofficial/ModCan/16x17 ModCan34
+    </BOARDS>
+    <BOARDS>/unofficial/ModCan/16x17 ModCan16</BOARDS>
+    <BOARDS>[SURPRISE]/unofficial/ModCan/16x17 ModCan07
+        /unofficial/ModCan/16x17 ModCan08
+    </BOARDS>
+    <BOARDS>/unofficial/ModCan/16x17 ModCan18</BOARDS>
+    <BOARDS>[SURPRISE]/unofficial/ModCan/16x17 ModCan25
+        /unofficial/ModCan/16x17 ModCan30
+    </BOARDS>
+</MAPSETUP>

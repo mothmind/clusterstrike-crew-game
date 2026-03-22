@@ -1,0 +1,57 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+key: TFR
+name: Tikonov Free Republic
+capital: Tikonov
+yearsActive:
+  - start: 3029
+    end: 3031
+successor: FS
+tags:
+  - MINOR
+  - IS
+  - STINGY
+  - CONTROLLING
+color:
+  red: 255
+  green: 160
+  blue: 122
+nameGenerator: CC
+eraMods:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 2
+fallBackFactions:
+  - CC
+factionLeaders:
+  - title: "Supreme Lord"
+    firstName: "Pavel"
+    surname: "Ridzik"
+    gender: "MALE"
+    startYear: 3029
+    endYear: 3029
+  - title: "Supreme Lord"
+    firstName: "Ardan"
+    surname: "Sortek"
+    gender: "MALE"
+    startYear: 3029
+    endYear: 3031

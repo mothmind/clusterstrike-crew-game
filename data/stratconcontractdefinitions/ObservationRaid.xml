@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+-->
+<ScenarioTemplate>
+    <contractTypeName>Observation Raid</contractTypeName>
+    <alliedFacilityCount>0</alliedFacilityCount>
+    <briefing>Conduct reconnaissance on designated locations.</briefing>
+    <allowEarlyVictory>true</allowEarlyVictory>
+    <hostileFacilityCount>1.0</hostileFacilityCount>
+    <scenarioOdds>
+        <scenarioOdds>10</scenarioOdds>
+        <scenarioOdds>20</scenarioOdds>
+        <scenarioOdds>40</scenarioOdds>
+        <scenarioOdds>60</scenarioOdds>
+    </scenarioOdds>
+    <deploymentTimes>
+        <deploymentTimes>2</deploymentTimes>
+        <!-- The value '3' is intentionally repeated three times to weight the probability of selecting 4 as a deployment time. -->
+        <deploymentTimes>3</deploymentTimes>
+        <deploymentTimes>3</deploymentTimes>
+        <deploymentTimes>3</deploymentTimes>
+        <deploymentTimes>4</deploymentTimes>
+    </deploymentTimes>
+    <objectiveParameters>
+        <objectiveParameter>
+            <objectiveType>SpecificScenarioVictory</objectiveType>
+            <objectiveCount>2.0</objectiveCount>
+            <objectiveScenarios>
+                <objectiveScenario>Hostile Facility.xml</objectiveScenario>
+            </objectiveScenarios>
+            <objectiveScenarioModifiers>
+                <objectiveScenarioModifier>FacilityHostileRecon.xml</objectiveScenarioModifier>
+            </objectiveScenarioModifiers>
+        </objectiveParameter>
+    </objectiveParameters>
+</ScenarioTemplate>

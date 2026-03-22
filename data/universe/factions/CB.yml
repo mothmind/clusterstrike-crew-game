@@ -1,0 +1,106 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+key: CB
+name: Clan Burrock
+capital: Terra
+yearsActive:
+  - start: 2807
+    end: 3059
+  - start: 3072
+    end: 3074
+successor: CSA
+tags:
+  - MINOR
+  - CLAN
+  - BATCHALL
+color:
+  red: 122
+  green: 122
+  blue: 71
+logo: Clan/Clan Burrock.png
+background: Clan/Clan Burrock.png
+camos: Clans/Burrock
+nameGenerator: Clan
+ratingLevels:
+  - Provisional Garrison
+  - Solahma
+  - Second Line
+  - Front Line
+  - Keshik
+fallBackFactions:
+  - CLAN.HW
+factionLeaders:
+  - title: "Khan"
+    firstName: "Herve"
+    surname: "Polczyk"
+    gender: "MALE"
+    startYear: 2807
+    endYear: 2824
+  - title: "Khan"
+    firstName: "Nigel"
+    surname: "Polczyk"
+    gender: "MALE"
+    startYear: 2807
+    endYear: 2824
+  - title: "Khan"
+    firstName: "Seth"
+    surname: "Van Houten"
+    gender: "MALE"
+    startYear: 2824
+    # Unofficial: we don't have a canon endYear
+    endYear: 2858
+  - title: "Khan"
+    firstName: "Zenos"
+    surname: "Danforth"
+    gender: "MALE"
+    startYear: 2858
+    endYear: 2870
+  - title: "Khan"
+    firstName: "Tabari"
+    surname: "Danforth"
+    gender: "MALE"
+    startYear: 2870
+    # Unofficial: we don't have a canon endYear
+    endYear: 2937
+  - title: "Khan"
+    firstName: "Stephen"
+    surname: "Linn"
+    gender: "MALE"
+    # Unofficial: we don't have a canon startYear
+    startYear: 2937
+    # Unofficial: we don't have a canon endYear
+    endYear: 3004
+  - title: "Khan"
+    firstName: "Liene"
+    surname: "Hutchinson"
+    gender: "FEMALE"
+    # Unofficial: we don't have a canon startYear
+    startYear: 3004
+    endYear: 3044
+  - title: "Khan"
+    firstName: "Kadena"
+    surname: "Harper"
+    gender: "FEMALE"
+    startYear: 3044
+    endYear: 3048
+  - title: "Khan"
+    firstName: "Jocelyn"
+    surname: "Siddiq"
+    gender: "FEMALE"
+    startYear: 3048
+    endYear: 3059

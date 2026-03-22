@@ -1,0 +1,109 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+# Based on Battlecorps Scenario 3011, Lowering the Boom, originally published in FASA's "Kell Hounds" sourcebook
+
+- fullname: Thunderbolt TDR-5S
+  id: 101
+  at: [ 12, 29 ]
+  remaining:
+    armor:
+      LT: 2
+      CT: 15
+  ammo:
+    CT:
+      - slot: 11
+        shots: 5
+      - slot: 12
+        shots: 5
+  crew:
+    name: Col. Oliver Nage
+    portrait: Male/MekWarrior/MW_M_15.png
+    piloting: 5
+    gunnery: 5
+
+- fullname: Griffin GRF-1N
+  id: 102
+  at: [ 9, 32 ]
+  remaining:
+    armor:
+      LT: 0
+      CT: 15
+    internal:
+      LT: 10
+  crits:
+    RT: 3
+  crew:
+    name: Maj. Abraham Morrison
+    portrait: Male/MekWarrior/MW_M_13.png
+    piloting: 4
+    gunnery: 4
+
+- fullname: Hunchback HBK-4G
+  id: 103
+  at: [ 16, 29 ]
+  remaining:
+    armor:
+      HD: 5
+      RL: 10
+  ammo:
+    LT:
+      - slot: 1
+        shots: 3
+      - slot: 2
+        shots: 3
+  crew:
+    name: Lt. Alicia Devon
+    portrait: Female/MekWarrior/MW_F_35.png
+    piloting: 4
+    gunnery: 4
+
+- fullname: Centurion CN9-A
+  id: 104
+  at: [ 14, 31 ]
+  remaining:
+    armor:
+      CT: 12
+  ammo:
+    LT:
+      - slot: 4
+        shots: 4
+      - slot: 5
+        shots: 4
+  crew:
+    name: Sgt. Jonathan Taylor
+    portrait: Male/MekWarrior/MW_M_78.png
+    piloting: 4
+    gunnery: 4
+
+- fullname: Hermes II HER-2S
+  id: 105
+  at: [ 5, 30 ]
+  crew:
+    name: Samantha Blaustein
+    portrait: Female/MekWarrior/MW_F_25.png
+    piloting: 4
+    gunnery: 4
+
+- fullname: Javelin JVN-10N
+  id: 106
+  at: [ 2, 29 ]
+  crew:
+    name: Deborah Ryan
+    portrait: Female/MekWarrior/MW_F_83.png
+    piloting: 4
+    gunnery: 4

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+-->
+<ruleset faction="CFM.MiKrKl" ratingSystem="CLAN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="formationRulesetSchema.xsd">
+
+    <defaults>
+        <echelon>%CLUSTER%</echelon>
+        <rankSystem>%RANK_CUSTOM%</rankSystem>
+        <rating>FL</rating>
+    </defaults>
+
+    <toc>
+        <unitType>
+            <option ifDateBetween="3060,">null,Mek,ProtoMek,Tank,VTOL,Infantry,BattleArmor,AeroSpaceFighter,Conventional Fighter</option>
+            <option ifDateBetween="2870,3059">null,Mek,Tank,VTOL,Infantry,BattleArmor,AeroSpaceFighter,Conventional Fighter</option>
+            <option ifDateBetween=",2869">null,Mek,Tank,VTOL,Infantry,AeroSpaceFighter,Conventional Fighter</option>
+        </unitType>
+
+        <echelon>
+            <option ifUnitType="">%GALAXY%,%CLUSTER%</option>
+            <option ifUnitType="BattleArmor">%CLUSTER%,%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
+            <option ifUnitType="Mek|AeroSpaceFighter" ifDateBetween="2870,">%TRINARY%^,%TRINARY%,%BINARY%^,%BINARY%,%STAR%^,%STAR%</option>
+            <option>%TRINARY%,%BINARY%,%STAR%</option>
+        </echelon>
+
+        <rating>
+            <option ifUnitType="Tank|VTOL">SL:Second Line,PG:Garrison,Sol:Solahma</option>
+            <option ifUnitType="Infantry" ifDateBetween="2900,">PG:Garrison,Sol:Solahma</option>
+            <option ifUnitType="Infantry">PG:Garrison,Sol:Solahma</option>
+            <option ifEschelon="%GALAXY%"></option>
+            <option>Keshik,FL:Front Line,SL:Second Line,PG:Garrison,Sol:Solahma</option>
+        </rating>
+
+        <flags>
+            <option ifUnitType="null|Mek|BattleArmor" ifEschelon="%TRINARY%|%BINARY%">mixedMekBA:Combined Mek/BA unit</option>
+            <option ifUnitType="null|Mek|AeroSpaceFighter" ifEschelon="%TRINARY%|%BINARY%">mixedMekAero:Combined Mek/Aero unit</option>
+            <option ifUnitType="null|Mek|AeroSpaceFighter" ifEschelon="%STAR%|STAR^">mekAeroNova:Mek+Aero Nova</option>
+        </flags>
+    </toc>
+
+    <force echelon="%GALAXY%" eschName="Kindraa">
+        <co>%GALAXY_CMDR%</co>
+
+        <subforces>
+            <subforce role="command" rating="Keshik"
+                      unitType="Mek" faction="CFM.Kl">%TRINARY%
+            </subforce>
+            <subforceOption>
+                <option num="1" rating="FL"
+                        faction="CFM.MiKr">%CLUSTER%
+                </option>
+                <option num="2" rating="FL"
+                        faction="CFM.MiKr">%CLUSTER%
+                </option>
+            </subforceOption>
+            <subforce num="1" rating="FL" faction="CFM.MiKr"
+                      unitType="AeroSpaceFighter">%CLUSTER%
+            </subforce>
+            <subforce num="1" rating="FL" faction="CFM.MiKr"
+                      unitType="BattleArmor">%CLUSTER%
+            </subforce>
+            <subforceOption>
+                <option num="2" rating="SL"
+                        faction="CFM.Kl">%CLUSTER%
+                </option>
+                <option num="3" rating="SL"
+                        faction="CFM.Kl">%CLUSTER%
+                </option>
+            </subforceOption>
+            <subforce rating="SL" faction="CFM.MiKr">%CLUSTER%</subforce>
+        </subforces>
+
+        <attachedForces>
+            <subforce unitType="Warship" fluffName="CFM Jungle Fever"
+                      chassis="Potemkin Troop Cruiser"
+                      ifDateBetween=",3071">%ELEMENT%
+            </subforce>
+            <subforce unitType="Warship" fluffName="CFM Rancor"
+                      chassis="Lola III Destroyer"
+                      ifDateBetween=",3071">%ELEMENT%
+            </subforce>
+        </attachedForces>
+    </force>
+</ruleset>
+

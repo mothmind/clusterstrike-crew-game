@@ -1,0 +1,74 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+key: BoS
+name: Barony of Strang
+capital: Von Strang's World
+yearsActive:
+  - start: 2779
+    end: 3049
+tags:
+  - MINOR
+  - PERIPHERY
+color:
+  red: 164
+  green: 54
+  blue: 149
+eraMods:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 2
+  - 3
+  - 3
+  - 2
+  - 1
+  - 2
+  - 2
+ratingLevels:
+  - F
+  - D
+  - C
+  - B
+  - A
+fallBackFactions:
+  - Periphery.R
+  - PIR
+factionLeaders:
+  - title: "Baron"
+    firstName: "Nico"
+    surname: "von Strang"
+    gender: "MALE"
+    startYear: 2780
+    #Unofficial: we don't have a canon endYear
+    endYear: 2800
+  - title: "Baron"
+    firstName: "Otto"
+    surname: "von Strang"
+    gender: "MALE"
+    #Unofficial: we don't have a canon startYear
+    startYear: 3005
+    #Unofficial: we don't have a canon endYear
+    endYear: 3045
+  - title: "Baron"
+    firstName: "Stepan"
+    surname: "von Strang"
+    gender: "MALE"
+    #Unofficial: we don't have a canon startYear
+    startYear: 3045
+    endYear: 3049

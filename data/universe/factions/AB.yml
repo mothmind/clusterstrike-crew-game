@@ -1,0 +1,38 @@
+# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https://www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+key: AB
+name: Azami Brotherhood
+capital: Algedi
+yearsActive:
+  - start: 2450
+    end: 2516
+  - start: 3075
+    end: 3081
+tags:
+  - MINOR
+  - IS
+color:
+  red: 238
+  green: 66
+  blue: 244
+nameGenerator: DC
+ratingLevels:
+  - D
+fallBackFactions:
+  - DC.AL
+  - DC
