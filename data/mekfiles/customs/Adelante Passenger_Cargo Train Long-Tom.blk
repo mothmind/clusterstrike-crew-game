@@ -1,0 +1,138 @@
+#Saved from version 0.50.11 on 2026-03-06
+<UnitType>
+SupportTank
+</UnitType>
+
+<Name>
+Adelante Passenger/Cargo Train
+</Name>
+
+<Model>
+Long-Tom
+</Model>
+
+<year>
+3128
+</year>
+
+<originalBuildYear>
+3128
+</originalBuildYear>
+
+<type>
+IS Level 3
+</type>
+
+<motion_type>
+Rail
+</motion_type>
+
+<transporters>
+cargobay:130.5:0:1::-1:0
+</transporters>
+
+<cruiseMP>
+0
+</cruiseMP>
+
+<engine_type>
+8
+</engine_type>
+
+<armor_type>
+51
+</armor_type>
+
+<armor_tech_rating>
+3
+</armor_tech_rating>
+
+<armor_tech_level>
+1
+</armor_tech_level>
+
+<internal_type>
+-1
+</internal_type>
+
+<armor>
+48
+38
+38
+30
+</armor>
+
+<Body Equipment>
+SV Chassis Mod [Trailer]
+Armored Chassis
+ISLongTomAmmo
+ISLongTomAmmo
+ISLongTomAmmo
+ISLongTomAmmo
+ISLongTomAmmo
+ISLongTomAmmo
+ISLongTomAmmo
+ISLongTomAmmo
+ISLongTomAmmo
+ISLongTomAmmo
+Smoke Long Tom Ammo
+Smoke Long Tom Ammo
+Fuel-Air Long Tom Ammo
+Fuel-Air Long Tom Ammo
+Cluster Long Tom Ammo
+Cluster Long Tom Ammo
+FASCAM Long Tom Ammo
+FASCAM Long Tom Ammo
+ISCASE
+</Body Equipment>
+
+<Front Equipment>
+Hitch
+</Front Equipment>
+
+<Right Equipment>
+ISLongTom
+</Right Equipment>
+
+<Left Equipment>
+ISLongTom
+</Left Equipment>
+
+<Rear Equipment>
+Hitch
+ISLaserAntiMissileSystem
+</Rear Equipment>
+
+<barrating>
+10
+</barrating>
+
+<structural_tech_rating>
+3
+</structural_tech_rating>
+
+<engine_tech_rating>
+3
+</engine_tech_rating>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+300.0
+</tonnage>
+
+<baseChassisSponsonPintleWeight>
+0.0
+</baseChassisSponsonPintleWeight>
+
+<fuel>
+0.0
+</fuel>
+
+<icon>
+iVBORw0KGgoAAAANSUhEUgAAAFQAAABICAYAAABof9IhAAANjUlEQVR4Xu2cZ4wUVxLHDSyfjmwywgSTc8bkXWA2kLPJeck5Zxkt2eScc8bkjJCQQAiBAIl4cOLD6fiAjvNhLUiYHVje1a9EjYZBFrR0wqtpP6k00z3d0/3+XeFf9V6/b77JwK1Hjx5XRowY4YYMGeKGDx/uunTpcjbymL/aZ9rEiRNzrF+/vviaNWtqderU6deqVau6ihUrqrRv3/7XrVu31jpz5kyxo0eP/i3yXN+2lJSUwp07d54ZGxu7tHnz5kv5TEhIWNqzZ8+fx40b93Ty5Mlu4MCBLhAIuM2bN7u9e/e6devW6fbo0aPd9OnTXe/evf/RunVrPTcuLk7/h+3k5ORhy5Ytyxt5zahuAsp/Fy1a5KZOneqmTJmin9OmTXM//fSTK1++vKtevborXry4K1OmjPvhhx9ckyZNXO3atV2RIkXcd99952rWrOkqV67s1q5d68aOHasimq3nIyNHjvx75DWjuqF9opGuQoUKrkqVKvr5/fffO9FONE9/E81zBQsWVMmXL5/LkyePK1CggEtKSnLNmjXT45BSpUq5smXL6oMoVqyY69Chg+vVq1dq5DWjusXHxyuQdevWddWqVVMAxW+6Xbt2uf3796uJ79mzR7f5vm/fPnfgwAG3e/du3eZz+/btbsuWLW7JkiXqCszPosn169f3F6CJiYlq1piz+D0n/tRJsFFwDh486I4dO+YOHz6scvz4cXfkyBEnQUj384kA6uzZs92CBQtcmzZtnAQwdRG1atVyDRs29BegaCR+cNKkSa5bt27QIbdt2zYNQAAKiIBnIlHdnTp1KgQov3Pc8uXLFVDcAObfr18/fwKKf8TUJ0yY4Lp27eo6duyogO7cudP98ssvISABDyDPnTunIJqWmsYKtXKLFy92LVq0UEDFd6o/loflL0DFd/6HACIU5yNA8YuYuZn1iRMn3MmTJ93p06dDABugyNKlS938+fMdLqRPnz7qiwli8v//irxmVLf8+fNPrVOnjhs/frz78ccfQ4ASZMxnInwHUAQg2Q53BwC6cOFCNfkBAwY44bEamPLmzTs28ppR3bJmzZosfk65IxoqGZACSmBCKwHNPs2HoqXhYAI4PtQAxX8CaI0aNVyuXLmSI68Z1Q1A69Wrp0FJ8nUFFHNHwoEMD0LsR9jGz0KrYAUkCJGA5siRw1+AZsmSRQElxQTQtm3bqrnDO40uIQYqAMJFDx06pN/RTr4DKEJQIlnwLaCZMmVKhoOSckKb0FAAxezRQMA08PgOgABr/hSNZb/k7KEoT4AzQHPmzOkvQDNnzpws2YybMWOGaijpIkQd2gSQcEyE7wYkAJItAbIdQ1BCQ1u2bKmAQpt8qaGYfIMGDbQwAqBEeXwixB5gjToBJn7TghBgAirHrl69WosjaGmrVq3c4MGDXd++fZXY+y4oGaD40O7du2vauGPHDtVQC0BopUX38OAE0bfARUAi0pN6Dh06VAGFjuXOndufgKKhBqhlSufPn1cQzV+ePXs2RO4BGE21iI+Grly5UgFFQ8mWcCW+BJSOk3pC7InyGzZs0CKy+UnTSAMVMPlu+9HaVatWqckDqPnQRo0a+Q/Qpk2broE2Uf+0oASpx4d6yeXxowBKxYpMCUDxofny5ZsTec2obs2bN09FQ6m0o6GYvBF7L7k8/hMtBVB8KIDiQ+Vh3Yy8ZlS36tWrpzKEYSYPoGgo0dtLLr9ixQq3ceNGBRT/SYGEwrX8v/8AJZcHUIg9tAliT6T3ksujnQg+2KI8Ji9Jg78AlU6n4kMBlCjfrl071VACk5dcnigPoJw/bNgwzecxeV8CatUm/B5BCdqEhnrJ5QlImD0aOmjQIDV5xqnkv/0JqFWbjNgTlLzk8qSexkMxeQBlkM53gEq+HYryAMqYEqQeP+oll8fcoU6moWg7GipJQ3QC2qJFi8zCOXM1a9ZscHx8/Av5/kYo0wvxcb+joVTsAYFRT3J4zN5LLo+GWlAyYs//yvXex8bGpss10+SagcaNG8dE3ttXa6I5mSXbiGnSpEmMmGZMzZo1Y8SMQiJOP0ZuWkWOjeFm5eY/Es6VTsWIb8wl5jgE3gm1oeNUhuLi4t7LPgXUTB4NtQIzGmnUyYKS0Sl+B3DABVTEUk8Yg9yPFksIVFxT7iWYkJAQkHv5+qDKE82RmJjYUG4oIJ8BAS8goAbEjEIi0TkggPPU9VPACaAF4fJhX3zPnj3HjBw58iX+jRl0Nu5DMZjZdGPGjFGtMtpEpAcsQDNATUvRTNu21JRRT/Oh/CdRnocDkHwyvILI/qBsJ8r9lpP7LicgfyTsl36VE1ehIopTTvodEnFRKmHHlhb5/AMS0xssF/9NAEgTohyUk4OihUG5iSBPGhENDIp2qQQCgaBoXDApKSkk8iDQiKA8nKB08i3aduvWLZWLFy9qKnnlyhXllWiojXoCKObuJfUkUwovjly4cMFdu3ZNj7l06ZK7c+eOu3v3rtYCJIFQNyCWky73/pFIP9Klb+n8jgio6dJvFQEuXRQrXUBOFy1Pl/tNb9++fZr0OxCJ3ydNHPsLOkSHoSlwRDqLVhFBEcgzmtC/f38NBFAf0ULlgSZ0Ds1jbuft27fdq1evVB4/fuyeP3/uXr586e7du6fVJvwn1zCT95J6wkPDadOjR4/cmzdv3IsXL9yDBw/0e1paml4L14Jwb1iMCffIyAHnY0H0i/7RT4QMjPtD68Hmxo0beg8CbFokfp80AebN1atX3dOnT93ly5f1IoBpE17DBRDRsHnz5qnMmTNHJSUlRWfAYc5E8fv372un6NyTJ0/c69evdZvO0xEeGqCahnpJPdHQ8CjP/797984Fg0H38OFD9/btW93mWoBDIjF37lydbcJoKUJNFaEvo0aN0n6FC31FOUiRr1+/rg/r5s2b7EuPxO+T9mdoKCZvPJTo7SX1xNwBlACUITX0z/KhNlmM8p2X1BNzB1A6myF96NeO8mgHgELs8Z8W5b809QRMK9/x3xkuytO+Jg/FxwImnacMhx/1knoCKFpqtImHlaF46P+7fS5TInDZmBIaih/1knrCQxEeFCaPhjIEkqEypa/RqlWrlkrHAZTsBh9qM5K9pJ6MQQGoaShBhAkUUZvL/1EzQG32HWZvw8jh/tPIvPFQ9uNLzRUApgUlojMshNFU31WbAFRMUQEFTOqhkHQb9TSxCG88FMHcw6tNCD7TNJQHJeIvQJlhzJscEG3MnblNBCUq9gYgVAdhnJ7U07bhpBa04KEEJQCFRwIoGupLQHkThAKz5fJWD/WSy1OxR0PxoQYoQyu+M3kAxeTR0PDyHa/UeMnlST1xFaahVmD2JaDCD0PFEfwoWZLNbfrSXJ6pjIDKdEboF4whqiv2f9RsTInJYpBxNBRAMXkvubyV70gWiPC4D2iT73wogDKmRJSn+GATbsMBDfejf5TLQ5sISgAKqUfT8aG+AxSTZ3SSHB8eSppIlOf1RK+5vE24xeTxoR9eTfQfoPhQMiXMFEDRTkD1mssjAAqYaCgTHXzrQwlK+FBMftOmTZ6HkRn1BFAj9mgpJu9LQMlo4KEGqL204CWXt0wp/MUvX+by4udSyWjs5VmIPbVQr5PFCEgEJnuthgDnS2IvWqQaaq/VmA8Nf5PuS6I8Y0KWy0PsDVDfRXkh36kUgqFN+D3qmWQ8+FEvUR4NNUAZEQBQTF7+21+ASiRWDYXY24tfVJrIlLxEeQCF2FtQgtz7ktgDKKbJiKkBCgelyOwlygMm2ZIFJZsS7jsfismjSby0ALGnHmpvgXiJ8qahvC9PpgSgvjR5ADUNtXF5fCQ+FHOmZEdkp/5J6Y7hYeqiCPs4Bi1Fq8mUDFCr2PsOUAFTNRQfCpgAQsQ3YaEr1nGC+EOt+Jw1a5buQ2bOnKnviaLh1EDj4uJCg3QkDLGxsf4CFNok5F7Boi4qAITG6m1RKxiAzUhhNTH2MVUG4TfAtCU2OJ/0E2Lv2yGQSpUq6UQHQLWpPQQWmw6D+dqLtaygAyVi216f4QFwnE2ZAWgAZRGXqlWr+gtQ0agjFIIpLsNBrWoPeAxnQPTZ5jeyIFwC+xGOgRWY2KQGjmERl9KlS7uSJUuuj7xmVDdMlTElllljiTbWuWNNO7bRXD4LFy4c2sdSbHxynK2Jh7B0W4kSJVRYZYd9ACya+nvkNaO6kSbCHVnKkqhMDROfCnBWhkPbPrzRoUGHzIptNBaNxLwBkPMpVrPwAG/RAahovL8AxU/ScZZrAwzIOIACJr4RQDFv3AKajGkDLMwAN8HEBgIW+wEUCgagvO7IPvGx/gIU/wggAEhAsdIblOjbb79VU86ePTtLXSjYBCVWIsuWLRuvbqs7KFSokFKs8DmdCKMA8jBeRl4zqpuY8C3WAgUUwDGAZN979hctWlTBxL/CL6nsE935jWUv8aP4zPz584eWxOR8+y4U6nrkNaO+SZrZV9LNfpIdqUjW003SyLriO/8pPPLfgAkFgtQzxRwuSgQHbPn9mWjhYzk/aevWrf02btyosmXLFv6rb+S1fN+WL19eKCUlZbCQ9lRydtJM0lJJAn4Tbe0uET9H5Dl/tS9oElyeQZeQD5ToWeQxfzUPTfznaUyd4jG+tEOHDkcij8lo7X/Ndz4suq2EpAAAAABJRU5ErkJggg==
+</icon>
+
+

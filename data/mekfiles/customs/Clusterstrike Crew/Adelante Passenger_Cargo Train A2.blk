@@ -1,0 +1,119 @@
+#Saved from version 0.50.11 on 2026-03-06
+<UnitType>
+SupportTank
+</UnitType>
+
+<Name>
+Adelante Passenger/Cargo Train
+</Name>
+
+<Model>
+A2
+</Model>
+
+<year>
+3128
+</year>
+
+<originalBuildYear>
+3128
+</originalBuildYear>
+
+<type>
+Mixed (IS Chassis) Experimental
+</type>
+
+<quirks>
+easy_maintain
+</quirks>
+
+<motion_type>
+Rail
+</motion_type>
+
+<transporters>
+infantrybay:20.0:4:1:Foot:-1:0
+infantrybay:4.0:2:2:Motorized:-1:0
+infantrybay:4.0:2:3:Mechanized:-1:0
+</transporters>
+
+<cruiseMP>
+0
+</cruiseMP>
+
+<engine_type>
+8
+</engine_type>
+
+<armor_type>
+43
+</armor_type>
+
+<armor_tech_rating>
+3
+</armor_tech_rating>
+
+<armor_tech_level>
+7
+</armor_tech_level>
+
+<internal_type>
+-1
+</internal_type>
+
+<armor>
+26
+26
+26
+26
+</armor>
+
+<Body Equipment>
+SV Chassis Mod [Tractor]
+SV Chassis Mod [Trailer]
+</Body Equipment>
+
+<Front Equipment>
+</Front Equipment>
+
+<Right Equipment>
+</Right Equipment>
+
+<Left Equipment>
+</Left Equipment>
+
+<Rear Equipment>
+</Rear Equipment>
+
+<barrating>
+2
+</barrating>
+
+<structural_tech_rating>
+3
+</structural_tech_rating>
+
+<engine_tech_rating>
+3
+</engine_tech_rating>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+200.0
+</tonnage>
+
+<baseChassisSponsonPintleWeight>
+0.0
+</baseChassisSponsonPintleWeight>
+
+<fuel>
+0.0
+</fuel>
+
+<icon>
+iVBORw0KGgoAAAANSUhEUgAAAFQAAABICAYAAABof9IhAAAM60lEQVR4Xu3cWaxV1R3HcYf4VAFBQMHIoAIq6gVFGQQFBAUcwYlJBPWKjMqkIuB0SUSZVRRQcB5BcEJAQmLSpybtc9M+Ne2DaWrT0Je+dXV9VvjfHM9L2zdzFztZ2Wfvs889ud/zH37//1p7n3baL3ibNWvWrxcvXpwee+yxtGjRonTfffcdbr7m1PZftlWrVnXeuXNnvx07dgy75557fmppaUmDBw8uY+rUqT/t3bt32Hfffdf34MGDv2r+bLVbW1tb73vvvXfd2LFjt0yYMGGL/S233LJl9uzZG5cvX/6Xp556Kj3yyCNp4sSJ6e23304ff/xxevPNN8vx448/ntasWZPmzJnzx9tvv718dty4ceXvOG5tbV24devW7s3f2aG3DOXvr7zySlq9enV6+umny/6ZZ55Jzz//fLrsssvS0KFDU79+/dLAgQPTiBEj0o033piuvfbadMEFF6Q+ffqka665Jl155ZXpjTfeSMuWLSsjW3b5vLFkyZLfN39nh95YX7bIdPnll6errrqq7C+++OKUrZPllfey5aXzzz+/jB49eqRu3bql8847L02ePDnddNNN5TrjkksuSYMGDSo/RN++fdO0adPSAw88cKL5Ozv0dvPNNxeQw4cPT0OGDCkAc9xMH3zwQfr000+Li3/00Ufl2OtPPvkkffbZZ+nDDz8sx/bvvvtu2rNnT9q8eXMJBRFnWfKoUaPqAjpp0qTi1tw5x72U42nKyabA+fzzz9OXX36ZvvjiizK++uqrdODAgZSTUDlvb4D6wgsvpA0bNqQ77rgj5QRWQsSwYcPS6NGj6wLKIsXBJ598Ms2YMYMcSu+8805JQICCCF6MnNXTt99+2w7U+67btm1bASoMcP958+bVCVR85OorV65M06dPT3fffXcB+v777xdrBOz7778v49ixY+mHH35Ix48fT0eOHClwQQU0S6u0adOmNGXKlAI0x84Sj/OPVRfQHDv/JoFkifMzoOIiNxczJRfW+9BDD6VHH320wGLJd955Z4G5b9++tGXLlvTSSy8lIeTBBx8ssVgSy3//z83f2aG3nj17rr7uuuvSihUr0v33398OVJKRlHbt2pXuuuuuEhftxVmvAQbNtaAD+vLLLxeXf/jhh1PWsSUxde/efVn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
+</icon>
+

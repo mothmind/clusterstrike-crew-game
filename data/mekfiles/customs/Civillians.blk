@@ -1,0 +1,49 @@
+#Saved from version 0.50.11 on 2026-03-06
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Civillians
+</Name>
+
+<Model>
+
+</Model>
+
+<year>
+3100
+</year>
+
+<originalBuildYear>
+3100
+</originalBuildYear>
+
+<type>
+Mixed (IS Chassis) Experimental
+</type>
+
+<motion_type>
+Leg
+</motion_type>
+
+<Troopers Equipment>
+Clothing, Light (e.g. Summer Wear/None)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<squad_size>
+10
+</squad_size>
+
+<squadn>
+3
+</squadn>
+
+<Primary>
+Club (Club/Improvised)
+</Primary>
+
+

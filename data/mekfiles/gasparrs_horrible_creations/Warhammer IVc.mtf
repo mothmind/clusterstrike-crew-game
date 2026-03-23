@@ -1,0 +1,165 @@
+generator:MegaMek Suite 0.50.11 on 2026-03-20
+chassis:Warhammer IVC
+model:
+mul id:1569
+
+Config:Biped
+techbase:Clan
+era:3081
+source:TR:3058U
+rules level:3
+role:Ambusher
+
+
+mass:75
+engine:375 XL (Clan) Engine
+structure:Clan Endo Steel
+myomer:Standard
+
+heat sinks:18 Clan Double
+walk mp:5
+jump mp:0
+
+armor:Ferro-Lamellor(Clan)
+LA armor:20
+RA armor:20
+LT armor:22
+RT armor:22
+CT armor:30
+HD armor:9
+LL armor:26
+RL armor:26
+RTL armor:6
+RTR armor:6
+RTC armor:9
+
+Weapons:15
+ER Small Laser, Left Torso
+ER Small Laser, Left Torso
+ER Small Laser, Left Torso
+ER Small Laser, Left Torso
+ER Small Laser, Left Torso
+ER Small Laser, Left Torso
+ER Small Laser, Left Torso
+ER Small Pulse Laser, Right Torso
+ER Small Pulse Laser, Right Torso
+ER Small Pulse Laser, Right Torso
+ER Small Pulse Laser, Right Torso
+ER Small Pulse Laser, Right Torso
+ER Small Pulse Laser, Right Torso
+ER Small Pulse Laser, Right Torso
+ER Small Laser, Head
+
+Left Arm:
+Shoulder
+Upper Arm Actuator
+Clan Endo Steel
+Clan Endo Steel
+Clan Ferro-Lamellor
+Clan Ferro-Lamellor
+Clan Ferro-Lamellor
+Clan Ferro-Lamellor
+Clan Ferro-Lamellor
+Clan Ferro-Lamellor
+Clan Ferro-Lamellor
+-Empty-
+
+Right Arm:
+Shoulder
+Upper Arm Actuator
+CLDoubleHeatSink
+CLDoubleHeatSink
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+Clan Ferro-Lamellor
+Clan Ferro-Lamellor
+Clan Ferro-Lamellor
+
+Left Torso:
+Fusion Engine
+Fusion Engine
+CLERSmallLaser
+CLERSmallLaser
+CLERSmallLaser
+CLERSmallLaser
+CLERSmallLaser
+CLERSmallLaser
+CLERSmallLaser
+Supercharger
+Clan Ferro-Lamellor
+Clan Ferro-Lamellor
+
+Right Torso:
+Fusion Engine
+Fusion Engine
+CLERSmallPulseLaser
+CLERSmallPulseLaser
+CLERSmallPulseLaser
+CLERSmallPulseLaser
+CLERSmallPulseLaser
+CLERSmallPulseLaser
+CLERSmallPulseLaser
+CLMASC
+CLMASC
+CLMASC
+
+Center Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Gyro
+Gyro
+Gyro
+Gyro
+Fusion Engine
+Fusion Engine
+Fusion Engine
+CLTargeting Computer
+CLTargeting Computer
+
+Head:
+Life Support
+Sensors
+Cockpit
+CLERSmallLaser
+Sensors
+Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+CLDoubleHeatSink
+CLDoubleHeatSink
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+CLDoubleHeatSink
+CLDoubleHeatSink
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+

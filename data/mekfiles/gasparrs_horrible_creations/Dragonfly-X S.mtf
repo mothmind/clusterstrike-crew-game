@@ -1,0 +1,160 @@
+generator:MegaMek Suite 0.50.11 on 2026-03-19
+chassis:Dragonfly-X
+model:S
+mul id:1569
+
+Config:Biped
+techbase:Clan
+era:3081
+source:TR:3058U
+rules level:3
+role:Ambusher
+
+quirk:bad_rep_clan
+
+mass:40
+engine:280 XL (Clan) Engine
+structure:Clan Endo Steel
+myomer:Standard
+
+heat sinks:11 Clan Double
+walk mp:7
+jump mp:0
+
+armor:Ferro-Fibrous(Clan)
+LA armor:10
+RA armor:10
+LT armor:16
+RT armor:16
+CT armor:16
+HD armor:9
+LL armor:17
+RL armor:17
+RTL armor:4
+RTR armor:4
+RTC armor:5
+
+Weapons:7
+SRM 6, Right Torso
+SRM 6, Left Torso
+SRM 6, Right Torso
+SRM 6, Left Torso
+SRM 6, Right Torso
+SRM 6, Left Torso
+SRM 6, Head
+
+Left Arm:
+Shoulder
+Upper Arm Actuator
+Clan Endo Steel
+Clan Endo Steel
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Arm:
+Shoulder
+Upper Arm Actuator
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Torso:
+Fusion Engine
+Fusion Engine
+CLSRM6
+CLSRM6
+CLSRM6
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Torso:
+Fusion Engine
+Fusion Engine
+CLSRM6
+CLSRM6
+CLSRM6
+Supercharger
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+
+Center Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Gyro
+Gyro
+Gyro
+Gyro
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Clan Ammo SRM-6 (Clan) Artemis V-capable
+Clan Ferro-Fibrous
+
+Head:
+Life Support
+Sensors
+Cockpit
+CLSRM6
+Sensors
+Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+CLMASC
+CLMASC
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+Clan Ammo SRM-6 (Clan) Artemis V-capable
+Clan Ammo SRM-6 (Clan) Artemis V-capable
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+
+icon: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
+

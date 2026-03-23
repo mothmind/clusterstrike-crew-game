@@ -1,0 +1,117 @@
+#Saved from version 0.50.11 on 2026-03-06
+<UnitType>
+SupportTank
+</UnitType>
+
+<Name>
+Adelante Passenger/Cargo Train
+</Name>
+
+<Model>
+D4
+</Model>
+
+<year>
+3128
+</year>
+
+<originalBuildYear>
+3128
+</originalBuildYear>
+
+<type>
+Mixed (IS Chassis) Experimental
+</type>
+
+<quirks>
+easy_maintain
+</quirks>
+
+<motion_type>
+Rail
+</motion_type>
+
+<transporters>
+cargobay:160.0:0:1::-1:0
+</transporters>
+
+<cruiseMP>
+0
+</cruiseMP>
+
+<engine_type>
+8
+</engine_type>
+
+<armor_type>
+43
+</armor_type>
+
+<armor_tech_rating>
+3
+</armor_tech_rating>
+
+<armor_tech_level>
+7
+</armor_tech_level>
+
+<internal_type>
+-1
+</internal_type>
+
+<armor>
+26
+26
+26
+26
+</armor>
+
+<Body Equipment>
+SV Chassis Mod [Tractor]
+SV Chassis Mod [Trailer]
+</Body Equipment>
+
+<Front Equipment>
+</Front Equipment>
+
+<Right Equipment>
+</Right Equipment>
+
+<Left Equipment>
+</Left Equipment>
+
+<Rear Equipment>
+</Rear Equipment>
+
+<barrating>
+2
+</barrating>
+
+<structural_tech_rating>
+3
+</structural_tech_rating>
+
+<engine_tech_rating>
+3
+</engine_tech_rating>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+200.0
+</tonnage>
+
+<baseChassisSponsonPintleWeight>
+0.0
+</baseChassisSponsonPintleWeight>
+
+<fuel>
+0.0
+</fuel>
+
+<icon>
+iVBORw0KGgoAAAANSUhEUgAAAFQAAABICAYAAABof9IhAAAKb0lEQVR4Xu2c2WvUVxTHb8QMKooLGlFx19Qlxj3GfYkmauK+a+Ie933f475F4/LUPvjU/0H0QQRBsOBEhYKFtkjfWintk9YWy+39nPzOzG8mKa3og3DvgcOd9Tfkk7N87zJjzGdsVVVVd5YvX26nTp0q3qVLlzvZrwn2AVZWVpZ0g40594N9oPVwPql79+473Pjj9u3b7bFjx+y2bdsA+pPz6rlz55a7MT/jXcGMGTBgwEo3fJXl36xfv94WFRXFIzPlY8aMsUePHuX2yybey/X8tB07dnzvIu395MmT7cSJE8VXr17dCOC/eefOne3mzZvt+PHj5b0lJSV2375970+dOvVKP8MrmzVrViNIOKm9ZMkS6xqS3B8xYoREZZs2beT+woUL7YoVK+yePXsavRfv27cvo39GVJkmgHysewu0f//+AqBPnz72yJEjtra21p45c0b84MGD9vDhw9aVBbtr1y47f/58efzQoUN279699vTp0/bSpUvyPp4/cOCAnTZtmlyvsLDQT6AmFlWk8YYNGyTVXR0UaKtWrbKbNm0SkIDbvXu3pDlQ6frc3rlzp8CeM2eO7dChg1zLaVVvgX5rIqCLFi2S2kl3BxRQ9+/fb12DEb9x44ZEJZFIhwcuwCsqKuyCBQss4r99+/b6D+K6/pmDM9oNr51LlAGQrk0EAgxwJ0+eFJD4hQsXpAzwOoDzGpoTQCsrK22nTp2A+bqurq4g66O8sUPOf3Zuly1bJrUQP3funD1//ry4QiXFcSIUkDgRDVyE/9KlS23Lli0B+svYsWP3ZX2OH7Zy5cpUDS0uLrZummkXL15s165dK7WzurrarlmzRu6T3uXl5aI3eQ01k2hGt7rJgcgqvZaD+y7zk/wxATBlyhTrokoirbS01DqxL50ayCyITJo0ybZt21bg0bRmzJghQBH0PMdtHpswYYJC/SPrc7yxZc7/cm4R+aQ9nZ5aefHiRamXpDVyCol04sQJW1NTI01LGxMlgsieN2+ewuR6SzM+xTN74VzSmxQmtYEINCIWcMePH7c3b96Umoqc4jlgIpk2btwojYluz3Wi63ltzwoKCkQuEW10bzQnnZ4IRYNevnxZYNKsaFBABqpCp7ZSVykLJgA1yX79+knzoYsDC5ja3c+ePSsjWpS0BzqRuWXLFolkIpvb6FgTIlQs2bx5c0n1+HST24DVSCU6VTaR9lu3bhWpBFCaFVFqAlCxeoAy9QQeuhKgOltS3cl9wAFSJRWRyeOMTAxMAComWxzTp0+XdNbFEEZNaZoOnZy0pnEBmBGQlAqW+Xg/1zEBaANQUlabEhEIKCIScEAlErWOMg3lPq/BSX0inOuYALQBKNFH5DErIjqpk8glujs6FF2qiyNaQ4GvwKnB0Vzee6D1JgJK00EGAYx01/k7kYt0AjAdHuA4KQ9Mnmca27Vr1wDUREDRkWhRAAHv9u3bMjPSJgW8devWSSRym5GIRg3wHlacuI4JQBuAsm3BLueQIUMsK/mMo0aNkv0kRrxnz57iLCT36NFDHuO1zOdHjx4dgDorc/523LhxtlWrVpK2RNz169dFQiHqmTVRPykDpD+aFKFP9OqKPQsrQ4cOla0Urufex3W9NP7wN85TU0/SGnikM12euTppD1wV/rqajxrgn0C9pdNzHedvb9265S1Q7AXrmYCjVhJxwNJZElIpviEHUDo90QlIVqcAT1Nr1qyZ9ymP1ZOqQFE5xEg04nR25vWkPQslOv0Evop+RH2Yy6dNmhJAqY1EJZGoq0oABSx6VNMdrUqqM91klsQGXezQhPdAnzmX9UzkEBGKFqU+ks7A4zFuMxsCJM5rKQ2kPf+MIJvSJjMlVtxpSroWihOZwEWjsk1C46KeErmUBaADkx1PtkC4jglAM2dKWkfV6fZ6UkRTnegEJoqAuTxAOSjGdUwAmp7LAw6n6RChaE2cTg9sGhEQ2cSjbuLMmIjuADRtApTdTJ2b60jd5DZwaU6MyCUaEd0d7ckI2LAemjYBChitjXR4ujoQdUNOuz+NCNg4IKmvyCZGrmMC0AagpDGySFOcLQ+0J6nOfT1ABmDqJ6lO7aRUELFBh6YtlfLAIgrp7gAkSll5AqweddStY12FAqqu3rdu3ToANRFQ6iFQqJuAZKqpRxZ1ow7QpH98P4nnUAOcHuE6JgBtADp48GDp1nrMhq7NtgiP6ciBWvQoR25Y6iPNKRWsNOnZUOMz0MLCQlltYvmuY8eOkvbURtKeVEZ30qyYDdGA9GAD0gmRTyPSc6HDhw+3AwcOBOjbmpoaP1ebHMQKN3BSTmACSsHRlKiRaFK6PnU03ukpAdRTBRw7ivPOvZfremv17AVRO2kuuC7hUTNpRNRUgOqpEp4DOrWTSKb+ss1sfE/5yJJsY5DqRBuuwIhOoCKb6PaMQFWwgKckUHeppSYAFUvSUIhQPdsERF26Q5dym64PUGATmWhPluxoWERpOOiQtiT7SXR2Vpt0ZqSLJEgkhDz3aUS67UHD0ueIbiLVBKBiApS5OGJeZ0S6HUIJIBp5HqBEqK7YI/D1hEmYeqZNdChASG3d2sABSCQi4mlOdHZcxTzdXddD2UrmOiYAbQDKcXCFRu3UvSSOgDPtpNPHDz4QvZQIwCP6w9mmtKUOi5HCenqEyKNREYlIKeARqThRS1SiWamd1FT+IVzHBKAm2a5dO0l53QIhKpFJCHqaFFGphxyorxqdNCP2kvhnADf6nlIAyn46XZ7oAxQgaTxXr14VuYQj7HkcBUCjohnxeiKaCKbb5+Tk+A3UTRfHu+EH5zLbUUh1dXXyrQ9Oi1BLgUzqE6Ga/rhuk1ACYkfCX7lS8UXmJ3lipKlpgCCHvvLy8ixfYOjWrZt4fn6+fAGMA2McBmPklAkHxXieb4/06tUrDlPc1d+/Mz7IIxMAAOrdu7doTTo70YkeJdWpl3R/ZklXrlyRx3SPiRkVkQt0vnGn14vcS0sBoKMDj+5OOtOISP/4YTGVUdqgkE96LDy2SecvUAdmlBteDho0KHUSGUh6WEy/TkNUXrt2Tfbm9ZvJemCM9wETHRqdYP7Oef+sj/LKkqQ8UaagSGWVT3zvU79NB1yaEM8BnmZEHWYtFS0anQ/1t8sXFxdvdMMb5A4/NaQr8Ih09OXs2bPlMe6PHDlSFpH5hjKrTDNnzpQVJl6DczuK0LelpaXV2Z/lhRGVJrPufRKP1IN/xlFu0wSQj3Wkl/HR4r/C8Ck92qzzz4YNG9YIxqdwvilifDRmPaYJIDhze5pN9uM4286xn8No5FG3989I+ejrhBmOyGfk8IM+xhRTbycSCRnjU9e4owCMp5aCkJuba1nGQxbFH/8vj35FLOXREh7un+Xl5dW64XfTGNSv8fsId8R+bFVe3OnXP5t472/Ozxpf7cmTJ7lPnz5NPH/+PPH48ePEw4cPE+7hStPw46oCiVUn6qn++GDkPF95//79xIMHDxL37t2T8dGjR7npqwfLsKqqqpySkpIkEcrCcrQAkrx7925O9muD/U8rKioKP2r9Kc3Npr5kHt+iRQsF+nX2az43+werbj0OJ3FPGQAAAABJRU5ErkJggg==
+</icon>
+

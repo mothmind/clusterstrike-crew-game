@@ -1,0 +1,173 @@
+generator:MegaMek Suite 0.50.11 on 2026-03-07
+chassis:UrbanMech
+model:SQUIRBIE
+
+Config:Tripod
+techbase:Mixed (IS Chassis)
+era:3066
+source:TR:3050
+rules level:4
+
+quirk:ext_twist
+quirk:no_arms
+quirk:low_profile
+
+mass:30
+engine:90 Fusion Engine(IS)
+structure:IS Standard
+myomer:Standard
+cockpit:Tripod Cockpit
+gyro:Standard Gyro
+
+heat sinks:10 Single
+walk mp:3
+jump mp:0
+
+armor:Ferro-Fibrous(Inner Sphere)
+LA armor:10
+RA armor:10
+LT armor:11
+RT armor:11
+CT armor:15
+HD armor:9
+LL armor:14
+RL armor:14
+CL armor:14
+RTL armor:3
+RTR armor:3
+RTC armor:5
+
+Weapons:3
+SRT 6, Right Arm
+Small X-Pulse Laser, Left Arm
+LRT 5, Right Arm
+
+Left Arm:
+Shoulder
+Upper Arm Actuator
+Lower Arm Actuator
+Hand Actuator
+ISSmallXPulseLaser
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Arm:
+Shoulder
+Upper Arm Actuator
+Lower Arm Actuator
+Hand Actuator
+SRT 6
+SRT 6
+LRT 5
+IS Ferro-Fibrous
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Torso:
+Heat Sink
+Heat Sink
+Heat Sink
+Heat Sink
+BeagleActiveProbe
+BeagleActiveProbe
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+-Empty-
+-Empty-
+
+Right Torso:
+Heat Sink
+Heat Sink
+Heat Sink
+IS Ammo SRTorpedo-6
+IS Ammo LRTorpedo-5
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+
+Center Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Gyro
+Gyro
+Gyro
+Gyro
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Supercharger
+IS Ferro-Fibrous
+
+Head:
+Life Support
+Sensors
+Cockpit
+IS Ferro-Fibrous
+Sensors
+Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+UMU
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+UMU
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Center Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+UMU
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+
+icon: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
+

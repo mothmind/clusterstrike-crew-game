@@ -1,0 +1,65 @@
+#Saved from version 0.50.11 on 2026-03-06
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Clusterstrike Personnel
+</Name>
+
+<Model>
+Jump Commandos
+</Model>
+
+<year>
+3100
+</year>
+
+<originalBuildYear>
+3100
+</originalBuildYear>
+
+<type>
+Mixed (IS Chassis) Experimental
+</type>
+
+<motion_type>
+Jump
+</motion_type>
+
+<Troopers Equipment>
+Ballistic Plate, Standard
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<squad_size>
+6
+</squad_size>
+
+<squadn>
+5
+</squadn>
+
+<secondn>
+2
+</secondn>
+
+<Primary>
+Sniper Rifle (Barton AMR (Standard))
+</Primary>
+
+<Secondary>
+InfantryAutoGL
+</Secondary>
+
+<encumberingarmor>
+true
+</encumberingarmor>
+
+<icon>
+iVBORw0KGgoAAAANSUhEUgAAAFQAAABICAYAAABof9IhAAACXklEQVR4Xu2ZAW7DIAxFe4WddmfJnXqnbLCEZV9elMT+NiR+EmoaKOZ/g0Th9UqSJGHyMeObREUaaky0odHxzYkWFB3fjiJkjhcUHV9PNXKaplriBUXH17Ex8s8MjRDVyQrRAWb+CNq886DG6meF6Jjf73cVtFKeHQ3taYWYIBpa3q3vob01PawQU9C89t3LUCmhQxt6oDARDXVMqDlNCFLqsDEBNM97hVDAGekpBGNKZSzmzzJLv0v53DxjOxK4MBqlDhsPw9ZARzNXcEaObWY0wSvkngSvkCRJkmRcxj5eU8IQz+hTi9uYGIEYfWpxGxMjEKNPLW5jMg20/CU07dMI/pgsxde+Or3zsdQpYi2+1zsfa50iDPE93vkwdIowxItXFMo+tTB0ijDEi31eu6IwW5bimJQ6RcRA18Q38PeKOx+uodfGtA92qhDfaH3tlIPYGmqsUwSFSuUsbRYgpQ4b72Nn6IFiAmpulDpsfAIc7Nn+lvZ2hv5HqcPGWlC0OojizqfGJu0VUZ9ap4hC/C4X7nyoe0WWTpEL4hnQ94qd6HRD3NpYGvo0REMZW5ungObR9opPoRm5U5ITtKWOlDpsnBwDZ2SaqcF1r/gUnrZXTJLhMT3QSPwM9YoTjpdQrzjheAn1ihPHsgn3EuoVx59qJOmUXcI5cb5QT9kB78SFQD9lX/BMXCjioTDL0PL5WyiJC0c0lHAoLMa5raEOp+yioYQ44TQjd4oFaB4rceG0GYOUOmysAJMklduAwhgCMV+NUoeNh8bxlB0Tdj8zVzxO2R0T9xw8EpckyeP5Ag8xB4RbZdz2AAAAAElFTkSuQmCC
+</icon>
+
+

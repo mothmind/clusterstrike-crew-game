@@ -1,0 +1,181 @@
+#Saved from version 0.50.11 on 2026-03-06
+<UnitType>
+SupportTank
+</UnitType>
+
+<Name>
+Adelante Passenger/Cargo Train
+</Name>
+
+<Model>
+Ammo Stowage
+</Model>
+
+<year>
+3100
+</year>
+
+<originalBuildYear>
+3100
+</originalBuildYear>
+
+<type>
+Mixed (IS Chassis) Experimental
+</type>
+
+<quirks>
+easy_maintain
+</quirks>
+
+<motion_type>
+Rail
+</motion_type>
+
+<transporters>
+refrigeratedcargobay:21.75:1:2::-1:0
+insulatedcargobay:21.75:1:3::-1:0
+LiquidCargoBay:25.025:1:1::-1:0
+</transporters>
+
+<cruiseMP>
+0
+</cruiseMP>
+
+<engine_type>
+8
+</engine_type>
+
+<armor_type>
+0
+</armor_type>
+
+<armor_tech_rating>
+3
+</armor_tech_rating>
+
+<armor_tech_level>
+0
+</armor_tech_level>
+
+<internal_type>
+-1
+</internal_type>
+
+<armor>
+25
+26
+26
+26
+</armor>
+
+<Body Equipment>
+SV Chassis Mod [Tractor]
+SV Chassis Mod [Trailer]
+Armored Chassis
+IS Ammo AC/10
+IS Ammo AC/10
+IS Ammo AC/10
+IS Ammo AC/10
+IS Ammo AC/10
+IS Ammo AC/10
+IS Ammo AC/2
+IS Ammo AC/2
+IS Ammo AC/2
+IS Ammo AC/2
+IS Ammo AC/5
+IS Ammo AC/5
+IS Ammo AC/5
+IS Ammo AC/5
+IS Ammo AC/20
+IS Ammo AC/20
+IS Ammo LRM-20
+IS Ammo LRM-20
+IS Ammo LRM-20
+IS Ammo LRM-20
+IS Ammo LRM-20
+IS Ammo LRM-20
+IS Ammo LRM-20
+IS Ammo LRM-20
+IS Ammo SRM-6
+IS Ammo SRM-6
+IS Ammo SRM-6
+IS Ammo SRM-6
+IS Ammo SRM-6
+IS Ammo SRM-6
+IS Ammo SRM-6
+IS Ammo SRM-6
+IS LB 10-X AC Ammo
+IS LB 10-X AC Ammo
+IS LB 2-X AC Ammo
+IS LB 2-X AC Ammo
+IS LB 5-X AC Ammo
+IS LB 5-X AC Ammo
+IS Ammo MG - Full
+IS Ammo MG - Full
+IS Ammo MG - Full
+IS Ammo MG - Full
+IS Ammo MG - Full
+IS Ammo MG - Full
+IS Ammo MG - Full
+IS Ammo MG - Full
+IS Ammo MG - Full
+IS Ammo MG - Full
+IS Ammo MG - Full
+IS Ammo MG - Full
+IS Ammo MG - Full
+IS Ammo MG - Full
+ISCASE
+ISCASE
+ISCASE
+ISCASE
+ISCASE
+ISCASE
+ISCASE
+ISCASE
+ISCASE
+ISCASE
+ISCASE
+ISCASE
+</Body Equipment>
+
+<Front Equipment>
+</Front Equipment>
+
+<Right Equipment>
+</Right Equipment>
+
+<Left Equipment>
+</Left Equipment>
+
+<Rear Equipment>
+</Rear Equipment>
+
+<structural_tech_rating>
+3
+</structural_tech_rating>
+
+<engine_tech_rating>
+3
+</engine_tech_rating>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+200.0
+</tonnage>
+
+<baseChassisSponsonPintleWeight>
+0.0
+</baseChassisSponsonPintleWeight>
+
+<fuel>
+0.0
+</fuel>
+
+<icon>
+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
+</icon>
+
+

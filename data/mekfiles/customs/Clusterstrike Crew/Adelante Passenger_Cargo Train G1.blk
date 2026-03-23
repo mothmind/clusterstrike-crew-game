@@ -1,0 +1,144 @@
+#Saved from version 0.50.11 on 2026-03-06
+<UnitType>
+LargeSupportTank
+</UnitType>
+
+<Name>
+Adelante Passenger/Cargo Train
+</Name>
+
+<Model>
+G1
+</Model>
+
+<mul id:>
+3669
+</mul id:>
+
+<year>
+3128
+</year>
+
+<originalBuildYear>
+3128
+</originalBuildYear>
+
+<type>
+Mixed (IS Chassis) Experimental
+</type>
+
+<role>
+None
+</role>
+
+<quirks>
+easy_maintain
+searchlight
+</quirks>
+
+<motion_type>
+Rail
+</motion_type>
+
+<transporters>
+2ndclassquarters:7.0:1:-1::-1:0
+2ndclassquarters:7.0:1:-1::-1:0
+2ndclassquarters:7.0:1:-1::-1:0
+2ndclassquarters:7.0:1:-1::-1:0
+2ndclassquarters:7.0:1:-1::-1:0
+infantrybay:2.0:2:6:Foot:-1:0
+cargobay:1.0:0:7::-1:0
+</transporters>
+
+<cruiseMP>
+10
+</cruiseMP>
+
+<engine_type>
+6
+</engine_type>
+
+<armor_type>
+48
+</armor_type>
+
+<armor_tech_rating>
+3
+</armor_tech_rating>
+
+<armor_tech_level>
+1
+</armor_tech_level>
+
+<armor>
+64
+50
+50
+50
+50
+40
+</armor>
+
+<Body Equipment>
+SV Chassis Mod [Tractor]
+Communications Equipment:SIZE:1.0
+ISTankCockpitCommandConsole
+</Body Equipment>
+
+<Front Equipment>
+Searchlight
+Searchlight
+Medium Laser
+Dumper (Front)
+ISAntiMissileSystem
+</Front Equipment>
+
+<Front Right Equipment>
+Searchlight
+Medium Laser
+ISAntiMissileSystem
+</Front Right Equipment>
+
+<Front Left Equipment>
+Searchlight
+Medium Laser
+ISAntiMissileSystem
+</Front Left Equipment>
+
+<Rear Right Equipment>
+</Rear Right Equipment>
+
+<Rear Left Equipment>
+</Rear Left Equipment>
+
+<Rear Equipment>
+</Rear Equipment>
+
+<barrating>
+7
+</barrating>
+
+<structural_tech_rating>
+3
+</structural_tech_rating>
+
+<engine_tech_rating>
+3
+</engine_tech_rating>
+
+<source>
+TR:VAr
+</source>
+
+<tonnage>
+600.0
+</tonnage>
+
+<fuel>
+100.0
+</fuel>
+
+<icon>
+iVBORw0KGgoAAAANSUhEUgAAAFQAAABICAMAAABfoSITAAADAFBMVEVLS0saGhobGxscHBwdHR0eHh4fHx8gICAhISEiIiIjIyMlJSUmJiYnJycoKCgpKSkqKiorKyssLCwtLS0uLi4vLy8wMDAxMTEyMjIzMzM0NDQ1NTU2NjY3Nzc4ODg5OTk6Ojo7Ozs8PDw+Pj5AQEBCQkJDQ0NERERFRUVGRkZHR0dISEhKSkpMTExNTU1OTk5QUFBRUVFSUlJTU1NUVFRWVlZXV1dZWVlaWlpbW1tcXFxiYmJjY2NkZGRlZWVubm5vb29wcHBycnJ0dHR1dXV4eHh5eXl8fHx9fX1+fn5/f3+BgYGCgoKDg4OFhYWIiIiJiYmKioqLi4uMjIyNjY2Ojo6Pj4+QkJCRkZGSkpKTk5OUlJSWlpaYmJiZmZmampqbm5ucnJyenp6fn5+goKChoaGioqKjo6OkpKSlpaWnp6eoqKirq6usrKytra2urq6vr6+wsLCxsbGysrKzs7O1tbW2tra3t7e4uLi5ubm6urq7u7u8vLy9vb2+vr6/v7/AwMDBwcHCwsLDw8PFxcXGxsbHx8fIyMjJycnKysrMzMzNzc3Pz8/R0dHT09PU1NTX19fY2NjZ2dnb29vd3d3e3t7f39/g4ODh4eHi4uLk5OTl5eXm5ubn5+fo6Ojq6urs7Ozu7u7v7+/x8fHy8vL19fX39/f4+Pj5+fn7+/v9/f3+/v7///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+Y491wAAAAAXRSTlMAQObYZgAABMNJREFUeF7tmFtv3EQUx2d8Wa+995A0yW4I6ZKmgaYVgYSiXrij8IhA4hEknhAfAvgaPPINeEC8ICFUKqRyUdNAhRKVtLk012Y3e7HX9no82M7a8XrPer0JqgTqz5L3+PjM32c8xzOTIPRfAQcdAIzPNn12V/wNHj9MH4+P0n0bWzJS120iis7WGISxeDvoh+GCDoDpOn+WEMqwfHo1+VfwLkCETCeVCyj+u0xx8sUqWU9EUGWDjg4m6heX9tP3ZU03z6wMZ/bzj4IRHfQc00J5ktSm/1ApoupS4We2oDwfDOmgp+jhEH+jwWnEMok+oP3IT8jBkA56iSZIwaRi86iaiB6ji9hMBGI6CBVlmWKOxhbNy3c1e0Cxfvc6Vnk0WORCm4WXFM3vqOeJikVeovY15uKCWRn9LTG2EQxtI1QU4eb1pmomhCtWapgik6CppYwxesA4z+hKqCjDixsT9OX8K+VzEsaUKvee4rIVmdMRrwVj/YSKms2B9U3uajZjpJD9naRSuTO3sEYY1AyGthH+xnm7n7c41o1iGFZREddrZgnNFNnVCSDVgp52wkXNPWSlSqmbGqXOCBlxXwxAePdNW41qdVV1LlVV1m1Vvcc0FJ7pjn2iBytMgzcZk2mq+7vEahF7GAxsJyxTFhcX7N+YmdJxwzr0JJXsJAfz+WQmEOyna6b2nLhw1FSTGum6c9SSO3b3P7+zaAWU2hv46JappXnpbcQ6mQqKWJWcQ6w7maaFd9/BiVygyTFwpnaa1xLF14+uVEMXqXM0zbqdKXcFxfQbSU05btEGLIrQq7xw7VnbwAgnExeTR15lMdMaeGEmdxsJZTe8HbD7VqKF7MeOaWlijnNnUCnmfVzjg5dQsstiBIlaoQulD49szNhgJJcrZXvKP67QmQufoTysCoki9Frmk5bFsCzDStomZklK3tVFK96d9kbqX6IcqAqIsmgi/oF7gRETj43tjDTKv9xLxLbHWIESV3V27TzvxrUBiForvei7EOZmSbXC68MsiYnGC/O8YVhzQcr+cIvWPOaL9OhM3/Kcez9mGeUBZHzKXJ0bKWqZem18LLl9WGhk1Onx7eV5rCFrUtHlZc0ItkdwSb1FWhWEKm/K80MlljzMVQUkVHcnCZN7mj4jHw64seDUAnWf83qf2R1NxxFhxmtxhSjx6appYlGaQml/eCdQpsdUCqSMa7VGqjHypyKNZlclUWkITLbqZQoCZYpGPIuUbj7YW/+h9pw5vGoOiRs3N/a3vyv7lhNwWQUyPYtK9dZLzawl5DW1Ufn1jQP6UWXjp3R1ud7ceuRb9qKKWnNd65fcUZoVbFQPzK8V81vMSIf7hlFrLBbG3EgD7Cko6j5e/ko16ZZlbHp3rE8rtrdSeq913VmRNoDo/SnPTBe+8N3w+MazwIqCByrt1imciA/wlcKiVdd44HP2ASjaZQ8RGVAU7lR0QNHTAovWg45usOCWEhZ1R/+EgKI9K8mjjzp9ybMmverqB1B0JujoE1D0tPxPRA8ngp5ohIqelCei3VkdDnqiESp6Up6I/vs8ftGt4+1fXwDbHo+/L1u7Z2jqn0ObJBt0+gBFv7dPzn+Juv+tXHHO0I4fWrmir3oOp93NROYfT/qFMC3CKwIAAAAASUVORK5CYII=
+</icon>
+

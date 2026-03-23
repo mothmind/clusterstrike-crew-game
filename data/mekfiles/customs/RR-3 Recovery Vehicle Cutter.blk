@@ -1,0 +1,126 @@
+#Saved from version 0.50.11 on 2026-02-26
+<UnitType>
+SupportTank
+</UnitType>
+
+<Name>
+RR-3 Recovery Vehicle
+</Name>
+
+<Model>
+Cutter
+</Model>
+
+<year>
+2439
+</year>
+
+<originalBuildYear>
+2439
+</originalBuildYear>
+
+<type>
+IS Level 4
+</type>
+
+<role>
+None
+</role>
+
+<quirks>
+easy_maintain
+fragile_fuel
+obsolete:2550
+gas_hog
+</quirks>
+
+<motion_type>
+Wheeled
+</motion_type>
+
+<transporters>
+megamek.common.equipment.LiftHoist@5f1daaea
+megamek.common.equipment.LiftHoist@86e1295
+</transporters>
+
+<cruiseMP>
+3
+</cruiseMP>
+
+<engine_type>
+1
+</engine_type>
+
+<armor_type>
+47
+</armor_type>
+
+<armor_tech_rating>
+3
+</armor_tech_rating>
+
+<armor_tech_level>
+1
+</armor_tech_level>
+
+<armor>
+30
+22
+22
+18
+22
+</armor>
+
+<Body Equipment>
+SV Chassis Mod [Tractor]
+ISOffRoadChassis
+</Body Equipment>
+
+<Front Equipment>
+Dual Saw
+</Front Equipment>
+
+<Right Equipment>
+</Right Equipment>
+
+<Left Equipment>
+</Left Equipment>
+
+<Rear Equipment>
+Lift Hoist/Arresting Hoist
+Lift Hoist/Arresting Hoist
+</Rear Equipment>
+
+<Turret Equipment>
+IS Wrecking Ball
+</Turret Equipment>
+
+<barrating>
+6
+</barrating>
+
+<structural_tech_rating>
+3
+</structural_tech_rating>
+
+<engine_tech_rating>
+3
+</engine_tech_rating>
+
+<source>
+XTR:Primitives V
+</source>
+
+<tonnage>
+55.0
+</tonnage>
+
+<fuel>
+1.5
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
+
+

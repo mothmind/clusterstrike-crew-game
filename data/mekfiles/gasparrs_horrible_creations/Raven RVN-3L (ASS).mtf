@@ -1,0 +1,155 @@
+generator:MegaMek Suite 0.50.11 on 2026-03-07
+chassis:Raven
+model:RVN-3L (ASS)
+mul id:2664
+
+Config:Biped
+techbase:Inner Sphere
+era:3048
+source:TR:3050
+rules level:2
+role:Scout
+
+quirk:no_arms
+
+mass:35
+engine:280 XL Engine
+structure:IS Standard
+myomer:Standard
+
+heat sinks:11 Single
+walk mp:8
+jump mp:0
+
+armor:Ferro-Fibrous(Inner Sphere)
+LA armor:1
+RA armor:8
+LT armor:11
+RT armor:11
+CT armor:11
+HD armor:9
+LL armor:11
+RL armor:11
+RTL armor:5
+RTR armor:5
+RTC armor:6
+
+Weapons:4
+Narc, Right Torso
+Small Pulse Laser, Right Arm
+TAG, Right Arm
+Small Pulse Laser, Right Torso
+
+Left Arm:
+Shoulder
+Upper Arm Actuator
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+-Empty-
+-Empty-
+-Empty-
+
+Right Arm:
+Shoulder
+Upper Arm Actuator
+ISSmallPulseLaser
+ISTAG
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+-Empty-
+-Empty-
+-Empty-
+
+Left Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+ISNarc Pods
+ISNarc Pods
+ISGuardianECMSuite
+ISGuardianECMSuite
+ISCASE
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+ISSmallPulseLaser
+ISNarcBeacon (R)
+ISNarcBeacon (R)
+IS Ferro-Fibrous
+IS Ferro-Fibrous
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Center Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Gyro
+Gyro
+Gyro
+Gyro
+Fusion Engine
+Fusion Engine
+Fusion Engine
+BeagleActiveProbe
+BeagleActiveProbe
+
+Head:
+Life Support
+Sensors
+Cockpit
+-Empty-
+Sensors
+Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+
