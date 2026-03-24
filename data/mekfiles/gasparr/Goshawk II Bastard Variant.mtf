@@ -1,0 +1,162 @@
+generator:MegaMek Suite 0.50.11 on 2026-03-22
+chassis:Goshawk II
+model:Bastard Variant
+mul id:1249
+
+Config:Biped
+techbase:Mixed (Clan Chassis)
+era:3086
+source:TR:3085
+rules level:3
+role:Striker
+
+quirk:nimble_jumper
+quirk:imp_life_support
+
+mass:45
+engine:315 XL (Clan) Engine
+structure:Clan Endo Steel
+myomer:Triple-Strength
+
+heat sinks:11 Clan Double
+walk mp:7
+jump mp:7
+
+armor:Ferro-Fibrous(Clan)
+LA armor:14
+RA armor:14
+LT armor:17
+RT armor:17
+CT armor:21
+HD armor:9
+LL armor:22
+RL armor:22
+RTL armor:5
+RTR armor:5
+RTC armor:7
+
+Weapons:10
+Improved Heavy Small Laser, Left Arm
+Improved Heavy Small Laser, Right Torso
+Improved Heavy Small Laser, Left Arm
+Improved Heavy Small Laser, Left Arm
+Improved Heavy Small Laser, Left Torso
+Improved Heavy Small Laser, Left Torso
+Improved Heavy Small Laser, Right Torso
+Improved Heavy Small Laser, Left Arm
+ER Small Laser, Left Torso
+Micro Pulse Laser, Head
+
+Left Arm:
+Shoulder
+Upper Arm Actuator
+Lower Arm Actuator
+Hand Actuator
+CLImprovedSmallHeavyLaser
+CLImprovedSmallHeavyLaser
+CLImprovedSmallHeavyLaser
+CLImprovedSmallHeavyLaser
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Triple Strength Myomer
+
+Right Arm:
+Shoulder
+Upper Arm Actuator
+Lower Arm Actuator
+ISClaw
+ISClaw
+ISClaw
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Triple Strength Myomer
+
+Left Torso:
+Fusion Engine
+Fusion Engine
+Jump Jet
+Jump Jet
+Jump Jet
+CLImprovedSmallHeavyLaser
+CLImprovedSmallHeavyLaser
+CLERSmallLaser
+CLTargeting Computer
+CLTargeting Computer
+Clan Endo Steel
+Triple Strength Myomer
+
+Right Torso:
+Fusion Engine
+Fusion Engine
+Jump Jet
+Jump Jet
+Jump Jet
+CLImprovedSmallHeavyLaser
+CLImprovedSmallHeavyLaser
+CLECMSuite
+Clan Endo Steel
+Clan Endo Steel
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+
+Center Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Gyro
+Gyro
+Gyro
+Gyro
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Jump Jet
+CLActiveProbe
+
+Head:
+Life Support
+Sensors
+Cockpit
+CLMicroPulseLaser
+Sensors
+Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+Clan Endo Steel
+Triple Strength Myomer
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+Triple Strength Myomer
+Triple Strength Myomer
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+
