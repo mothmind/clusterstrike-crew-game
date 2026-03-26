@@ -1,6 +1,6 @@
-# CLUSTERSTRIKE CREW CAMPAIGN!!!
+# CLUSTERSTRIKE CREW GAME INSTALL!!!
 
-This repo is for the clusterstrike crew campaign.
+This repo is for the Clusterstrike Crew (my buds) to synchronize our mekhq builds so we can use git to synchronize our saves and custom info.
 
 You'll want to use some kind of Git tool to stay synchronized and resolve merge conflicts.
 
