@@ -1,57 +1,77 @@
-# Clusterstrike Crew MekHQ Sync Guide
+# MekHQ
 
-This repository is used by the Clusterstrike Crew (by buds) to keep MekHQ build, saves, and custom data synchronized.
+## Table of Contents
 
-## What This Repo Is For
+1. [About](#about)
+2. [Status](#status)
+3. [Compiling](#compiling)
+4. [Support](#support)
+5. [License](#licensing)
 
-- Sharing one campaign state across the group
-- Keeping custom data in sync
-- Avoiding accidental overwrites by using Git history
+## About
 
-## Tool to Use
+MekHQ is a Java helper program for the [MegaMek](http://megamek.org) game that allows users to run a campaign. For more
+details, see our [website](http://megamek.org/) and join our [Discord](https://discord.gg/XM54YH9396).
 
-Use GitHub Desktop: https://desktop.github.com/download/
+## Status
 
-## First-Time Setup (GitHub Desktop)
+| Type           | MM Status                                                                                                                                                              | MML Status                                                                                                                                                                       | MHQ Status                                                                                                                                                        |
+|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Latest Release | [![Release](https://img.shields.io/github/release/MegaMek/megamek.svg)](https://gitHub.com/MegaMek/megamek/releases/)                                                  | [![Release](https://img.shields.io/github/release/MegaMek/megameklab.svg)](https://gitHub.com/MegaMek/megameklab/releases/)                                                      | [![Release](https://img.shields.io/github/release/MegaMek/mekhq.svg)](https://gitHub.com/MegaMek/mekhq/releases/)                                                 |
+| Javadocs | [![javadoc](https://badgen.net/badge/javadoc/master/red?icon=github)](https://megamek.org/megamek) | [![javadoc](https://badgen.net/badge/javadoc/master/red?icon=github)](https://megamek.org/megameklab) | [![javadoc](https://badgen.net/badge/javadoc/master/red?icon=github)](https://megamek.org/mekhq) |
+| License        | [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)                                                     | [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html)                                                               | [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0.html)                                                 |
+| Build (CI)     | [![MM Nightly CI](https://github.com/MegaMek/megamek/workflows/MegaMek%20Nightly%20CI/badge.svg)](https://github.com/MegaMek/megamek/actions/workflows/nightly-ci.yml) | [![MML Nightly CI](https://github.com/MegaMek/megameklab/workflows/MegaMekLab%20Nightly%20CI/badge.svg)](https://github.com/MegaMek/megameklab/actions/workflows/nightly-ci.yml) | [![MHQ Nightly CI](https://github.com/MegaMek/mekhq/workflows/MekHQ%20Nightly%20CI/badge.svg)](https://github.com/MegaMek/mekhq/actions/workflows/nightly-ci.yml) |
+| Issues         | [![GitHub Issues](https://badgen.net/github/open-issues/MegaMek/megamek)](https://gitHub.com/MegaMek/megamek/issues/)                                                  | [![GitHub Issues](https://badgen.net/github/open-issues/MegaMek/megameklab)](https://gitHub.com/MegaMek/megameklab/issues/)                                                      | [![GitHub Issues](https://badgen.net/github/open-issues/MegaMek/mekhq)](https://gitHub.com/MegaMek/mekhq/issues/)                                                 |
+| PRs            | [![GitHub Open Pull Requests](https://badgen.net/github/open-prs/MegaMek/megamek)](https://gitHub.com/MegaMek/megamek/pull/)                                           | [![GitHub Open Pull Requests](https://badgen.net/github/open-prs/MegaMek/megameklab)](https://gitHub.com/MegaMek/megameklab/pull/)                                               | [![GitHub Open Pull Requests](https://badgen.net/github/open-prs/MegaMek/mekhq)](https://gitHub.com/MegaMek/mekhq/pull/)                                          |
+| Code Coverage  | [![MegaMek codecov.io](https://codecov.io/github/MegaMek/megamek/coverage.svg)](https://codecov.io/github/MegaMek/megamek)                                             | [![MegaMekLab codecov.io](https://codecov.io/github/MegaMek/megameklab/coverage.svg)](https://codecov.io/github/MegaMek/megameklab)                                              | [![MekHQ codecov.io](https://codecov.io/github/MegaMek/mekhq/coverage.svg)](https://codecov.io/github/MegaMek/mekhq)                                              |
 
-1. Install and open GitHub Desktop.
-2. Sign in with your GitHub account.
-3. Clone this repository to your computer.
-4. Open the cloned folder and make sure MekHQ runs from it.
+Note that not everything has been implemented across the suite at this time, which will lead to gaps.
 
-## Standard Workflow (Every Time You Edit the Campaign)
+## Compiling
 
-Follow this order exactly to reduce merge conflicts:
+1) Install [Gradle](https://gradle.org/).
 
-1. In GitHub Desktop, select this repository.
-2. Click **Fetch origin** (or **Pull origin** if shown) to get the latest changes.
-3. Open MekHQ and load the campaign save.
-4. Make your changes in MekHQ.
-5. Save your changes over the same campaign files.
-6. Return to GitHub Desktop and review changed files.
-7. Enter a clear commit message describing what you changed.
-8. Click **Commit to main** (or the current branch name).
-9. Click **Push origin** to upload your commit.
+2) Follow the [instructions on the wiki](https://github.com/MegaMek/megamek/wiki/Working-With-Gradle) for using Gradle.
 
-## Pull and Push in GitHub Desktop (Quick Reference)
+### 3.1 Style Guide
 
-- **Pull latest changes**
-  1. Open the repo in GitHub Desktop.
-  2. Click **Fetch origin**.
-  3. If updates are available, click **Pull origin**.
+When contributing to this project, please enable the EditorConfig option within your IDE to ensure some basic compliance
+with our [style guide](https://github.com/MegaMek/megamek/wiki/MegaMek-Coding-Style-Guide) which includes some defaults
+for line length, tabs vs spaces, etc. When all else fails, we follow
+the [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
 
-- **Push your changes**
-  1. Commit your local changes first.
-  2. Click **Push origin**.
+The first ensures compliance with with the EditorConfig file, the other works with the Google Style Guide for most of
+the rest.
 
-## Commit Message Examples
+## Support
 
-- `Updated contracts and advanced one week`
-- `Added pilot skill changes after mission`
-- `Fixed campaign settings and saved new roster`
+For bugs, crashes, or other issues you can fill out a [GitHub issue request](https://github.com/MegaMek/mekhq/issues).
 
-## Important Rules
+## Licensing
 
-- Always pull before opening/saving the campaign.
-- Always commit and push immediately after finishing your session.
-- If GitHub Desktop shows a conflict, stop and ask in the group before continuing.
+MekHQ is licensed under a dual-licensing approach:
+
+### Code License
+
+All source code is licensed under the GNU General Public License v3.0 (GPLv3). See the [LICENSE.code](LICENSE.code) file
+for details.
+
+### Data/Assets License
+
+Game data, artwork, and other non-code assets are licensed under the Creative Commons Attribution-NonCommercial 4.0
+International License (CC-BY-NC-4.0). See the [LICENSE.assets](LICENSE.assets) file for details.
+
+### BattleTech IP Notice
+
+MechWarrior, BattleMech, `Mech, and AeroTech are registered trademarks of The Topps Company, Inc. All Rights Reserved.
+Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of InMediaRes Productions, LLC.
+
+The BattleTech name for electronic games is a trademark of Microsoft Corporation.
+
+MegaMek is an unofficial, fan-created digital adaptation and is not affiliated with, endorsed by, or licensed by
+Microsoft Corporation, The Topps Company, Inc., or Catalyst Game Labs.
+
+### Full Licensing Details
+
+For complete information about licensing, including specific directories and files, please see the [LICENSE](LICENSE)
+document.
