@@ -1,6 +1,112 @@
 MegaMek Official Unit List
 This file can be regenerated with java -jar MegaMek.jar -oul
 Format is: Chassis Model|
+Assault Air Defense Missile Emplacement (3075) (External)|
+Assault Air Defense Missile Emplacement (3075) (Fusion)|
+Assault Bombard Gun Emplacement (3050) (External)|
+Assault Bombard Gun Emplacement (3050) (Fusion)|
+Assault Flak Gun Emplacement (3025) (External)|
+Assault Flak Gun Emplacement (3025) (Fusion)|
+Assault Laser Gun Emplacement (2300) (External)|
+Assault Laser Gun Emplacement (3039) (External)|
+Assault Laser Gun Emplacement (2300) (Fusion)|
+Assault Laser Gun Emplacement (3039) (Fusion)|
+Assault Missile Gun Emplacement (2300) (External)|
+Assault Missile Gun Emplacement (3039) (External)|
+Assault Missile Gun Emplacement (2300) (Fusion)|
+Assault Missile Gun Emplacement (3039) (Fusion)|
+Assault Shredder Gun Emplacement (2300) (External)|
+Assault Shredder Gun Emplacement (3057) (External)|
+Assault Shredder Gun Emplacement (2300) (Fusion)|
+Assault Shredder Gun Emplacement (3057) (Fusion)|
+Assault Siege Gun Emplacement (3050) (External)|
+Assault Siege Gun Emplacement (3050) (Fusion)|
+Assault Sniper Gun Emplacement (2300) (External)|
+Assault Sniper Gun Emplacement (3039) (External)|
+Assault Sniper Gun Emplacement (2300) (Fusion)|
+Assault Sniper Gun Emplacement (3039) (Fusion)|
+Heavy Blaze Gun Emplacement (3025) (External)|
+Heavy Blaze Gun Emplacement (3025) (Fusion)|
+Heavy Bombard Gun Emplacement (3050) (External)|
+Heavy Bombard Gun Emplacement (3050) (Fusion)|
+Heavy Flak Gun Emplacement (2300) (External)|
+Heavy Flak Gun Emplacement (3050) (External)|
+Heavy Flak Gun Emplacement (2300) (Fusion)|
+Heavy Flak Gun Emplacement (3050) (Fusion)|
+Heavy Laser Gun Emplacement (2300) (External)|
+Heavy Laser Gun Emplacement (3039) (External)|
+Heavy Laser Gun Emplacement (2300) (Fusion)|
+Heavy Laser Gun Emplacement (3039) (Fusion)|
+Heavy Missile Gun Emplacement (2300) (External)|
+Heavy Missile Gun Emplacement (3039) (External)|
+Heavy Missile Gun Emplacement (2300) (Fusion)|
+Heavy Missile Gun Emplacement (3039) (Fusion)|
+Heavy Shredder Gun Emplacement (2300) (External)|
+Heavy Shredder Gun Emplacement (3057) (External)|
+Heavy Shredder Gun Emplacement (2300) (Fusion)|
+Heavy Shredder Gun Emplacement (3057) (Fusion)|
+Heavy Siege Gun Emplacement (2300) (External)|
+Heavy Siege Gun Emplacement (3039) (External)|
+Heavy Siege Gun Emplacement (2300) (Fusion)|
+Heavy Siege Gun Emplacement (3039) (Fusion)|
+Heavy Sniper Gun Emplacement (2300) (External)|
+Heavy Sniper Gun Emplacement (3039) (External)|
+Heavy Sniper Gun Emplacement (2300) (Fusion)|
+Heavy Sniper Gun Emplacement (3039) (Fusion)|
+Light Bombard Gun Emplacement (3050) (External)|
+Light Bombard Gun Emplacement (3050) (Fusion)|
+Light Flak Gun Emplacement (2300) (External)|
+Light Flak Gun Emplacement (3050) (External)|
+Light Flak Gun Emplacement (2300) (Fusion)|
+Light Flak Gun Emplacement (3050) (Fusion)|
+Light Laser Gun Emplacement (2300) (External)|
+Light Laser Gun Emplacement (2300) (Fusion)|
+Light Missile Gun Emplacement (2300) (External)|
+Light Missile Gun Emplacement (3039) (External)|
+Light Missile Gun Emplacement (2300) (Fusion)|
+Light Missile Gun Emplacement (3039) (Fusion)|
+Light Shredder Gun Emplacement (2300) (External)|
+Light Shredder Gun Emplacement (3057) (External)|
+Light Shredder Gun Emplacement (2300) (Fusion)|
+Light Shredder Gun Emplacement (3057) (Fusion)|
+Light Sniper Gun Emplacement (2300) (External)|
+Light Sniper Gun Emplacement (3075) (External)|
+Light Sniper Gun Emplacement (2300) (Fusion)|
+Light Sniper Gun Emplacement (3075) (Fusion)|
+Medium Air Defense Missile Emplacement (3075) (External)|
+Medium Air Defense Missile Emplacement (3075) (Fusion)|
+Medium Blaze Gun Emplacement (3025) (External)|
+Medium Blaze Gun Emplacement (3025) (Fusion)|
+Medium Bombard Gun Emplacement (3050) (External)|
+Medium Bombard Gun Emplacement (3050) (Fusion)|
+Medium Command Tower (2300) (External)|
+Medium Command Tower (3039) (External)|
+Medium Command Tower (2300) (Fusion)|
+Medium Command Tower (3039) (Fusion)|
+Medium Flak Gun Emplacement (2300) (External)|
+Medium Flak Gun Emplacement (3050) (External)|
+Medium Flak Gun Emplacement (2300) (Fusion)|
+Medium Flak Gun Emplacement (3050) (Fusion)|
+Medium Laser Gun Emplacement (2300) (External)|
+Medium Laser Gun Emplacement (3039) (External)|
+Medium Laser Gun Emplacement (2300) (Fusion)|
+Medium Laser Gun Emplacement (3039) (Fusion)|
+Medium Missile Gun Emplacement (2300) (External)|
+Medium Missile Gun Emplacement (3039) (External)|
+Medium Missile Gun Emplacement (2300) (Fusion)|
+Medium Missile Gun Emplacement (3039) (Fusion)|
+Medium Shredder Gun Emplacement (2300) (External)|
+Medium Shredder Gun Emplacement (3057) (External)|
+Medium Shredder Gun Emplacement (2300) (Fusion)|
+Medium Shredder Gun Emplacement (3057) (Fusion)|
+Medium Siege Gun Emplacement (2300) (External)|
+Medium Siege Gun Emplacement (3039) (External)|
+Medium Siege Gun Emplacement (2300) (Fusion)|
+Medium Siege Gun Emplacement (3039) (Fusion)|
+Medium Sniper Gun Emplacement (2300) (External)|
+Medium Sniper Gun Emplacement (3075) (External)|
+Medium Sniper Gun Emplacement (2300) (Fusion)|
+Medium Sniper Gun Emplacement (3075) (Fusion)|
 Achileus Light Battle Armor [David](Sqd4)|
 Achileus Light Battle Armor [Flamer](Sqd4)|
 Achileus Light Battle Armor [Laser](Sqd4)|
@@ -3092,6 +3198,147 @@ Mechanized Assault XCT Word of Blake Militia NBC|
 Riot Police Word of Blake Protectorate Militia Pacification Unit|
 Manei Domini Recon Squad 'Tau Wraith'|
 Manei Domini Attack Squad 'Tau Zombie'|
+Field Artillery Platoon (AFFS) (Motorized Arrow IV 3067+)|
+Field Artillery Platoon (AFFS) (Motorized Sniper 3067+)|
+Field Artillery Platoon (AFFS) (Motorized Sniper Cannon 3079+)|
+Field Artillery Platoon (AFFS) (Motorized Thumper 3067+)|
+Field Artillery Platoon (AFFS) (Motorized Thumper Cannon 3079+)|
+Field Artillery Platoon (AFFS) (Tracked Arrow IV 3067+)|
+Field Artillery Platoon (AFFS) (Tracked Sniper 3067+)|
+Field Artillery Platoon (AFFS) (Tracked Sniper Cannon 3079+)|
+Field Artillery Platoon (AFFS) (Tracked Thumper 3067+)|
+Field Artillery Platoon (AFFS) (Tracked Thumper Cannon 3079+)|
+Field Artillery Platoon (AFFS) (Wheeled Arrow IV 3067+)|
+Field Artillery Platoon (AFFS) (Wheeled Sniper 3067+)|
+Field Artillery Platoon (AFFS) (Wheeled Sniper Cannon 3079+)|
+Field Artillery Platoon (AFFS) (Wheeled Thumper 3067+)|
+Field Artillery Platoon (AFFS) (Wheeled Thumper Cannon 3079+)|
+Field Gun Platoon (AFFS) (Motorized AC10 3067+)|
+Field Gun Platoon (AFFS) (Motorized AC2 3067+)|
+Field Gun Platoon (AFFS) (Motorized AC20 3067+)|
+Field Gun Platoon (AFFS) (Motorized AC5 3067+)|
+Field Gun Platoon (AFFS) (Motorized Gauss 3067+)|
+Field Gun Platoon (AFFS) (Motorized LAC2 3067+)|
+Field Gun Platoon (AFFS) (Motorized LAC5 3067+)|
+Field Gun Platoon (AFFS) (Motorized LBX10 3067+)|
+Field Gun Platoon (AFFS) (Motorized LBX2 3067+)|
+Field Gun Platoon (AFFS) (Motorized LBX20 3067+)|
+Field Gun Platoon (AFFS) (Motorized LBX5 3067+)|
+Field Gun Platoon (AFFS) (Motorized RAC2 3067+)|
+Field Gun Platoon (AFFS) (Motorized RAC5 3067+)|
+Field Gun Platoon (AFFS) (Motorized UAC10 3067+)|
+Field Gun Platoon (AFFS) (Motorized UAC2 3067+)|
+Field Gun Platoon (AFFS) (Motorized UAC20 3067+)|
+Field Gun Platoon (AFFS) (Motorized UAC5 3067+)|
+Field Gun Platoon (AFFS) (Tracked AC10 3067+)|
+Field Gun Platoon (AFFS) (Tracked AC2 3067+)|
+Field Gun Platoon (AFFS) (Tracked AC20 3067+)|
+Field Gun Platoon (AFFS) (Tracked AC5 3067+)|
+Field Gun Platoon (AFFS) (Tracked Gauss 3067+)|
+Field Gun Platoon (AFFS) (Tracked LAC2 3067+)|
+Field Gun Platoon (AFFS) (Tracked LAC5 3067+)|
+Field Gun Platoon (AFFS) (Tracked LBX10 3067+)|
+Field Gun Platoon (AFFS) (Tracked LBX2 3067+)|
+Field Gun Platoon (AFFS) (Tracked LBX20 3067+)|
+Field Gun Platoon (AFFS) (Tracked LBX5 3067+)|
+Field Gun Platoon (AFFS) (Tracked RAC2 3067+)|
+Field Gun Platoon (AFFS) (Tracked RAC5 3067+)|
+Field Gun Platoon (AFFS) (Tracked UAC10 3067+)|
+Field Gun Platoon (AFFS) (Tracked UAC2 3067+)|
+Field Gun Platoon (AFFS) (Tracked UAC20 3067+)|
+Field Gun Platoon (AFFS) (Tracked UAC5 3067+)|
+Field Gun Platoon (AFFS) (Wheeled AC10 3067+)|
+Field Gun Platoon (AFFS) (Wheeled AC2 3067+)|
+Field Gun Platoon (AFFS) (Wheeled AC20 3067+)|
+Field Gun Platoon (AFFS) (Wheeled AC5 3067+)|
+Field Gun Platoon (AFFS) (Wheeled Gauss 3067+)|
+Field Gun Platoon (AFFS) (Wheeled LAC2 3067+)|
+Field Gun Platoon (AFFS) (Wheeled LAC5 3067+)|
+Field Gun Platoon (AFFS) (Wheeled LBX10 3067+)|
+Field Gun Platoon (AFFS) (Wheeled LBX2 3067+)|
+Field Gun Platoon (AFFS) (Wheeled LBX20 3067+)|
+Field Gun Platoon (AFFS) (Wheeled LBX5 3067+)|
+Field Gun Platoon (AFFS) (Wheeled RAC2 3067+)|
+Field Gun Platoon (AFFS) (Wheeled RAC5 3067+)|
+Field Gun Platoon (AFFS) (Wheeled UAC10 3067+)|
+Field Gun Platoon (AFFS) (Wheeled UAC2 3067+)|
+Field Gun Platoon (AFFS) (Wheeled UAC20 3067+)|
+Field Gun Platoon (AFFS) (Wheeled UAC5 3067+)|
+Foot Platoon (AFFS) (Flamer 3067+)|
+Foot Platoon (AFFS) (Gauss 3067+)|
+Foot Platoon (AFFS) (LRM 3067+)|
+Foot Platoon (AFFS) (Laser 3067+)|
+Foot Platoon (AFFS) (Laser Heavy 3067+)|
+Foot Platoon (AFFS) (Laser Marine 3067+)|
+Foot Platoon (AFFS) (Laser Paratrooper 3067+)|
+Foot Platoon (AFFS) (Laser XCT 3067+)|
+Foot Platoon (AFFS) (MG 3067+)|
+Foot Platoon (AFFS) (Recoilless 3067+)|
+Foot Platoon (AFFS) (Rifle 3067+)|
+Foot Platoon (AFFS) (Rifle AA 3067+)|
+Foot Platoon (AFFS) (Rifle Heavy 3067+)|
+Foot Platoon (AFFS) (Riot Police 3067+)|
+Foot Platoon (AFFS) (SRM 3067+)|
+Foot Platoon (AFFS) (Sappers 2315+)|
+Foot Platoon (AFFS) (Sniper Detachment 2505+)|
+Foot Platoon (AFFS) (SpecOps Fireteam 2860+)|
+Foot Platoon (AFFS) (SpecOps Fireteam 3028+)|
+Foot Platoon (AFFS) (SpecOps Fireteam 3067+)|
+Jump Platoon (AFFS) (Flamer 3067+)|
+Jump Platoon (AFFS) (Gauss 3067+)|
+Jump Platoon (AFFS) (LRM 3067+)|
+Jump Platoon (AFFS) (Laser 3067+)|
+Jump Platoon (AFFS) (Laser Anti-Mek 3067+)|
+Jump Platoon (AFFS) (MG 3067+)|
+Jump Platoon (AFFS) (Rifle 3067+)|
+Jump Platoon (AFFS) (Rifle Heavy 3067+)|
+Jump Platoon (AFFS) (SRM 3067+)|
+Mechanized Hover Platoon (AFFS) (Flamer 3067+)|
+Mechanized Hover Platoon (AFFS) (Gauss 3067+)|
+Mechanized Hover Platoon (AFFS) (LRM 3067+)|
+Mechanized Hover Platoon (AFFS) (Laser 3067+)|
+Mechanized Hover Platoon (AFFS) (Laser Heavy 3067+)|
+Mechanized Hover Platoon (AFFS) (MG 3067+)|
+Mechanized Hover Platoon (AFFS) (Rifle 3067+)|
+Mechanized Hover Platoon (AFFS) (SRM 3067+)|
+Mechanized Tracked Platoon (AFFS) (Combat Engineers 3067+)|
+Mechanized Tracked Platoon (AFFS) (Flamer 3067+)|
+Mechanized Tracked Platoon (AFFS) (Gauss 3067+)|
+Mechanized Tracked Platoon (AFFS) (LRM 3067+)|
+Mechanized Tracked Platoon (AFFS) (Laser 3067+)|
+Mechanized Tracked Platoon (AFFS) (MG 3067+)|
+Mechanized Tracked Platoon (AFFS) (Rifle 3067+)|
+Mechanized Tracked Platoon (AFFS) (Rifle AA 3067+)|
+Mechanized Tracked Platoon (AFFS) (Rifle Heavy 3067+)|
+Mechanized Tracked Platoon (AFFS) (SRM 3067+)|
+Mechanized Tracked Platoon (AFFS) (Sappers 2315+)|
+Mechanized Wheeled Platoon (AFFS) (Combat Engineers 3067+)|
+Mechanized Wheeled Platoon (AFFS) (Flamer 3067+)|
+Mechanized Wheeled Platoon (AFFS) (Gauss 3067+)|
+Mechanized Wheeled Platoon (AFFS) (LRM 3067+)|
+Mechanized Wheeled Platoon (AFFS) (Laser 3067+)|
+Mechanized Wheeled Platoon (AFFS) (Laser XCT 3067+)|
+Mechanized Wheeled Platoon (AFFS) (MG 3067+)|
+Mechanized Wheeled Platoon (AFFS) (Recoilless 3067+)|
+Mechanized Wheeled Platoon (AFFS) (Rifle 3067+)|
+Mechanized Wheeled Platoon (AFFS) (Rifle AA 3067+)|
+Mechanized Wheeled Platoon (AFFS) (Rifle Heavy 3067+)|
+Mechanized Wheeled Platoon (AFFS) (SRM 3067+)|
+Motorized Platoon (AFFS) (Combat Engineers 3067+)|
+Motorized Platoon (AFFS) (Flamer 3067+)|
+Motorized Platoon (AFFS) (Gauss 3067+)|
+Motorized Platoon (AFFS) (LRM 3067+)|
+Motorized Platoon (AFFS) (Laser 3067+)|
+Motorized Platoon (AFFS) (Laser Anti-Mek 3067+)|
+Motorized Platoon (AFFS) (Laser XCT 3067+)|
+Motorized Platoon (AFFS) (MG 3067+)|
+Motorized Platoon (AFFS) (Recoilless 3067+)|
+Motorized Platoon (AFFS) (Rifle 3067+)|
+Motorized Platoon (AFFS) (Rifle AA 3067+)|
+Motorized Platoon (AFFS) (Rifle Heavy 3067+)|
+Motorized Platoon (AFFS) (Riot Police 3067+)|
+Motorized Platoon (AFFS) (SRM 3067+)|
+Motorized Platoon (AFFS) (Sappers 2315+)|
 Beast Infantry (Branth) (Auto-Rifle)|
 Beast Infantry (Branth) (Gyrojet)|
 Beast Infantry (Branth) (Laser Rifle)|
@@ -3172,6 +3419,264 @@ Beast Infantry (Tariq) (Pulse Laser)|
 Beast Infantry (Tariq) (SMG)|
 Beast Infantry (Tariq) (Shotgun)|
 Beast Infantry (Tariq) (Sniper)|
+Field Artillery Platoon (CCAF) (Motorized Arrow IV 3045+)|
+Field Artillery Platoon (CCAF) (Motorized Arrow IV 3055+)|
+Field Artillery Platoon (CCAF) (Motorized Sniper 2367+)|
+Field Artillery Platoon (CCAF) (Motorized Sniper 3045+)|
+Field Artillery Platoon (CCAF) (Motorized Sniper 3055+)|
+Field Artillery Platoon (CCAF) (Motorized Sniper Cannon 3079+)|
+Field Artillery Platoon (CCAF) (Motorized Thumper 2367+)|
+Field Artillery Platoon (CCAF) (Motorized Thumper 3045+)|
+Field Artillery Platoon (CCAF) (Motorized Thumper 3055+)|
+Field Artillery Platoon (CCAF) (Motorized Thumper Cannon 3079+)|
+Field Artillery Platoon (CCAF) (Tracked Arrow IV 3045+)|
+Field Artillery Platoon (CCAF) (Tracked Arrow IV 3055+)|
+Field Artillery Platoon (CCAF) (Tracked Sniper 2367+)|
+Field Artillery Platoon (CCAF) (Tracked Sniper 3045+)|
+Field Artillery Platoon (CCAF) (Tracked Sniper 3055+)|
+Field Artillery Platoon (CCAF) (Tracked Sniper Cannon 3079+)|
+Field Artillery Platoon (CCAF) (Tracked Thumper 2367+)|
+Field Artillery Platoon (CCAF) (Tracked Thumper 3045+)|
+Field Artillery Platoon (CCAF) (Tracked Thumper 3055+)|
+Field Artillery Platoon (CCAF) (Tracked Thumper Cannon 3079+)|
+Field Artillery Platoon (CCAF) (Wheeled Arrow IV 3045+)|
+Field Artillery Platoon (CCAF) (Wheeled Arrow IV 3055+)|
+Field Artillery Platoon (CCAF) (Wheeled Sniper 2367+)|
+Field Artillery Platoon (CCAF) (Wheeled Sniper 3045+)|
+Field Artillery Platoon (CCAF) (Wheeled Sniper 3055+)|
+Field Artillery Platoon (CCAF) (Wheeled Sniper Cannon 3079+)|
+Field Artillery Platoon (CCAF) (Wheeled Thumper 2367+)|
+Field Artillery Platoon (CCAF) (Wheeled Thumper 3045+)|
+Field Artillery Platoon (CCAF) (Wheeled Thumper 3055+)|
+Field Artillery Platoon (CCAF) (Wheeled Thumper Cannon 3079+)|
+Field Gun Platoon (CCAF) (Motorized AC10 2465+)|
+Field Gun Platoon (CCAF) (Motorized AC10 3045+)|
+Field Gun Platoon (CCAF) (Motorized AC10 3055+)|
+Field Gun Platoon (CCAF) (Motorized AC2 2367+)|
+Field Gun Platoon (CCAF) (Motorized AC2 3045+)|
+Field Gun Platoon (CCAF) (Motorized AC2 3055+)|
+Field Gun Platoon (CCAF) (Motorized AC20 2502+)|
+Field Gun Platoon (CCAF) (Motorized AC20 3045+)|
+Field Gun Platoon (CCAF) (Motorized AC20 3055+)|
+Field Gun Platoon (CCAF) (Motorized AC5 2367+)|
+Field Gun Platoon (CCAF) (Motorized AC5 3045+)|
+Field Gun Platoon (CCAF) (Motorized AC5 3055+)|
+Field Gun Platoon (CCAF) (Motorized HVAC10 3059+)|
+Field Gun Platoon (CCAF) (Motorized HVAC2 3059+)|
+Field Gun Platoon (CCAF) (Motorized HVAC5 3059+)|
+Field Gun Platoon (CCAF) (Motorized Heavy Cannon 2367+)|
+Field Gun Platoon (CCAF) (Motorized LAC2 3070+)|
+Field Gun Platoon (CCAF) (Motorized LAC5 3070+)|
+Field Gun Platoon (CCAF) (Motorized Medium Cannon 2367+)|
+Field Gun Platoon (CCAF) (Tracked AC10 2465+)|
+Field Gun Platoon (CCAF) (Tracked AC10 3045+)|
+Field Gun Platoon (CCAF) (Tracked AC10 3055+)|
+Field Gun Platoon (CCAF) (Tracked AC2 2367+)|
+Field Gun Platoon (CCAF) (Tracked AC2 3045+)|
+Field Gun Platoon (CCAF) (Tracked AC2 3055+)|
+Field Gun Platoon (CCAF) (Tracked AC20 2502+)|
+Field Gun Platoon (CCAF) (Tracked AC20 3045+)|
+Field Gun Platoon (CCAF) (Tracked AC20 3055+)|
+Field Gun Platoon (CCAF) (Tracked AC5 2367+)|
+Field Gun Platoon (CCAF) (Tracked AC5 3045+)|
+Field Gun Platoon (CCAF) (Tracked AC5 3055+)|
+Field Gun Platoon (CCAF) (Tracked HVAC10 3059+)|
+Field Gun Platoon (CCAF) (Tracked HVAC2 3059+)|
+Field Gun Platoon (CCAF) (Tracked HVAC5 3059+)|
+Field Gun Platoon (CCAF) (Tracked Heavy Cannon 2367+)|
+Field Gun Platoon (CCAF) (Tracked LBX10 3055+)|
+Field Gun Platoon (CCAF) (Tracked LBX2 3060+)|
+Field Gun Platoon (CCAF) (Tracked LBX20 3060+)|
+Field Gun Platoon (CCAF) (Tracked LBX5 3060+)|
+Field Gun Platoon (CCAF) (Tracked Medium Cannon 2367+)|
+Field Gun Platoon (CCAF) (Tracked UAC10 3060+)|
+Field Gun Platoon (CCAF) (Tracked UAC2 3060+)|
+Field Gun Platoon (CCAF) (Tracked UAC20 3061+)|
+Field Gun Platoon (CCAF) (Tracked UAC5 3055+)|
+Field Gun Platoon (CCAF) (Wheeled AC10 2465+)|
+Field Gun Platoon (CCAF) (Wheeled AC10 3045+)|
+Field Gun Platoon (CCAF) (Wheeled AC10 3055+)|
+Field Gun Platoon (CCAF) (Wheeled AC2 2367+)|
+Field Gun Platoon (CCAF) (Wheeled AC2 3045+)|
+Field Gun Platoon (CCAF) (Wheeled AC2 3055+)|
+Field Gun Platoon (CCAF) (Wheeled AC20 2502+)|
+Field Gun Platoon (CCAF) (Wheeled AC20 3045+)|
+Field Gun Platoon (CCAF) (Wheeled AC20 3055+)|
+Field Gun Platoon (CCAF) (Wheeled AC5 2367+)|
+Field Gun Platoon (CCAF) (Wheeled AC5 3045+)|
+Field Gun Platoon (CCAF) (Wheeled AC5 3055+)|
+Field Gun Platoon (CCAF) (Wheeled HVAC10 3059+)|
+Field Gun Platoon (CCAF) (Wheeled HVAC2 3059+)|
+Field Gun Platoon (CCAF) (Wheeled HVAC5 3059+)|
+Field Gun Platoon (CCAF) (Wheeled Heavy Cannon 2367+)|
+Field Gun Platoon (CCAF) (Wheeled LBX10 3055+)|
+Field Gun Platoon (CCAF) (Wheeled LBX2 3060+)|
+Field Gun Platoon (CCAF) (Wheeled LBX20 3060+)|
+Field Gun Platoon (CCAF) (Wheeled LBX5 3060+)|
+Field Gun Platoon (CCAF) (Wheeled Medium Cannon 2367+)|
+Field Gun Platoon (CCAF) (Wheeled UAC10 3060+)|
+Field Gun Platoon (CCAF) (Wheeled UAC2 3060+)|
+Field Gun Platoon (CCAF) (Wheeled UAC20 3061+)|
+Field Gun Platoon (CCAF) (Wheeled UAC5 3055+)|
+Foot Platoon (CCAF) (Flamer 2367+)|
+Foot Platoon (CCAF) (Flamer 3045+)|
+Foot Platoon (CCAF) (Flamer 3055+)|
+Foot Platoon (CCAF) (LRM 3057+)|
+Foot Platoon (CCAF) (Laser 2367+)|
+Foot Platoon (CCAF) (Laser 3045+)|
+Foot Platoon (CCAF) (Laser Marine 2367+)|
+Foot Platoon (CCAF) (Laser XCT 2367+)|
+Foot Platoon (CCAF) (Laser XCT 2400+)|
+Foot Platoon (CCAF) (MG 2367+)|
+Foot Platoon (CCAF) (MG 3045+)|
+Foot Platoon (CCAF) (MG 3055+)|
+Foot Platoon (CCAF) (Mortar 2367+)|
+Foot Platoon (CCAF) (Plasma 3063+)|
+Foot Platoon (CCAF) (Recoilless 2367+)|
+Foot Platoon (CCAF) (Recoilless 3055+)|
+Foot Platoon (CCAF) (Rifle 2367+)|
+Foot Platoon (CCAF) (Rifle 3045+)|
+Foot Platoon (CCAF) (Rifle 3055+)|
+Foot Platoon (CCAF) (Rifle AA 2590+)|
+Foot Platoon (CCAF) (Rifle AA 3056+)|
+Foot Platoon (CCAF) (Riot Police 2367+)|
+Foot Platoon (CCAF) (Riot Police 3030+)|
+Foot Platoon (CCAF) (Riot Police 3045+)|
+Foot Platoon (CCAF) (SRM 2400+)|
+Foot Platoon (CCAF) (SRM 3045+)|
+Foot Platoon (CCAF) (SRM 3055+)|
+Foot Platoon (CCAF) (Sappers 2367+)|
+Foot Platoon (CCAF) (Sniper Detachment 2505+)|
+Foot Platoon (CCAF) (Sniper Detachment 3055+)|
+Foot Platoon (CCAF) (SpecOps Demoteam 3028+)|
+Foot Platoon (CCAF) (SpecOps Demoteam 3055+)|
+Foot Platoon (CCAF) (SpecOps Fireteam 2505+)|
+Foot Platoon (CCAF) (SpecOps Fireteam 3055+)|
+Foot Platoon (CCAF) (SpecOps Fireteam 3063+)|
+Jump Platoon (CCAF) (ER Laser 3052+)|
+Jump Platoon (CCAF) (Flamer 2367+)|
+Jump Platoon (CCAF) (Flamer 3045+)|
+Jump Platoon (CCAF) (Flamer 3055+)|
+Jump Platoon (CCAF) (Gauss 3063+)|
+Jump Platoon (CCAF) (LRM 3057+)|
+Jump Platoon (CCAF) (Laser 2367+)|
+Jump Platoon (CCAF) (Laser 2500+)|
+Jump Platoon (CCAF) (Laser 3045+)|
+Jump Platoon (CCAF) (Laser TAG 3051+)|
+Jump Platoon (CCAF) (MG 2367+)|
+Jump Platoon (CCAF) (MG 3045+)|
+Jump Platoon (CCAF) (MG 3055+)|
+Jump Platoon (CCAF) (Plasma 3063+)|
+Jump Platoon (CCAF) (Rifle 2367+)|
+Jump Platoon (CCAF) (Rifle 2500+)|
+Jump Platoon (CCAF) (Rifle 3045+)|
+Jump Platoon (CCAF) (Rifle 3055+)|
+Jump Platoon (CCAF) (SRM 2400+)|
+Jump Platoon (CCAF) (SRM 3045+)|
+Jump Platoon (CCAF) (SRM 3055+)|
+Mechanized Hover Platoon (CCAF) (Flamer 2367+)|
+Mechanized Hover Platoon (CCAF) (Flamer 3045+)|
+Mechanized Hover Platoon (CCAF) (Flamer 3055+)|
+Mechanized Hover Platoon (CCAF) (Gauss 3063+)|
+Mechanized Hover Platoon (CCAF) (LRM 3057+)|
+Mechanized Hover Platoon (CCAF) (Laser 2367+)|
+Mechanized Hover Platoon (CCAF) (Laser 3045+)|
+Mechanized Hover Platoon (CCAF) (Laser TAG 3051+)|
+Mechanized Hover Platoon (CCAF) (MG 2367+)|
+Mechanized Hover Platoon (CCAF) (MG 3045+)|
+Mechanized Hover Platoon (CCAF) (MG 3055+)|
+Mechanized Hover Platoon (CCAF) (Plasma 3063+)|
+Mechanized Hover Platoon (CCAF) (Rifle 2367+)|
+Mechanized Hover Platoon (CCAF) (Rifle 3045+)|
+Mechanized Hover Platoon (CCAF) (Rifle 3055+)|
+Mechanized Hover Platoon (CCAF) (SRM 2400+)|
+Mechanized Hover Platoon (CCAF) (SRM 3045+)|
+Mechanized Hover Platoon (CCAF) (SRM 3055+)|
+Mechanized Tracked Platoon (CCAF) (Combat Engineers 2367+)|
+Mechanized Tracked Platoon (CCAF) (Combat Engineers 3045+)|
+Mechanized Tracked Platoon (CCAF) (Flamer 2367+)|
+Mechanized Tracked Platoon (CCAF) (Flamer 3045+)|
+Mechanized Tracked Platoon (CCAF) (Flamer 3055+)|
+Mechanized Tracked Platoon (CCAF) (Gauss 3063+)|
+Mechanized Tracked Platoon (CCAF) (LRM 3057+)|
+Mechanized Tracked Platoon (CCAF) (Laser 2367+)|
+Mechanized Tracked Platoon (CCAF) (Laser 3045+)|
+Mechanized Tracked Platoon (CCAF) (Laser TAG 3051+)|
+Mechanized Tracked Platoon (CCAF) (MG 2367+)|
+Mechanized Tracked Platoon (CCAF) (MG 3045+)|
+Mechanized Tracked Platoon (CCAF) (MG 3055+)|
+Mechanized Tracked Platoon (CCAF) (Mortar 2367+)|
+Mechanized Tracked Platoon (CCAF) (Plasma 3063+)|
+Mechanized Tracked Platoon (CCAF) (Recoilless 2367+)|
+Mechanized Tracked Platoon (CCAF) (Rifle 2367+)|
+Mechanized Tracked Platoon (CCAF) (Rifle 3045+)|
+Mechanized Tracked Platoon (CCAF) (Rifle 3055+)|
+Mechanized Tracked Platoon (CCAF) (Rifle AA 2590+)|
+Mechanized Tracked Platoon (CCAF) (Rifle AA 3056+)|
+Mechanized Tracked Platoon (CCAF) (SRM 2400+)|
+Mechanized Tracked Platoon (CCAF) (SRM 3045+)|
+Mechanized Tracked Platoon (CCAF) (SRM 3055+)|
+Mechanized Tracked Platoon (CCAF) (Sappers 2367+)|
+Mechanized Wheeled Platoon (CCAF) (Combat Engineers 2367+)|
+Mechanized Wheeled Platoon (CCAF) (Combat Engineers 3045+)|
+Mechanized Wheeled Platoon (CCAF) (Flamer 2367+)|
+Mechanized Wheeled Platoon (CCAF) (Flamer 3045+)|
+Mechanized Wheeled Platoon (CCAF) (Flamer 3055+)|
+Mechanized Wheeled Platoon (CCAF) (Gauss 3063+)|
+Mechanized Wheeled Platoon (CCAF) (LRM 3057+)|
+Mechanized Wheeled Platoon (CCAF) (Laser 2367+)|
+Mechanized Wheeled Platoon (CCAF) (Laser 3045+)|
+Mechanized Wheeled Platoon (CCAF) (Laser TAG 3051+)|
+Mechanized Wheeled Platoon (CCAF) (Laser XCT 2367+)|
+Mechanized Wheeled Platoon (CCAF) (Laser XCT 2380+)|
+Mechanized Wheeled Platoon (CCAF) (MG 2367+)|
+Mechanized Wheeled Platoon (CCAF) (MG 3045+)|
+Mechanized Wheeled Platoon (CCAF) (MG 3055+)|
+Mechanized Wheeled Platoon (CCAF) (Mortar 2367+)|
+Mechanized Wheeled Platoon (CCAF) (Plasma 3063+)|
+Mechanized Wheeled Platoon (CCAF) (Recoilless 2367+)|
+Mechanized Wheeled Platoon (CCAF) (Recoilless 3055+)|
+Mechanized Wheeled Platoon (CCAF) (Rifle 2367+)|
+Mechanized Wheeled Platoon (CCAF) (Rifle 3045+)|
+Mechanized Wheeled Platoon (CCAF) (Rifle 3055+)|
+Mechanized Wheeled Platoon (CCAF) (Rifle AA 2590+)|
+Mechanized Wheeled Platoon (CCAF) (Rifle AA 3056+)|
+Mechanized Wheeled Platoon (CCAF) (SRM 2400+)|
+Mechanized Wheeled Platoon (CCAF) (SRM 3045+)|
+Mechanized Wheeled Platoon (CCAF) (SRM 3055+)|
+Motorized Platoon (CCAF) (Combat Engineers 2367+)|
+Motorized Platoon (CCAF) (Combat Engineers 3045+)|
+Motorized Platoon (CCAF) (Flamer 2367+)|
+Motorized Platoon (CCAF) (Flamer 3045+)|
+Motorized Platoon (CCAF) (Flamer 3055+)|
+Motorized Platoon (CCAF) (Gauss 3063+)|
+Motorized Platoon (CCAF) (LRM 3057+)|
+Motorized Platoon (CCAF) (Laser 2367+)|
+Motorized Platoon (CCAF) (Laser 2500+)|
+Motorized Platoon (CCAF) (Laser 3045+)|
+Motorized Platoon (CCAF) (Laser TAG 3051+)|
+Motorized Platoon (CCAF) (Laser XCT 2367+)|
+Motorized Platoon (CCAF) (Laser XCT 2400+)|
+Motorized Platoon (CCAF) (MG 2367+)|
+Motorized Platoon (CCAF) (MG 3045+)|
+Motorized Platoon (CCAF) (MG 3055+)|
+Motorized Platoon (CCAF) (Mortar 2367+)|
+Motorized Platoon (CCAF) (Plasma 3063+)|
+Motorized Platoon (CCAF) (Recoilless 2367+)|
+Motorized Platoon (CCAF) (Recoilless 3055+)|
+Motorized Platoon (CCAF) (Rifle 2367+)|
+Motorized Platoon (CCAF) (Rifle 2500+)|
+Motorized Platoon (CCAF) (Rifle 3045+)|
+Motorized Platoon (CCAF) (Rifle 3055+)|
+Motorized Platoon (CCAF) (Rifle AA 2590+)|
+Motorized Platoon (CCAF) (Rifle AA 3056+)|
+Motorized Platoon (CCAF) (Riot Police 2367+)|
+Motorized Platoon (CCAF) (Riot Police 3030+)|
+Motorized Platoon (CCAF) (Riot Police 3045+)|
+Motorized Platoon (CCAF) (SRM 2400+)|
+Motorized Platoon (CCAF) (SRM 3045+)|
+Motorized Platoon (CCAF) (SRM 3055+)|
+Motorized Platoon (CCAF) (Sappers 2367+)|
 Field Artillery Level I (ComGuards) (Tracked Arrow IV)|
 Field Artillery Level I (ComGuards) (Tracked Sniper)|
 Field Artillery Level I (ComGuards) (Tracked Thumper)|
