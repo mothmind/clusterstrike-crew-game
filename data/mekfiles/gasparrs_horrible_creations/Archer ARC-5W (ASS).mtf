@@ -1,4 +1,4 @@
-generator:MegaMek Suite 0.50.11 on 2026-03-25
+generator:MegaMek Suite 1337.50.11 on 2026-03-26
 chassis:Archer
 model:ARC-5W (ASS)
 mul id:81
@@ -7,7 +7,7 @@ Config:Biped
 techbase:Inner Sphere
 era:3050
 source:RG10
-rules level:4
+rules level:2
 role:Missile Boat
 
 quirk:battle_fists_la
@@ -40,13 +40,13 @@ RTC armor:10
 
 Weapons:15
 SRM 4, Left Torso
+LRM 5, Left Torso
+LRM 5, Left Torso
+LRM 5, Left Torso
+LRM 5, Left Torso
+LRM 5, Left Torso
+LRM 5, Left Torso
 SRM 4, Right Torso
-LRM 5, Left Torso
-LRM 5, Left Torso
-LRM 5, Left Torso
-LRM 5, Left Torso
-LRM 5, Left Torso
-LRM 5, Left Torso
 LRM 5, Right Torso
 LRM 5, Right Torso
 LRM 5, Right Torso
