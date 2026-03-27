@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<unit version="0.50.11" >
+
+		<entity chassis="Scorpion" model="SCP-1O" type="Quad" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="4145c983-a394-4702-907b-a20b383a909c" quirks="bad_rep_is::bad_rep_clan::hard_pilot">
+			<pilot size="1" name="Terri Galindo" nick="" gender="FEMALE" clanperson="false" gunnery="4" piloting="5" artillery="4" externalId="171af40b-24d9-4f6b-aaa9-fab034ea8d79" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="3"> Left Torso
+				<slot index="1" type="IS Ammo SRM-6" shots="15"/>
+			</location>
+			<Game id="1"/>
+		</entity>
+
+		<entity chassis="Scorpion" model="SCP-1O" type="Quad" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="8519c976-090c-4f36-bb3a-2223d824140b" quirks="bad_rep_is::bad_rep_clan::hard_pilot">
+			<pilot size="1" name="Samuel Dasari" nick="" gender="MALE" clanperson="false" gunnery="4" piloting="6" artillery="4" externalId="5008c712-b30b-4bcd-a7f8-edc82c520ee3" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="3"> Left Torso
+				<slot index="1" type="IS Ammo SRM-6" shots="15"/>
+			</location>
+			<Game id="2"/>
+		</entity>
+
+		<entity chassis="Black Knight" model="BLK-NT-3A" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="542cc555-6212-4052-8c5e-b2246d2872c9" quirks="command_mech">
+			<pilot size="1" name="Joyce Baker" nick="" gender="FEMALE" clanperson="false" gunnery="4" piloting="4" artillery="4" externalId="c18784d3-d60f-48ac-8c74-6298fc6b7389" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+			<Game id="3"/>
+		</entity>
+
+		<entity chassis="Black Knight" model="BLK-NT-3A" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="5fd1ccb3-9d3b-413f-a4d1-c34b101f0c29" quirks="command_mech">
+			<pilot size="1" name="Naja Diallo" nick="" gender="FEMALE" clanperson="false" gunnery="4" piloting="6" artillery="4" externalId="9a2842e5-ad60-4a12-97ac-3999a68b6a1d" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+			<Game id="4"/>
+		</entity>
+
+		<entity chassis="Gladiator" model="GLD-4R" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="59968365-d526-4f60-a491-301b2f6dc329" quirks="cowl::bad_rep_is">
+			<pilot size="1" name="Rathnait Wade" nick="" gender="FEMALE" clanperson="false" gunnery="4" piloting="5" artillery="4" externalId="a56137b2-a639-4db3-a602-a98d53dfc142" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="3"> Left Torso
+				<slot index="3" type="IS Ammo SRM-6" shots="15"/>
+			</location>
+			<Game id="5"/>
+		</entity>
+
+		<entity chassis="Gladiator" model="GLD-4R" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="0d7d1c67-a46d-4cb2-b998-b4089d1a0bd0" quirks="cowl::bad_rep_is">
+			<pilot size="1" name="Angelia Souza" nick="" gender="FEMALE" clanperson="false" gunnery="3" piloting="6" artillery="4" externalId="aa52a204-ffdd-41a1-aa78-5c36a14f04bf" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="3"> Left Torso
+				<slot index="3" type="IS Ammo SRM-6" shots="15"/>
+			</location>
+			<Game id="6"/>
+		</entity>
+
+		<entity chassis="King Crab" model="KGC-000" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="34a1a626-b817-4740-9284-efe51f2ab8dc" quirks="command_mech">
+			<pilot size="1" name="Connor Locker" nick="" gender="MALE" clanperson="false" gunnery="3" piloting="6" artillery="4" externalId="7b70a485-c826-40f7-aacf-a849af8e17d7" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="false"/>
+      The first slot in a location is at index="1".
+			<location index="2"> Right Torso
+				<slot index="5" type="IS Ammo AC/20" shots="5"/>
+			</location>
+			<location index="3"> Left Torso
+				<slot index="6" type="IS Ammo AC/20" shots="5"/>
+				<slot index="7" type="IS Ammo LRM-15" shots="8"/>
+			</location>
+			<Game id="7"/>
+		</entity>
+
+</unit>

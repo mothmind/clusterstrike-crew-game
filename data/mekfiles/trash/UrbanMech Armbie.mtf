@@ -1,0 +1,167 @@
+generator:MegaMek Suite 0.50.11 on 2026-03-14
+chassis:UrbanMech
+model:Armbie
+mul id:7453
+
+Config:Biped
+techbase:Inner Sphere
+era:3120
+source:RG02
+rules level:4
+role:Ambusher
+
+quirk:battle_fists_la
+quirk:battle_fists_ra
+quirk:ext_twist
+quirk:low_profile
+
+mass:30
+engine:180 XL Engine
+structure:IS Standard
+myomer:Standard
+
+heat sinks:10 IS Double
+walk mp:6
+jump mp:6
+
+armor:Hardened(Inner Sphere)
+LA armor:10
+RA armor:10
+LT armor:11
+RT armor:11
+CT armor:15
+HD armor:9
+LL armor:14
+RL armor:14
+RTL armor:3
+RTR armor:3
+RTC armor:5
+
+Weapons:0
+
+Left Arm:
+Shoulder
+Upper Arm Actuator
+Lower Arm Actuator
+Hand Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Arm:
+Shoulder
+Upper Arm Actuator
+Lower Arm Actuator
+Hand Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+ISDoubleHeatSink
+ISDoubleHeatSink
+ISDoubleHeatSink
+Jump Jet
+Jump Jet
+Jump Jet
+-Empty-
+-Empty-
+-Empty-
+
+Right Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+ISDoubleHeatSink
+ISDoubleHeatSink
+ISDoubleHeatSink
+ISDoubleHeatSink
+ISDoubleHeatSink
+ISDoubleHeatSink
+Jump Jet
+Jump Jet
+Jump Jet
+
+Center Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Gyro
+Gyro
+Gyro
+Gyro
+Fusion Engine
+Fusion Engine
+Fusion Engine
+ISMASC
+ISMASC
+
+Head:
+Life Support
+Sensors
+Cockpit
+-Empty-
+Sensors
+Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+overview:The UrbanMech was designed for just what its name suggests: urban combat and defense.
+capabilities:This was achieved by starting with a cheap, easily-produced chassis, giving it six tons of Durallex armor to rival the protection found on many medium-weight BattleMechs, and mounting a pair of Pitban 6000 jump jets for a jumping distance of 60 meters. The trade-off was that it could only mount the miserable Leenex 60 engine, making the UrbanMech the slowest light 'Mech in existence with a cruising speed of 21.6 km/h and top speed of only 32.4 km/h. This was a severe disadvantage if the 'Mech attempted to fight in open country - something for only the foolish or desperate - but off-set by the fact that fighting in the close confines of a Star League city left little room to maneuver anyways and the UrbanMech's low profile made it difficult to target. Thus the 'Mech was primarily used for fighting guerrillas and other light 'Mechs in an urban environment, an arena where it also achieved some success fighting medium and even heavy-weight 'Mechs. Standard tactics for an UrbanMech lance was to split up into its constituent parts and occupy various buildings in order to snipe the enemy before falling back to the next defensive line.
+deployment:Another field refit developed by chronic tinker Njord Wing in 3149, the R96 is an evolution of the R80 with features of Wing's R93 refit. The R80's Snub-Nose PPC serves as the R96's main weapon, supported by a Small X-Pulse Laser, reducing its logistical needs. The weight saved allows the use of the R93's Harded Armor shell for enhanced protection at the cost of speed. This is partially offset with the addition of three Improved Jump Jets giving the new model a 90 meter range.
+history:Large numbers of UrbanMechs were produced by Orgus Industries from 2675 until the destruction of their assembly lines. The UrbanMech reentered production at the Betelgeuse facility of Hellespont Industrials during the Jihad, and continued to be manufactured up through 3149. As such, UrbanMechs could be found in all of the armies of the Successor States. However most military leaders saw the slow little 'Mech as a liability, confining their stockpiles to garrison duty or stripping them of parts. This dismissive attitude towards the UrbanMech saved it from the ravages of the Succession Wars and ensured its continued use into the thirty-first century. The Capellan Confederation remained the largest and only user of UrbanMechs to actually deploy them for front-line duty, a result of the devastation of the Fourth Succession War and their desperation for any 'Mech to replenish their losses. The Confederation Reserve Cavalry and Capellan Defense Force had the lion's share of UrbanMechs, followed by the Tikonov Republican Guard and St. Ives Armored Cavalry; outside the Confederation the Federated Suns' Capellan March Militia fielded the largest number of UrbanMechs due to the fact it was composed of large amounts of captured Capellan equipment. Its prominence within the Confederation meant the UrbanMech was among those 'Mechs within the CCAF to receive upgrades following the recovery of lostech; the other States followed suit with much less priority over improving other 'Mechs. Despite this the sheer costs necessary to replace the UrbanMech's engine and increase its top speed meant even the Confederation limited their refit packages to improving the weapons and armor only. A testament to the desperation of the Word of Blake Jihad, Hellespont Industrials would reactivate a shuttered production facility on Betelgeuse to produce the UrbanMech alongside primitive "retrotech" designs for material starved Capellan garrison forces. This plant would maintain production of the UrbanMech in a steadily increasing volume of configurations throughout the Dark Age Era as the CCAF secretly expanded before it waged war against the Republic of the Sphere. Rather than dramatic and expensive enhancements, Hellespont's new variants retain the venerable design's low ground speed urban combat focus and can be applied as refits as readily as new production.
+manufacturer:Hellespont Industrials
+primaryfactory:Betelgeuse
+systemmanufacturer:CHASSIS:Republic-R
+systemmanufacturer:ENGINE:Leenex 60
+systemmanufacturer:ARMOR:Unknown
+systemmanufacturer:COMMUNICATIONS:Dalban Interact
+systemmanufacturer:TARGETING:Dalban Urban
+
+icon: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
+

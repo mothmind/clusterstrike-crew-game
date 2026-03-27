@@ -1,0 +1,161 @@
+generator:MegaMek Suite 0.50.11 on 2026-03-19
+chassis:NotaNova
+model:NtNVA-01
+
+Config:Biped
+techbase:Mixed (Clan Chassis)
+era:3081
+rules level:3
+
+
+mass:75
+engine:375 XL (Clan) Engine
+structure:Clan Endo Steel
+myomer:Standard
+
+heat sinks:19 Clan Double
+walk mp:5
+jump mp:5
+
+armor:Ferro-Fibrous(Clan)
+LA armor:24
+RA armor:24
+LT armor:24
+RT armor:24
+CT armor:35
+HD armor:9
+LL armor:32
+RL armor:32
+RTL armor:8
+RTR armor:8
+RTC armor:11
+
+Weapons:12
+Medium Pulse Laser, Right Arm
+Medium Pulse Laser, Right Arm
+Medium Pulse Laser, Right Arm
+Medium Pulse Laser, Right Arm
+Medium Pulse Laser, Left Arm
+Medium Pulse Laser, Left Arm
+Medium Pulse Laser, Left Arm
+Medium Pulse Laser, Left Arm
+Improved Heavy Small Laser, Right Arm
+Improved Heavy Small Laser, Right Arm
+Improved Heavy Small Laser, Left Arm
+Improved Heavy Small Laser, Left Arm
+
+Left Arm:
+Shoulder
+Upper Arm Actuator
+Lower Arm Actuator
+Hand Actuator
+CLDoubleHeatSink
+CLDoubleHeatSink
+CLMediumPulseLaser
+CLMediumPulseLaser
+CLMediumPulseLaser
+CLMediumPulseLaser
+CLImprovedSmallHeavyLaser
+CLImprovedSmallHeavyLaser
+
+Right Arm:
+Shoulder
+Upper Arm Actuator
+Lower Arm Actuator
+Hand Actuator
+CLDoubleHeatSink
+CLDoubleHeatSink
+CLMediumPulseLaser
+CLMediumPulseLaser
+CLMediumPulseLaser
+CLMediumPulseLaser
+CLImprovedSmallHeavyLaser
+CLImprovedSmallHeavyLaser
+
+Left Torso:
+Fusion Engine
+Fusion Engine
+CLDoubleHeatSink
+CLDoubleHeatSink
+CLDoubleHeatSink
+CLDoubleHeatSink
+Clan Endo Steel
+Clan Ferro-Fibrous
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Torso:
+Fusion Engine
+Fusion Engine
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+
+Center Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Gyro
+Gyro
+Gyro
+Gyro
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Jump Jet
+Clan Endo Steel
+
+Head:
+Life Support
+Sensors
+Cockpit
+Clan Endo Steel
+Sensors
+Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+Jump Jet
+Jump Jet
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+Jump Jet
+Jump Jet
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+
+icon:iVBORw0KGgoAAAANSUhEUgAAAFQAAABICAYAAABof9IhAAAMEUlEQVR4Xu3ah68V1RYGcPPyEv8GFbFFFCyISlEs2DsWFAFFUBRs2Igdo7FgwYYoqCBIU1CKJaAgkWKJCkqwE7uxYwRbRAXWe7+dbN5xPAe4PO4lXmYlO3NmZs/Mnm9/61tr7TmbbFJaaaWVVlpppZVWWmmllVZaaaWVVlpppZVWWmmNzU444YQ49NBDV7VOnTpFsU9p/7Xu3buvERhg3nfffTFmzJgYN25casOHD4+TTz55jdduVHbUUUfFKaecEkcffXRNYA477LDo379/jBo1Kp588smYNm1aalOmTInbb789gF28ZqO1/fbbL7p16xYdOnSoCUr79u3j/vvvj/feey+WLFkSv/32WyxbtiwWL14cTzzxRHL/4jUbpR100EHRtWvX6NOnT/To0aMmSw888MDk6h9//HG8//77CdhPPvkkfvjhh8TUWtdtdLb77rvHcccdF6eeemp07tw5MLHY55hjjol77rknHnrooXj88ccDo123//77J3Y+8sgjMWzYsMbp9ocffnh6Ua1jx45rfMGdd945mjdvHrvssktqbdu2jX/9e9O/NO788MMPx8CBA2PPPfeMrbbaKrbYYou0bd26ddxxxx0pQHl28f7rYiYwv8ORRx65Xu65zrbPPvvEBRdcEGeffXZcccUVqwW1VatWadBHHHFEHHvssYmp+gOVnh5yyCEJzIsvvjimTp0at9xyS+ywww4JzM033zxt7TvO7S+55JIQvP6fdAqA/fr1i969e8eFF16Yxlfs06C21157Ra9eveKmm25KoNYa0G677RZ77LFH7LjjjoGl9jUstX/zzTcnVo4dOzbuvffepJl33XVXVUAdp6v66U9rBbB1kYA2bdokLb/hhhvirLPOin333bfO91ivRtvM7umnnx7nnXdeYGyxD9t2222jadOmKYfELCnRNddck9jNraVC48ePT9r5xRdfxPfff590sujy9uWiS5cuja+//joGDx4cjz32WNoefPDBVZ+9Ott1112Tnp922mmJELyl2KdBDJDbb799bLfddtGiRYtVuoixxb5s6623Tiwz+Ouvvz4GDRqUGpnwEsB8++23Y8iQIfHpp5/G559/HpMmTYoHHngg3btJkyZpC2R56XfffRfffPNNOo+t+pKM4nPX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
+

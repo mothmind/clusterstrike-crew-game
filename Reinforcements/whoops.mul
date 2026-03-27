@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<unit version="0.50.11" >
+
+		<entity chassis="A.R.H" model="Model 2" type="Hover" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="408dff7d-8b2e-4bf8-8717-9d9a4d7ef7fa">
+			<pilot size="3" name="Teegan Caldwell" nick="" gender="MALE" clanperson="false" gunnery="4" piloting="4" artillery="4" externalId="649ed3e5-387c-4cd7-92b7-7da32e75aff1" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+      <motive damage="0" penalty="0"/>
+      Tanks have special needs, so don't delete any ammo slots.
+      The first slot in a location is at index="1".
+			<location index="5"> Turret
+				<slot index="1" type="RL20" munition="IS Ammo RL-20" isDestroyed="false"/>
+				<slot index="2" type="RL20" munition="IS Ammo RL-20" isDestroyed="false"/>
+			</location>
+			<Game id="1"/>
+		</entity>
+
+</unit>

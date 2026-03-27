@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<unit version="0.50.11" >
+
+		<entity chassis="Annihilator" model="ANH-1E" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="88d8e9a6-aa9f-4d67-a6d4-7d3bd408793c" quirks="easy_maintain">
+			<pilot size="1" name="Benigna Barnard" nick="" gender="FEMALE" clanperson="false" gunnery="3" piloting="4" artillery="4" externalId="889f239c-730b-48c2-9c41-658002eaa36e" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+			<Game id="7"/>
+		</entity>
+
+		<entity chassis="Hatamoto-Chi" model="HTM-27T" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="8a0d833a-63d7-43d6-9f17-ae2bdfb4a1ce" quirks="barrel_fists_la::easy_maintain">
+			<pilot size="1" name="Noemi Dosedel" nick="" gender="FEMALE" clanperson="false" gunnery="4" piloting="5" artillery="4" externalId="1d1f00ec-ef9f-4d70-8bc0-94f5673f1e4b" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="false"/>
+      The first slot in a location is at index="1".
+			<location index="2"> Right Torso
+				<slot index="2" type="SRM 6" quirks="mod_weapons" isDestroyed="false"/>
+				<slot index="3" type="SRM 6" quirks="mod_weapons" isDestroyed="false"/>
+				<slot index="4" type="IS Ammo SRM-6" shots="15"/>
+			</location>
+			<location index="3"> Left Torso
+				<slot index="2" type="SRM 6" quirks="mod_weapons" isDestroyed="false"/>
+				<slot index="3" type="SRM 6" quirks="mod_weapons" isDestroyed="false"/>
+				<slot index="4" type="IS Ammo SRM-6" shots="15"/>
+			</location>
+			<Game id="8"/>
+		</entity>
+
+		<entity chassis="Crockett" model="CRK-5003-1" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="9763c786-22d0-4178-8220-c68ac28cefbc" quirks="easy_pilot::poor_life_support">
+			<pilot size="1" name="Anthony Brown" nick="" gender="MALE" clanperson="false" gunnery="4" piloting="5" artillery="4" externalId="69a316f0-0cd2-4736-8d6f-da24c18adef4" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="2"> Right Torso
+				<slot index="9" type="IS Ammo SRM-6" shots="15"/>
+				<slot index="10" type="IS Ammo SRM-6" shots="15"/>
+				<slot index="11" type="IS LB 10-X AC Ammo" shots="10"/>
+				<slot index="12" type="IS LB 10-X AC Ammo" shots="10"/>
+			</location>
+			<location index="3"> Left Torso
+				<slot index="12" type="IS LB 10-X Cluster Ammo" shots="10"/>
+			</location>
+			<Game id="9"/>
+		</entity>
+
+		<entity chassis="Atlas" model="AS7-A" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="fe81f548-bb42-4350-96a7-341366e6a474" quirks="battle_fists_la::battle_fists_ra::command_mech::distracting::imp_com">
+			<pilot size="1" name="Joey Orille" nick="" gender="MALE" clanperson="false" gunnery="4" piloting="4" artillery="4" externalId="db091bdd-248a-4485-875d-cf9e0e518024" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="3"> Left Torso
+				<slot index="7" type="IS Ammo AC/5" shots="20"/>
+				<slot index="8" type="IS Ammo LRM-10" shots="12"/>
+				<slot index="9" type="IS Ammo SRM-6" shots="15"/>
+				<slot index="10" type="IS Ammo SRM-6" shots="15"/>
+				<slot index="11" type="IS Ammo SRM-6" shots="15"/>
+				<slot index="12" type="IS Ammo SRM-6" shots="15"/>
+			</location>
+			<Game id="10"/>
+		</entity>
+
+		<entity chassis="Shadow Hawk" model="SHD-3H" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="72c833a1-1b9b-4845-af92-4025fdfc5571" quirks="battle_fists_la::battle_fists_ra::imp_life_support::rugged_1::ubiquitous_is::ubiquitous_clan">
+			<pilot size="1" name="Yasumin Yoshimura" nick="" gender="FEMALE" clanperson="false" gunnery="3" piloting="6" artillery="4" externalId="5699c224-eaf7-4723-b374-4517063b08cb" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="2"> Right Torso
+				<slot index="4" type="IS Ammo LRM-5" shots="24"/>
+			</location>
+			<location index="3"> Left Torso
+				<slot index="6" type="IS Ammo AC/5" shots="20"/>
+				<slot index="7" type="IS Ammo MG - Full" shots="200"/>
+			</location>
+			<Game id="11"/>
+		</entity>
+
+		<entity chassis="Shadow Hawk" model="SHD-3H" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="50ec78aa-11de-4fd8-9374-9999da290545" quirks="battle_fists_la::battle_fists_ra::imp_life_support::rugged_1::ubiquitous_is::ubiquitous_clan">
+			<pilot size="1" name="Hydi van Dijk" nick="" gender="FEMALE" clanperson="false" gunnery="4" piloting="5" artillery="4" externalId="278a7e7b-2433-42ef-8d67-74aab1729782" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="2"> Right Torso
+				<slot index="4" type="IS Ammo LRM-5" shots="24"/>
+			</location>
+			<location index="3"> Left Torso
+				<slot index="6" type="IS Ammo AC/5" shots="20"/>
+				<slot index="7" type="IS Ammo MG - Full" shots="200"/>
+			</location>
+			<Game id="12"/>
+		</entity>
+
+		<entity chassis="Dervish" model="DV-6M" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="5b1a3ed4-6670-4e5c-a674-6ba473d1de5c" quirks="easy_maintain::hyper_actuator">
+			<pilot size="1" name="Tom Qutaiba" nick="" gender="MALE" clanperson="false" gunnery="4" piloting="5" artillery="4" externalId="d09e4e16-da5f-44be-8211-3f04fc67e994" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="2"> Right Torso
+				<slot index="3" type="IS Ammo LRM-10" shots="12"/>
+			</location>
+			<location index="3"> Left Torso
+				<slot index="3" type="IS Ammo LRM-10" shots="12"/>
+			</location>
+			<location index="4"> Right Arm
+				<slot index="6" type="IS Ammo SRM-2" shots="50"/>
+			</location>
+			<location index="5"> Left Arm
+				<slot index="6" type="IS Ammo SRM-2" shots="50"/>
+			</location>
+			<Game id="13"/>
+		</entity>
+
+		<entity chassis="Dervish" model="DV-6M" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="2da6a84f-790c-4708-9adc-b0b00139d382" quirks="easy_maintain::hyper_actuator">
+			<pilot size="1" name="Larry bin Hud" nick="" gender="MALE" clanperson="false" gunnery="3" piloting="4" artillery="4" externalId="f84fd9db-9ec8-47b9-ad31-7f200e479b94" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="2"> Right Torso
+				<slot index="3" type="IS Ammo LRM-10" shots="12"/>
+			</location>
+			<location index="3"> Left Torso
+				<slot index="3" type="IS Ammo LRM-10" shots="12"/>
+			</location>
+			<location index="4"> Right Arm
+				<slot index="6" type="IS Ammo SRM-2" shots="50"/>
+			</location>
+			<location index="5"> Left Arm
+				<slot index="6" type="IS Ammo SRM-2" shots="50"/>
+			</location>
+			<Game id="14"/>
+		</entity>
+
+</unit>

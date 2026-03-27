@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<unit version="0.50.11" >
+
+		<entity chassis="Centurion" model="CN9-H2H MilitiaMech" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="6abf8dcb-8287-4d89-b1f4-485bc5a4baf1">
+			<pilot size="1" name="Commander Byung-hee Dang" nick="" gender="MALE" clanperson="false" gunnery="3" piloting="2" artillery="8" toughness="-1" portraitCat="Male/MekWarrior/" portraitFile="MW_M_1.png" externalId="5ad81537-bd0c-45bd-a94d-78d0bc471dc9" commandB="3" ejected="false" advantages="oblique_artillery" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="3"> Left Torso
+				<slot index="2" type="RL10" munition="IS Ammo RL-10" isDestroyed="false"/>
+				<slot index="3" type="RL10" munition="IS Ammo RL-10" isDestroyed="false"/>
+				<slot index="4" type="RL10" munition="IS Ammo RL-10" isDestroyed="false"/>
+				<slot index="5" type="RL10" munition="IS Ammo RL-10" isDestroyed="false"/>
+				<slot index="6" type="RL10" munition="IS Ammo RL-10" isDestroyed="false"/>
+			</location>
+			<location index="4"> Right Arm
+				<slot index="10" type="IS LB 10-X AC Ammo" shots="10"/>
+				<slot index="11" type="IS LB 10-X Cluster Ammo" shots="10"/>
+			</location>
+			<Game id="37"/>
+		</entity>
+
+		<entity chassis="Catapult" model="CPLT-C4" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="bee226b0-d93c-416d-8be2-dd2a81e059b5" quirks="no_arms::weak_head_1">
+			<pilot size="1" name="Lancehead Connor MacFetridge" nick="" gender="MALE" clanperson="false" gunnery="1" piloting="5" artillery="8" portraitCat="Male/MekWarrior/" portraitFile="MW_M_64.png" externalId="3074f479-ce62-403a-901d-85bf5a1d9000" ejected="false" advantages="tm_forest_ranger" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="2"> Right Torso
+				<slot index="3" type="IS Ammo LRM-20" shots="6"/>
+				<slot index="4" type="IS Ammo LRM-20" shots="6"/>
+			</location>
+			<location index="3"> Left Torso
+				<slot index="3" type="IS Ammo LRM-20" shots="6"/>
+				<slot index="4" type="IS Ammo LRM-20" shots="6"/>
+			</location>
+			<Game id="38"/>
+		</entity>
+
+		<entity chassis="Wolverine II" model="WVR-7H" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="06b23e09-c0a0-4606-b02e-e7c7bb6b0d87" quirks="command_mech::imp_com::pro_actuator">
+			<pilot size="1" name="Lancemate Siusan Smith" nick="" gender="FEMALE" clanperson="false" gunnery="4" piloting="5" artillery="8" portraitCat="Female/MekWarrior/" portraitFile="MW_F_63.png" externalId="c49d2e47-8dd8-4699-b61d-e9ac96d97d5f" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="false"/>
+      The first slot in a location is at index="1".
+			<location index="3"> Left Torso
+				<slot index="4" type="IS Ammo SRM-6 Artemis-capable" shots="15"/>
+			</location>
+			<location index="4"> Right Arm
+				<slot index="10" type="IS Ultra AC/5 Ammo" shots="20"/>
+				<slot index="11" type="IS Ultra AC/5 Ammo" shots="20"/>
+			</location>
+			<Game id="39"/>
+		</entity>
+
+</unit>

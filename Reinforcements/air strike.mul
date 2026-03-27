@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<unit version="0.50.11" >
+
+		<entity chassis="Cheetah" model="F-12-S" type="Aerodyne" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" velocity="0" altitude="5" externalId="4531d681-da7e-4e27-a036-d6e942b01583">
+			<pilot size="1" name="Torra Stares" nick="" gender="FEMALE" clanperson="false" gunnery="4" piloting="4" artillery="4" externalId="fe384644-467a-4367-ab35-00ee0de2aad3" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<fuel left="240"/>
+			<structural integrity="12"/>
+			<heat sinks="10"/>
+      The first slot in a location is at index="1".
+			<location index="5"> Fuselage
+				<slot index="1" type="IS Ammo SRM-4" shots="25"/>
+			</location>
+			<Game id="1"/>
+		</entity>
+
+		<entity chassis="Cheetah" model="F-12-S" type="Aerodyne" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" velocity="0" altitude="5" externalId="2ec00c66-c096-4b48-920b-ba3f0cf83b8e">
+			<pilot size="1" name="Shirley Smith" nick="" gender="FEMALE" clanperson="false" gunnery="3" piloting="6" artillery="4" externalId="8e268b62-c702-46bc-a226-a1b0716cef5e" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<fuel left="240"/>
+			<structural integrity="12"/>
+			<heat sinks="10"/>
+      The first slot in a location is at index="1".
+			<location index="5"> Fuselage
+				<slot index="1" type="IS Ammo SRM-4" shots="25"/>
+			</location>
+			<Game id="2"/>
+		</entity>
+
+		<entity chassis="Cheetah" model="F-12-S" type="Aerodyne" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" velocity="0" altitude="5" externalId="c9879300-8675-48f4-9d39-b53de4091413">
+			<pilot size="1" name="Stephen Crichton" nick="" gender="MALE" clanperson="false" gunnery="4" piloting="6" artillery="4" externalId="6cbc74f1-75b5-44cc-b7ad-1d2825a15d38" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<fuel left="240"/>
+			<structural integrity="12"/>
+			<heat sinks="10"/>
+      The first slot in a location is at index="1".
+			<location index="5"> Fuselage
+				<slot index="1" type="IS Ammo SRM-4" shots="25"/>
+			</location>
+			<Game id="3"/>
+		</entity>
+
+		<entity chassis="Cheetah" model="F-12-S" type="Aerodyne" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" velocity="0" altitude="5" externalId="0ee1614a-762f-458e-8136-377aeeb45761">
+			<pilot size="1" name="Hirotada Chouda" nick="" gender="MALE" clanperson="false" gunnery="3" piloting="5" artillery="4" externalId="8be6d290-bf17-41a7-83c4-b84cc797b3a2" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<fuel left="240"/>
+			<structural integrity="12"/>
+			<heat sinks="10"/>
+      The first slot in a location is at index="1".
+			<location index="5"> Fuselage
+				<slot index="1" type="IS Ammo SRM-4" shots="25"/>
+			</location>
+			<Game id="4"/>
+		</entity>
+
+		<entity chassis="Cheetah" model="F-12-S" type="Aerodyne" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" velocity="0" altitude="5" externalId="52c84998-ce79-41ab-86b9-4a57bfc92c5e">
+			<pilot size="1" name="Marcail Jamieson" nick="" gender="FEMALE" clanperson="false" gunnery="4" piloting="5" artillery="4" externalId="86857e57-18e1-49e5-a41c-513de5492f3a" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<fuel left="240"/>
+			<structural integrity="12"/>
+			<heat sinks="10"/>
+      The first slot in a location is at index="1".
+			<location index="5"> Fuselage
+				<slot index="1" type="IS Ammo SRM-4" shots="25"/>
+			</location>
+			<Game id="5"/>
+		</entity>
+
+		<entity chassis="Cheetah" model="F-12-S" type="Aerodyne" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" velocity="0" altitude="5" externalId="5c1dbcea-87b6-4569-a74e-3212e047f05e">
+			<pilot size="1" name="Lenny Meoli" nick="" gender="MALE" clanperson="false" gunnery="3" piloting="6" artillery="4" externalId="0cf54fe9-e599-472c-bec6-2efbb92e6b44" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<fuel left="240"/>
+			<structural integrity="12"/>
+			<heat sinks="10"/>
+      The first slot in a location is at index="1".
+			<location index="5"> Fuselage
+				<slot index="1" type="IS Ammo SRM-4" shots="25"/>
+			</location>
+			<Game id="6"/>
+		</entity>
+
+</unit>
