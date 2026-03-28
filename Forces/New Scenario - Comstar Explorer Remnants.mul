@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<unit version="1337.50.11" >
+
+		<entity chassis="Galaport Ground Trailer" model="" type="Tracked" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="52723be8-6b59-442d-b398-258df7e95235">
+			<pilot size="0" name="Unnamed" nick="" gender="FEMALE" clanperson="false" gunnery="4" piloting="5" artillery="4" externalId="6d5547fa-8814-4f0a-a17b-7d2e8ea00838" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+      <motive damage="0" penalty="0"/>
+			<Game id="51"/>
+		</entity>
+
+</unit>
