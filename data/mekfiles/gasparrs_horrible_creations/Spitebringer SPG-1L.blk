@@ -8,7 +8,7 @@ Spitebringer
 </Name>
 
 <Model>
-SPG-LT1
+SPG-1L
 </Model>
 
 <year>
@@ -48,17 +48,16 @@ Naval
 </armor_tech_level>
 
 <armor>
-90
-72
-72
-58
-72
-72
+86
+71
+71
+56
+71
+71
 </armor>
 
 <Body Equipment>
 ISLongTomAmmo
-IS LB 2-X Cluster Ammo
 IS LB 2-X Cluster Ammo
 Fuel-Air Long Tom Ammo
 ISAMS Ammo
@@ -66,6 +65,8 @@ ISAMS Ammo
 Copperhead Long Tom Ammo
 Copperhead Long Tom Ammo
 ISLongTomAmmo
+IS Ammo LRTorpedo-5
+IS LB 5-X Cluster Ammo
 </Body Equipment>
 
 <Front Equipment>
@@ -73,9 +74,11 @@ ISAntiMissileSystem
 </Front Equipment>
 
 <Right Equipment>
+LRT 5
 </Right Equipment>
 
 <Left Equipment>
+LRT 5
 </Left Equipment>
 
 <Rear Equipment>
@@ -86,7 +89,7 @@ ISAntiMissileSystem
 ISLBXAC2
 ISLBXAC2
 ISLBXAC2
-ISLBXAC2
+ISLBXAC5
 </Rear Turret Equipment>
 
 <Front Turret Equipment>
@@ -94,7 +97,7 @@ ISLongTom
 </Front Turret Equipment>
 
 <tonnage>
-135.0
+150.0
 </tonnage>
 
 <fuelType>
