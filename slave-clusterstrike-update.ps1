@@ -79,6 +79,11 @@ function Assert-SafeTargetDirectory {
         return
     }
 
+    $gitExePath = Join-Path $TargetPath '_git\bin\git.exe'
+    if (Test-Path -LiteralPath $gitExePath -PathType Leaf) {
+        return
+    }
+
     $scriptName = Split-Path -Leaf $PSCommandPath
     $entries = @(Get-ChildItem -LiteralPath $TargetPath -Force | Where-Object { $_.Name -ne $scriptName })
     if ($entries.Count -eq 0) {
@@ -182,7 +187,7 @@ try {
     $originMaster = (& $gitExe rev-parse --verify origin/master 2>$null)
     if ($LASTEXITCODE -eq 0 -and -not [string]::IsNullOrWhiteSpace($originMaster)) {
         Write-Host 'Checking out local master branch from origin/master...'
-        Invoke-Git -Args @('checkout', '-B', 'master', 'origin/master') | Out-Null
+        Invoke-Git -Args @('checkout', '--force', '-B', 'master', 'origin/master') | Out-Null
 
         Write-Host 'Setting upstream for local master to origin/master...'
         Invoke-Git -Args @('branch', '--set-upstream-to=origin/master', 'master') | Out-Null
