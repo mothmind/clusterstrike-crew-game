@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<unit version="1337.50.12" >
+
+		<entity chassis="Hunchback" model="HBK-5N" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="a9aa99a2-21d1-4ea4-92c6-f156eb2f6988" quirks="battle_fists_la::battle_fists_ra">
+			<pilot size="1" name="Senior Lancer Tom &quot;Skull&quot; Melissanides" nick="Skull" gender="MALE" clanperson="false" gunnery="3" piloting="2" artillery="8" portraitCat="Male/MekWarrior/" portraitFile="MW_M_12.png" externalId="0e39ac7e-8605-4827-a10f-8750b18ba652" commandB="1" ejected="false" advantages="hopping_jack::tm_forest_ranger" edge="edge 1::edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="3"> Left Torso
+				<slot index="4" type="IS Ammo AC/20" shots="5"/>
+				<slot index="5" type="IS Ammo AC/20" shots="5"/>
+			</location>
+			<Game id="27"/>
+			<Force force="Clusterstrike Crew|1||Aegis Defense|31||Tried and True|542|Faction Camouflage/Difference Clouds/|Capellan Confederation.png||"/>
+		</entity>
+
+</unit>
