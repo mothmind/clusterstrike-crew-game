@@ -1,0 +1,164 @@
+generator:MegaMek Suite 1337.50.12 on 2026-04-17
+chassis:Volcano Raccoon
+model:
+mul id:99
+
+Config:Biped
+techbase:Clan
+era:3067
+source:Clan Obsidian Raccoon
+rules level:3
+role:Striker
+
+quirk:imp_target_short
+
+mass:40
+engine:280 XL (Clan) Engine
+structure:Clan Endo Steel
+myomer:Standard
+
+heat sinks:12 Clan Double
+walk mp:7
+jump mp:0
+
+armor:Ferro-Fibrous(Clan)
+LA armor:9
+RA armor:9
+LT armor:14
+RT armor:14
+CT armor:16
+HD armor:9
+LL armor:16
+RL armor:16
+RTL armor:4
+RTR armor:4
+RTC armor:4
+
+Weapons:7
+SRM 6, Left Arm
+SRM 6, Right Arm
+SRM 6, Left Torso
+SRM 6, Left Torso
+SRM 6, Right Torso
+SRM 6, Right Torso
+Narc, Center Torso
+
+Left Arm:
+Shoulder
+Upper Arm Actuator
+Lower Arm Actuator
+Hand Actuator
+CLSRM6
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Arm:
+Shoulder
+Upper Arm Actuator
+Lower Arm Actuator
+Hand Actuator
+CLSRM6
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Torso:
+Fusion Engine
+Fusion Engine
+CLSRM6
+CLSRM6
+Clan Ammo SRM-6 (Clan) Narc-capable
+Clan Ammo SRM-6 (Clan) Narc-capable
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+
+Right Torso:
+Fusion Engine
+Fusion Engine
+CLDoubleHeatSink
+CLDoubleHeatSink
+CLSRM6
+CLSRM6
+Clan Ammo SRM-6 (Clan) Narc-capable
+Clan Ammo SRM-6 (Clan) Inferno
+ISNarc Pods
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+Clan Ferro-Fibrous
+
+Center Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Gyro
+Gyro
+Gyro
+Gyro
+Fusion Engine
+Fusion Engine
+Fusion Engine
+CLNarcBeacon
+Clan Ferro-Fibrous
+
+Head:
+Life Support
+Sensors
+Cockpit
+Clan Endo Steel
+Sensors
+Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+manufacturer:Clan Obsidian Raccoon
+
+primaryfactory:Unknown
+
+
+icon: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
+
