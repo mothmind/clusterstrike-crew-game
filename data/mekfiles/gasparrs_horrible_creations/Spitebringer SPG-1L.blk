@@ -1,4 +1,4 @@
-#Saved from version 1337.50.11 on 2026-03-28
+#Saved from version 1337.50.12 on 2026-04-02
 <UnitType>
 Tank
 </UnitType>
@@ -57,16 +57,16 @@ Naval
 </armor>
 
 <Body Equipment>
-ISLongTomAmmo
 IS LB 2-X Cluster Ammo
-Fuel-Air Long Tom Ammo
 ISAMS Ammo
 ISAMS Ammo
-Copperhead Long Tom Ammo
-Copperhead Long Tom Ammo
-ISLongTomAmmo
 IS Ammo LRTorpedo-5
 IS LB 5-X Cluster Ammo
+Copperhead Long Tom Ammo
+Copperhead Long Tom Ammo
+Copperhead Long Tom Ammo
+ISLongTomAmmo
+ISLongTomAmmo
 </Body Equipment>
 
 <Front Equipment>

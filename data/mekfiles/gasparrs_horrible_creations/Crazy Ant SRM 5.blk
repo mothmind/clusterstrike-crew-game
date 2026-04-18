@@ -1,0 +1,110 @@
+#Saved from version 1337.50.12 on 2026-04-06
+<UnitType>
+SupportTank
+</UnitType>
+
+<Name>
+Crazy Ant
+</Name>
+
+<Model>
+SRM 5
+</Model>
+
+<year>
+2400
+</year>
+
+<originalBuildYear>
+2400
+</originalBuildYear>
+
+<type>
+IS Level 2
+</type>
+
+<motion_type>
+Wheeled
+</motion_type>
+
+<transporters>
+standardseats:13.0:0:-1::-1:0
+</transporters>
+
+<cruiseMP>
+9
+</cruiseMP>
+
+<engine_type>
+1
+</engine_type>
+
+<armor_type>
+43
+</armor_type>
+
+<armor_tech_rating>
+3
+</armor_tech_rating>
+
+<armor_tech_level>
+-1
+</armor_tech_level>
+
+<internal_type>
+-1
+</internal_type>
+
+<armor>
+3
+2
+2
+1
+</armor>
+
+<Body Equipment>
+BicycleChassisMod
+</Body Equipment>
+
+<Front Equipment>
+InfantryStandardSRM:SIZE:1.0
+InfantryStandardSRM:SIZE:1.0
+InfantryStandardSRM:SIZE:1.0
+InfantryStandardSRM:SIZE:1.0
+InfantryStandardSRM:SIZE:1.0
+</Front Equipment>
+
+<Right Equipment>
+</Right Equipment>
+
+<Left Equipment>
+</Left Equipment>
+
+<Rear Equipment>
+</Rear Equipment>
+
+<barrating>
+2
+</barrating>
+
+<structural_tech_rating>
+5
+</structural_tech_rating>
+
+<engine_tech_rating>
+3
+</engine_tech_rating>
+
+<tonnage>
+2.0
+</tonnage>
+
+<fuel>
+0.014
+</fuel>
+
+<fuelType>
+PETROCHEMICALS
+</fuelType>
+
+
