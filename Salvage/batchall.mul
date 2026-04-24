@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<record version="1337.50.12" >
+	<survivors>
+
+		<entity chassis="Atlas III" model="AS7-D2" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="56095766-4d41-46c8-b9e3-742923074c74" quirks="command_mech::distracting::pro_actuator">
+			<pilot size="1" name="Demi-Precentor Epsilon IX Tony Liu" nick="" gender="OTHER_MALE" clanperson="false" gunnery="1" piloting="2" artillery="8" portraitCat="Male/MekWarrior/" portraitFile="MW_M_95.png" externalId="3cadfe5c-c978-488c-95da-98df5b90fd93" ejected="false" advantages="sandblaster HAG/30" edge="edge 1::edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="false"/>
+      The first slot in a location is at index="1".
+			<location index="1"> Center Torso
+				<armor points="35"/>
+				<armor points="21" type="Internal"/>
+				<armor points="Destroyed" type="Rear"/>
+				<slot index="1" type="System" isHit="true" isDestroyed="true"/>
+				<slot index="3" type="System" isHit="true" isDestroyed="true"/>
+				<slot index="7" type="System" isHit="true" isDestroyed="true"/>
+				<slot index="11" type="ISAngelECMSuite" isHit="true" isDestroyed="true"/>
+				<slot index="12" type="ISAngelECMSuite" isHit="true" isDestroyed="true"/>
+			</location>
+			<location index="2"> Right Torso
+				<armor points="27"/>
+				<armor points="2" type="Rear"/>
+				<slot index="6" type="Clan Streak LRM 20 Ammo" shots="4"/>
+				<slot index="7" type="Clan Streak LRM 20 Ammo" shots="6"/>
+				<slot index="8" type="Hyper-Assault Gauss Rifle/30 Ammo" shots="0"/>
+				<slot index="9" type="Hyper-Assault Gauss Rifle/30 Ammo" shots="0"/>
+				<slot index="10" type="Hyper-Assault Gauss Rifle/30 Ammo" shots="3"/>
+				<slot index="11" type="Hyper-Assault Gauss Rifle/30 Ammo" shots="4"/>
+			</location>
+			<location index="3"> Left Torso
+				<armor points="1"/>
+				<armor points="20" type="Internal"/>
+				<armor points="Destroyed" type="Rear"/>
+				<slot index="3" type="IS Streak SRM 6 Ammo" shots="9"/>
+			</location>
+			<location index="4"> Right Arm
+				<armor points="21"/>
+				<slot index="5" type="CLHAG30" quirks="jettison_capable" isDestroyed="false"/>
+				<slot index="6" type="CLHAG30" quirks="jettison_capable" isDestroyed="false"/>
+				<slot index="7" type="CLHAG30" quirks="jettison_capable" isDestroyed="false"/>
+				<slot index="8" type="CLHAG30" quirks="jettison_capable" isDestroyed="false"/>
+				<slot index="9" type="CLHAG30" quirks="jettison_capable" isDestroyed="false"/>
+				<slot index="10" type="CLHAG30" quirks="jettison_capable" isDestroyed="false"/>
+				<slot index="11" type="CLHAG30" quirks="jettison_capable" isDestroyed="false"/>
+				<slot index="12" type="CLHAG30" quirks="jettison_capable" isDestroyed="false"/>
+			</location>
+			<location index="5" isDestroyed="true" /> Left Arm
+			<location index="6"> Right Leg
+				<armor points="7"/>
+			</location>
+			<location index="7"> Left Leg
+				<armor points="30"/>
+			</location>
+			<Game id="41"/>
+			<Force force="Comstar Explorer Remnants|0||Temp Batchall Duty|1||"/>
+		</entity>
+
+	</survivors>
+
+	<allies>
+
+		<entity chassis="Black Knight" model="BL-6-KNT" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="8dd295cf-cd61-4532-98fe-cd812054be5b" quirks="command_mech">
+			<pilot size="1" name="Acolyte Epsilon Hayden &quot;Comfort&quot; Megson" nick="Comfort" gender="MALE" clanperson="false" gunnery="3" piloting="4" artillery="8" portraitCat="Male/MekWarrior/" portraitFile="MW_M_18.png" externalId="ff7308ea-089d-4eba-b71a-ee8cd0f29290" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="1"> Center Torso
+				<armor points="8"/>
+				<slot index="12" type="BeagleActiveProbe" isHit="true" isDestroyed="true"/>
+			</location>
+			<location index="2"> Right Torso
+				<armor points="Destroyed"/>
+				<armor points="14" type="Internal"/>
+			</location>
+			<location index="3"> Left Torso
+				<armor points="10"/>
+			</location>
+			<location index="4"> Right Arm
+				<armor points="5"/>
+			</location>
+			<location index="5" isDestroyed="true" /> Left Arm
+			<location index="7"> Left Leg
+				<armor points="18"/>
+			</location>
+			<Game id="31"/>
+			<Force force="Comstar Explorer Remnants|0||Temp Batchall Duty|1||"/>
+		</entity>
+
+	</allies>
+
+	<salvage>
+
+		<entity chassis="Pilot" model="Orselina Ríos" type="Leg" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="20975afa-b544-445e-baf6-cbf7104fe457">
+			<pilot size="1" name="Orselina Ríos" nick="Dryad" gender="FEMALE" clanperson="false" gunnery="3" piloting="4" artillery="3" hits="1" externalId="e843562d-f7da-44a3-b96c-7c870c82a2d3" extraData="surname=Ríos|givenName=Orselina" ejected="true" advantages="hot_dog::weathered" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<Game id="48"/>
+			<ONumberOfMen number="1"/>
+		</entity>
+
+		<entity chassis="Pilot" model="Rauno Kirkcaldie" type="Leg" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="6467fcdb-7a3d-48ac-8773-5b0fec826e22">
+			<pilot size="1" name="Rauno Kirkcaldie" nick="Wrench" gender="OTHER_MALE" clanperson="false" gunnery="2" piloting="3" artillery="2" hits="1" externalId="15d4c078-ac11-4359-b2f7-011c7ddb8715" extraData="surname=Kirkcaldie|givenName=Rauno" ejected="true" advantages="oblique_attacker::weapon_specialist Rotary AC/5::iron_man" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<Game id="50"/>
+			<ONumberOfMen number="1"/>
+		</entity>
+
+		<entity chassis="Bandersnatch" model="BNDR-01B" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="2" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="2cb1c20a-ad35-47c6-a131-dc59ae78c184" quirks="stable::ubiquitous_is">
+			<pilot size="1" name="Fouzia Zand" nick="Swoop" gender="FEMALE" clanperson="false" gunnery="3" piloting="4" artillery="3" hits="Dead" externalId="703bc72d-5ba5-49a4-91ed-13aaabb55297" extraData="surname=Zand|givenName=Fouzia" ejected="false" advantages="hopping_jack::zweihander" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="false"/>
+      The first slot in a location is at index="1".
+			<location index="0" isDestroyed="true" /> Head
+			<location index="1"> Center Torso
+				<armor points="20"/>
+			</location>
+			<location index="2"> Right Torso
+				<armor points="4"/>
+			</location>
+			<location index="3"> Left Torso
+				<armor points="18"/>
+				<slot index="4" type="IS Ammo LRM-5 Anti-Radiation" shots="18"/>
+				<slot index="5" type="IS Ultra AC/10 Ammo" shots="4"/>
+				<slot index="6" type="IS Ultra AC/10 Ammo" shots="10"/>
+				<slot index="7" type="IS Streak SRM 2 Ammo" shots="50"/>
+			</location>
+			<location index="4"> Right Arm
+				<armor points="Destroyed"/>
+				<armor points="6" type="Internal"/>
+			</location>
+			<location index="5"> Left Arm
+				<armor points="10"/>
+			</location>
+			<location index="6"> Right Leg
+				<armor points="18"/>
+			</location>
+			<location index="7"> Left Leg
+				<armor points="2"/>
+			</location>
+			<Game id="42"/>
+		</entity>
+
+		<entity chassis="Avatar" model="AV1-O Redline" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="78be0c72-b21a-4e68-a76f-6500c6476d07">
+			<pilot size="1" name="Demi-Precentor Epsilon XIII Wilford Abiodun" nick="" gender="MALE" clanperson="false" gunnery="3" piloting="2" artillery="5" hits="2" portraitCat="Male/MekWarrior/" portraitFile="MW_M_17.png" externalId="5fd86da7-b937-44bd-aebd-716d6f668e6f" commandB="1" ejected="true" advantages="specialist Ballistic::blind_fighter" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="false"/>
+      The first slot in a location is at index="1".
+			<location index="0"> Head
+				<armor points="4"/>
+				<slot index="3" type="System" isDestroyed="true"/>
+			</location>
+			<location index="1"> Center Torso
+				<armor points="20"/>
+			</location>
+			<location index="2"> Right Torso
+				<armor points="4"/>
+				<armor points="14" type="Internal"/>
+				<armor points="Destroyed" type="Rear"/>
+				<slot index="4" type="IS LB 10-X AC Ammo" shots="7"/>
+				<slot index="5" type="IS LB 10-X Cluster Ammo" shots="10"/>
+				<slot index="7" type="ISRotaryAC5 Ammo" shots="2"/>
+				<slot index="8" type="ISRotaryAC5 Ammo" shots="20"/>
+			</location>
+			<location index="3"> Left Torso
+				<armor points="7"/>
+				<armor points="2" type="Rear"/>
+				<slot index="7" type="IS Ammo MG - Full" shots="193"/>
+			</location>
+			<location index="5"> Left Arm
+				<armor points="11"/>
+			</location>
+			<location index="6" isDestroyed="true" /> Right Leg
+			<location index="7"> Left Leg
+				<armor points="21"/>
+			</location>
+			<Game id="5"/>
+		</entity>
+
+		<entity chassis="Flashman" model="FLS-8K (Blueshift)" type="Biped" commander="true" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="9b4eccba-bd69-4fc5-9808-84cef28b21bf" quirks="rugged_1">
+			<pilot size="1" name="Demi-Precentor Epsilon XVI Bergljot &quot;Fish Fry&quot; Lönnroth" nick="Fish Fry" gender="FEMALE" clanperson="false" gunnery="2" piloting="2" artillery="4" hits="Dead" portraitCat="Female/MekWarrior/" portraitFile="MW_F_13.png" externalId="b32abfbc-f542-4f46-bd38-3bc5b3289afe" ejected="true" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="0" isDestroyed="true" /> Head
+			<location index="1"> Center Torso
+				<armor points="Destroyed"/>
+				<armor points="20" type="Internal"/>
+			</location>
+			<location index="2"> Right Torso
+				<armor points="Destroyed"/>
+				<armor points="8" type="Internal"/>
+				<slot index="8" type="ISAMS Ammo" shots="12"/>
+			</location>
+			<location index="3"> Left Torso
+				<armor points="0"/>
+			</location>
+			<location index="4"> Right Arm
+				<armor points="9"/>
+			</location>
+			<location index="5"> Left Arm
+				<armor points="3"/>
+			</location>
+			<location index="6" isDestroyed="true" /> Right Leg
+			<location index="7"> Left Leg
+				<armor points="15"/>
+			</location>
+			<Game id="35"/>
+		</entity>
+
+		<entity chassis="Rifleman" model="RFL-5D" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="2" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="ac433720-5157-46a6-a041-a2f9db628634" quirks="anti_air::imp_com::searchlight::ubiquitous_is::ubiquitous_clan">
+			<pilot size="1" name="Orselina Ríos" nick="Dryad" gender="FEMALE" clanperson="false" gunnery="3" piloting="4" artillery="3" hits="1" externalId="e843562d-f7da-44a3-b96c-7c870c82a2d3" extraData="surname=Ríos|givenName=Orselina" ejected="true" advantages="hot_dog::weathered" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="0"> Head
+				<armor points="3"/>
+			</location>
+			<location index="1" isDestroyed="true" /> Center Torso
+			<location index="2"> Right Torso
+				<armor points="0"/>
+			</location>
+			<location index="3"> Left Torso
+				<armor points="0"/>
+				<armor points="10" type="Internal"/>
+				<slot index="1" type="System" isHit="true" isDestroyed="false"/>
+				<slot index="5" type="ISDoubleHeatSink" isHit="true" isDestroyed="false"/>
+				<slot index="8" type="ISDoubleHeatSink" isHit="true" isDestroyed="false"/>
+			</location>
+			<location index="4"> Right Arm
+				<armor points="8"/>
+			</location>
+			<location index="5"> Left Arm
+				<armor points="0"/>
+			</location>
+			<location index="6"> Right Leg
+				<armor points="0"/>
+				<armor points="12" type="Internal"/>
+				<slot index="2" type="System" isHit="true" isDestroyed="false"/>
+			</location>
+			<location index="7"> Left Leg
+				<armor points="7"/>
+			</location>
+			<Game id="43"/>
+		</entity>
+
+		<entity chassis="Penetrator" model="PTR-6M" type="Biped" commander="true" offboard="false" hidden="false" deployment="0" deploymentZone="2" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="c3c0263c-7b54-4c2e-bae0-eef373c7b205" quirks="good_rep_1::stable">
+			<pilot size="1" name="Ubaldo bin Abdul" nick="Wisteria" gender="MALE" clanperson="false" gunnery="2" piloting="3" artillery="2" hits="Dead" externalId="4fa00a23-18af-4ec1-b0ed-bbfd6fd6daa2" extraData="surname=bin Abdul|givenName=Ubaldo" ejected="true" advantages="hopping_jack::melee_master::specialist Energy" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="0" isDestroyed="true" /> Head
+			<location index="1"> Center Torso
+				<armor points="12"/>
+				<slot index="12" type="ISAMS Ammo" shots="10"/>
+			</location>
+			<location index="2"> Right Torso
+				<armor points="2"/>
+			</location>
+			<location index="3"> Left Torso
+				<armor points="Destroyed"/>
+				<armor points="10" type="Internal"/>
+			</location>
+			<location index="4"> Right Arm
+				<armor points="Destroyed"/>
+				<armor points="11" type="Internal"/>
+			</location>
+			<location index="5"> Left Arm
+				<armor points="2"/>
+			</location>
+			<location index="6"> Right Leg
+				<armor points="17"/>
+			</location>
+			<location index="7"> Left Leg
+				<armor points="2"/>
+			</location>
+			<Game id="45"/>
+		</entity>
+
+		<entity chassis="Pilot" model="Demi-Precentor Epsilon XIII Wilford Abiodun" type="Leg" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="c288b04f-b90d-4ed6-b698-23a1170388a0" pickUpId="077fd543-b634-496f-a6bf-fc79011e5875">
+			<pilot size="1" name="Demi-Precentor Epsilon XIII Wilford Abiodun" nick="" gender="MALE" clanperson="false" gunnery="3" piloting="2" artillery="5" hits="2" portraitCat="Male/MekWarrior/" portraitFile="MW_M_17.png" externalId="5fd86da7-b937-44bd-aebd-716d6f668e6f" commandB="1" ejected="true" advantages="specialist Ballistic::blind_fighter" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<Game id="46"/>
+			<ONumberOfMen number="1"/>
+		</entity>
+
+	</salvage>
+
+	<devastated>
+
+		<entity chassis="Pilot" model="Demi-Precentor Epsilon XVI Bergljot &quot;Fish Fry&quot; Lönnroth" type="Leg" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="68dfdf03-045e-409b-a0f7-6b6494812ef0">
+			<pilot size="1" name="Demi-Precentor Epsilon XVI Bergljot &quot;Fish Fry&quot; Lönnroth" nick="Fish Fry" gender="FEMALE" clanperson="false" gunnery="2" piloting="2" artillery="4" hits="Dead" portraitCat="Female/MekWarrior/" portraitFile="MW_F_13.png" externalId="b32abfbc-f542-4f46-bd38-3bc5b3289afe" ejected="true" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<location index="0"> Troopers
+				<armor points="0" type="Internal"/>
+			</location>
+			<Game id="47"/>
+			<ONumberOfMen number="1"/>
+		</entity>
+
+		<entity chassis="Pilot" model="Ubaldo bin Abdul" type="Leg" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="0d2aaaae-f908-41cf-9634-fd51085ee817">
+			<pilot size="1" name="Ubaldo bin Abdul" nick="Wisteria" gender="MALE" clanperson="false" gunnery="2" piloting="3" artillery="2" hits="Dead" externalId="4fa00a23-18af-4ec1-b0ed-bbfd6fd6daa2" extraData="surname=bin Abdul|givenName=Ubaldo" ejected="true" advantages="hopping_jack::melee_master::specialist Energy" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<location index="0"> Troopers
+				<armor points="0" type="Internal"/>
+			</location>
+			<Game id="49"/>
+			<ONumberOfMen number="1"/>
+		</entity>
+
+		<entity chassis="Rifleman" model="RFL-8D" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="2" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="077fd543-b634-496f-a6bf-fc79011e5875" quirks="anti_air::imp_com::searchlight::ubiquitous_is::ubiquitous_clan">
+			<pilot size="1" name="Rauno Kirkcaldie" nick="Wrench" gender="OTHER_MALE" clanperson="false" gunnery="2" piloting="3" artillery="2" hits="1" externalId="15d4c078-ac11-4359-b2f7-011c7ddb8715" extraData="surname=Kirkcaldie|givenName=Rauno" ejected="true" advantages="oblique_attacker::weapon_specialist Rotary AC/5::iron_man" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="0"> Head
+				<slot index="3" type="System" isDestroyed="true"/>
+			</location>
+			<location index="1" isDestroyed="true" /> Center Torso
+			<location index="2" isDestroyed="true" /> Right Torso
+			<location index="3" isDestroyed="true" /> Left Torso
+			<location index="4" isDestroyed="true" /> Right Arm
+			<location index="5"> Left Arm has been blown off.
+				<armor points="0"/>
+				<armor points="8" type="Internal"/>
+				<blownOff/>
+				<slot index="1" type="System" isMissing="true" isDestroyed="false"/>
+				<slot index="2" type="System" isMissing="true" isDestroyed="false"/>
+				<slot index="3" type="ISRotaryAC5" isMissing="true" isDestroyed="false"/>
+				<slot index="4" type="ISRotaryAC5" isHit="true" isMissing="true" isDestroyed="false"/>
+				<slot index="5" type="ISRotaryAC5" isMissing="true" isDestroyed="false"/>
+				<slot index="6" type="ISRotaryAC5" isMissing="true" isDestroyed="false"/>
+				<slot index="7" type="ISRotaryAC5" isMissing="true" isDestroyed="false"/>
+				<slot index="8" type="ISRotaryAC5" isMissing="true" isDestroyed="false"/>
+				<slot index="9" type="ISERMediumLaser" isMissing="true" isDestroyed="false"/>
+				<slot index="10" type="IS Endo Steel" isMissing="true" isDestroyed="false"/>
+				<slot index="11" type="IS Endo Steel" isMissing="true" isDestroyed="false"/>
+				<slot index="12" type="IS Endo Steel" isMissing="true" isDestroyed="false"/>
+			</location>
+			<location index="6"> Right Leg
+				<armor points="6"/>
+			</location>
+			<location index="7"> Left Leg
+				<armor points="Destroyed"/>
+				<armor points="11" type="Internal"/>
+			</location>
+			<Game id="44"/>
+		</entity>
+
+	</devastated>
+
+	<kills>
+
+		<kill killed="Pilot Ubaldo bin Abdul (Federated Suns Officer)" killer="None"/>
+		<kill killed="Rifleman RFL-8D (Federated Suns Officer)" killer="56095766-4d41-46c8-b9e3-742923074c74"/>
+		<kill killed="Rifleman RFL-5D (Federated Suns Officer)" killer="8dd295cf-cd61-4532-98fe-cd812054be5b"/>
+		<kill killed="Penetrator PTR-6M (Federated Suns Officer)" killer="56095766-4d41-46c8-b9e3-742923074c74"/>
+		<kill killed="Bandersnatch BNDR-01B (Federated Suns Officer)" killer="56095766-4d41-46c8-b9e3-742923074c74"/>
+	</kills>
+</record>
