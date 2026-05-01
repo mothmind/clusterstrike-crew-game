@@ -1,0 +1,99 @@
+#Saved from version 1337.50.12 on 2026-04-25
+<UnitType>
+BattleArmor
+</UnitType>
+
+<Name>
+Skytac
+</Name>
+
+<Model>
+Recon
+</Model>
+
+<year>
+3145
+</year>
+
+<originalBuildYear>
+3145
+</originalBuildYear>
+
+<type>
+IS Level 4
+</type>
+
+<motion_type>
+Jump
+</motion_type>
+
+<cruiseMP>
+1
+</cruiseMP>
+
+<armor_type>
+33
+</armor_type>
+
+<armor_tech>
+1
+</armor_tech>
+
+<Squad Equipment>
+BAJumpBooster:Body
+BA-Magnetic Clamp:LA
+ISBAHeavyMachineGun:RA
+IS BA Stealth (Improved):Body
+IS BA Stealth (Improved):Body
+IS BA Stealth (Improved):LA
+IS BA Stealth (Improved):RA
+IS BA Stealth (Improved):RA
+</Squad Equipment>
+
+<Trooper 1 Equipment>
+</Trooper 1 Equipment>
+
+<Trooper 2 Equipment>
+</Trooper 2 Equipment>
+
+<Trooper 3 Equipment>
+</Trooper 3 Equipment>
+
+<Trooper 4 Equipment>
+</Trooper 4 Equipment>
+
+<Trooper 5 Equipment>
+</Trooper 5 Equipment>
+
+<Trooper 6 Equipment>
+</Trooper 6 Equipment>
+
+<slotless_equipment>
+BAJumpJet
+</slotless_equipment>
+
+<chassis>
+biped
+</chassis>
+
+<jumpingMP>
+3
+</jumpingMP>
+
+<armor>
+6
+</armor>
+
+<Trooper Count>
+6
+</Trooper Count>
+
+<weightclass>
+2
+</weightclass>
+
+<icon>
+iVBORw0KGgoAAAANSUhEUgAAAFQAAABICAYAAABof9IhAAAE5klEQVR4Xu2ZV0v0WhSG5eOD80/sXbD3jg0r9oLY7hREQUFsYMeuqAh6Y7kQRAULiIh4I4qCeOm14K9Yh3cfcshsZsYkk4wZZj0QZmZPknldWXut170DAhiGYRiGYRiG0UVbWxvJY4wHlJWVcUDNJC8vjwPqip6eHhGc7u5uTUFCdoaHh1N5ebmm8/2OjIwMSklJIbyqx2tqaigrK4uqqqocxpOSkkRAk5OTOaDOyM7OpsXFRcKrMtba2kpHR0fU2NhIx8fHpG5Cubm5tLS0RDztXYAs3NnZEdmIz5jKZ2dntLa2Rk9PT7S5uUnX19eEjMX3+fn5IthFRUUcUGekp6fTysoKJSYm0p+//xACdnp6KrL25eWFVldX6f7+nioqKsT3CDyytri42P8CqsUvIoDT09MUFxdHsbGxND8/T5OTkzQ7OyuyFMHe2NgQWZmWlkZ4APv7+1RbW/vjvfWiRe+votUv4ryBgQGKiYmhvr4+uru7o8/PT/r+/qavry96f3+nsbExQkOamZkRtVW+hxlo1ftr6GkcBQUFotsjK0dGRsQ0f319pYeHBxHM7e1tyszMJCv/aD16PUbxiVb4RdRG5cjJyaHIyEhKSEgQUzw+Pl7cB8FUnyffQ6arq8syvabgyi9WV1e79Yt4VY+juSA48JFoRPheOXDvqakpUUvr6upodHSUKisrKSIigiYmJgiWCVmEDl9SUuJwyDUVtdaIXq/5W4jQ4xeRafCLeMXnhoYG8fS3trbE9N3d3RWWCPdEE8I0b2lpobm5OYqOjib8B4VrOjo6KCoqSpSC/v5+Ojk5EeXg7e2NPj4+6Pn5mc7Pz0WjQpYp9sqoXq9NeyN+8fDwkAoLCx0E4jMybXl5WRzIPPyByBhk4+DgIAUGBlJISIjImNDQUPF+YWGBent7aXh4WDSm29tbenx8pKurK/Gg5NpqRK9X/a0RvwiBckAVUlNTxdSGXers7KT29nZCY0LtCw4OdrgGgR0aGhIZi2xGQHF/aHIVACN6vepvjfjFvb09kXXyvWRglxBEZGNTU5OY4urv8RnTE7UUwUXDUn/vDCN6rfK3LtHrF+vr63WLk5uIArq9PPYTevVa5W/doscvarE3VoLf16NXvt5yrPCLVmIrvXhiqCuYDmb4RRR7fJb9n1mgi0OXWXqVA+fLv6UL1D3cCF1wfX1dWA8UbzP84sXFBR0cHIjOiuYj/7ZWmpub/78W7xFMTF14XPhbM/TCCVxeXorOjyTweOEETwxWAv4PB+oNhBj1izc3N+I6xfd5gjOrhDFl8RnBHB8ft41eB1BzUHvwdOEV8aRgSfT6RWS9+lxPUMy6MzDF7abXJag5QUFB4sma5ReNLLqEhYW5NPRqrNBrGXiK8hjQ6xfRMIwsYqDxqMd/wiy9tsfoIgbqpTLGqLD9IoavYftFDDuBqSuPydhpEUOL3l+ltLRUk0C7LGJo1ftr6Fn9tsMihh69HmPEL2rd9LJiEYM36TxcxJBrKm/SGVzE4E063qT7DyN+kTfp3GDEL/Im3Q/o9YtGNunMXMTQq9cqf+sWPX5Ri72xEvy+Hr3y9ZZjhV+0Elvp9bVNOvzbaKZev9qkU2OVXr/apHOGz+i14yadO3xKr09tegX4mF4z/aI38DW9DMMwDMMwDMMwDMMwDMMwjJ/wLwzIjgYSzXkMAAAAAElFTkSuQmCC
+</icon>
+
+

@@ -1,0 +1,111 @@
+#Saved from version 1337.50.12 on 2026-04-27
+<UnitType>
+SupportTank
+</UnitType>
+
+<Name>
+Red Beetle
+</Name>
+
+<Model>
+Tractor
+</Model>
+
+<year>
+3145
+</year>
+
+<originalBuildYear>
+3145
+</originalBuildYear>
+
+<type>
+IS Level 4
+</type>
+
+<motion_type>
+Wheeled
+</motion_type>
+
+<cruiseMP>
+7
+</cruiseMP>
+
+<engine_type>
+0
+</engine_type>
+
+<armor_type>
+46
+</armor_type>
+
+<armor_tech_rating>
+3
+</armor_tech_rating>
+
+<armor_tech_level>
+1
+</armor_tech_level>
+
+<internal_type>
+-1
+</internal_type>
+
+<armor>
+38
+31
+31
+24
+</armor>
+
+<Body Equipment>
+SV Chassis Mod [Tractor]
+ISOffRoadChassis
+Environmental Sealing
+Basic Fire Control
+ISMagshotGR Ammo
+Supercharger
+</Body Equipment>
+
+<Front Equipment>
+ISMagshotGR
+</Front Equipment>
+
+<Right Equipment>
+SponsonTurret
+ISMagshotGR(ST)
+</Right Equipment>
+
+<Left Equipment>
+SponsonTurret
+ISMagshotGR(ST)
+</Left Equipment>
+
+<Rear Equipment>
+</Rear Equipment>
+
+<barrating>
+5
+</barrating>
+
+<structural_tech_rating>
+3
+</structural_tech_rating>
+
+<engine_tech_rating>
+4
+</engine_tech_rating>
+
+<tonnage>
+60.0
+</tonnage>
+
+<baseChassisSponsonPintleWeight>
+0.0
+</baseChassisSponsonPintleWeight>
+
+<fuel>
+0.0
+</fuel>
+
+

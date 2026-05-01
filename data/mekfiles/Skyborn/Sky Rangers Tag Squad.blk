@@ -1,0 +1,77 @@
+#Saved from version 1337.50.12 on 2026-04-25
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Sky Rangers
+</Name>
+
+<Model>
+Tag Squad
+</Model>
+
+<year>
+3145
+</year>
+
+<originalBuildYear>
+3145
+</originalBuildYear>
+
+<type>
+IS Level 4
+</type>
+
+<motion_type>
+Jump
+</motion_type>
+
+<Troopers Equipment>
+Sneak Suit (Camo/IR/ECM)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<squad_size>
+3
+</squad_size>
+
+<squadn>
+1
+</squadn>
+
+<secondn>
+2
+</secondn>
+
+<Primary>
+Laser Rifle
+</Primary>
+
+<Secondary>
+InfantryTAG
+</Secondary>
+
+<sneakcamo>
+true
+</sneakcamo>
+
+<sneakir>
+true
+</sneakir>
+
+<sneakecm>
+true
+</sneakecm>
+
+<specialization>
+1024
+</specialization>
+
+<icon>
+iVBORw0KGgoAAAANSUhEUgAAAFQAAABICAYAAABof9IhAAABaklEQVR4Xu3ZAW6DMAxA0V5hp+1ZuBN3onVGo9RKGSUe2Ml/UrQOIlX9opMHtxsAAAAAAMCffhZ9BE0IaoygxghqRUIuBG2XQk7TlBZB2xQh365Qoh6kYv4GLY45EOsbs8zznOK9yGuCHlcNKsdex9X+CwQMWsTLvxP0mBxyY11lff9gQT+Rc3rzSdJ7Rx7j9BV5aczwY9xyl6v0ueRn8VrvO0mAMW6HMuCFMUV16ggX1JFqUF9TRyw6nsMxLpYccmPhC/mrrsk5vRn76CuSmC2cjXF9cDTGAYAj8e4cOUdQYwQ1RlAr6387BG2VQkZ+nOFJ/McZzvTxOMOR6t33wYKa/o2rBh3s7rt90MEfZ9gG3bF6Zxv0EzmnN/dm/ZCmQYW+IruPmT7gfw3eoz3OOGXwHulxBoO3seqcSNDjqkEHmxNN6XgjDt6mcsiNhS/kr7om5/Rm7KOvSGK2GG3wPsVIgzcAAACADjwAyLKDuxCoe7kAAAAASUVORK5CYII=
+</icon>
+
+

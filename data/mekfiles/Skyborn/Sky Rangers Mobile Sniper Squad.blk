@@ -1,0 +1,65 @@
+#Saved from version 1337.50.12 on 2026-04-25
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Sky Rangers
+</Name>
+
+<Model>
+Mobile Sniper Squad
+</Model>
+
+<year>
+3145
+</year>
+
+<originalBuildYear>
+3145
+</originalBuildYear>
+
+<type>
+IS Level 4
+</type>
+
+<motion_type>
+Motorized
+</motion_type>
+
+<Troopers Equipment>
+Sneak Suit (Camo/IR/ECM)
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<squad_size>
+7
+</squad_size>
+
+<squadn>
+1
+</squadn>
+
+<Primary>
+Sniper Rifle (Barton AMR (Anti-Armor))
+</Primary>
+
+<sneakcamo>
+true
+</sneakcamo>
+
+<sneakir>
+true
+</sneakir>
+
+<sneakecm>
+true
+</sneakecm>
+
+<icon>
+iVBORw0KGgoAAAANSUhEUgAAAFQAAABICAYAAABof9IhAAAB00lEQVR4Xu3ZAW7DIBBE0Vyhx8+dfCdXi1kKg6PKsASzni8hOU4jtU/YJvT1YowxxphlPzueYV0R1DiCGkdQ4whqHEGNI6hxBLVKIHeC9hcg3+93GATtK4MsZihRGwPMAzQ7xy62b9sW8DQ5Jmh7p6ByTs/Dz6/e8AdEAtRjfU3QtgpAgCRoQwlRn/YnsJ76PmgOK+/jBxZvOKhUXfKcof3hfROHl74G+pQIalW81AjaW4Dkzo9NDnd+5k4Ihzs/k0F17edn5+eGoGsvsieDysjwFgcVTB1zKgABckFQaR6mlBD97PzcDHT9nZ+5oFJ1yS88Q6feP/Pwvonj7oXf85gE9wBdtQT5d0URtDW8NUVIgraGmJyhnRWg+Te9ONjFiplJ0LYS2Icl3qrLvSlViPglBHC9NOShUCEqJHyr84YpjQXFGep0VuaNAZXxCTS+77UxoPpfBIL2h/fHaqbG814zB9UCHM7UeN5z40AVU19nx54bBxoHnnNb/IOHgj6iAKmL7YGgjyiDLGYoURsDzAMUHh7sQmnpkm+fEbS9U9AHrRHNS4B6rK8J2lYBCJAEbSgh5nuUnKHtVaA5rLyPH2D/V13ynKH94X0TB2OMMcbY5H4B1TFj+tnL+p8AAAAASUVORK5CYII=
+</icon>
+
+

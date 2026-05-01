@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<unit version="1337.50.12" >
+
+		<entity chassis="Sky Rangers" model="Jump Ant-Mek" type="Jump" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="2213316c-25e7-4125-858d-d9e42c2a9300">
+			<pilot size="1" name="Erlyinda Ananas" nick="" gender="FEMALE" clanperson="false" gunnery="4" piloting="2" artillery="4" externalId="dc3fc804-85a8-4ec3-a2e4-48ba7e1b0435" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<Game id="1"/>
+		</entity>
+
+		<entity chassis="Sky Rangers" model="Jump Ant-Mek" type="Jump" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="48008682-c603-4dc9-a52b-6d8bebbb08ac">
+			<pilot size="1" name="Killian Heighway" nick="" gender="MALE" clanperson="false" gunnery="3" piloting="2" artillery="4" externalId="2092c538-1e2b-4b4a-87b6-0441c2623879" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<Game id="2"/>
+		</entity>
+
+		<entity chassis="Motorized Platoon" model="(MG)" type="Motorized" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="true" externalId="edd8ee54-b575-4dd5-8b39-b58571837ad7">
+			<pilot size="1" name="Tien Dung Tran-Dinh" nick="" gender="MALE" clanperson="false" gunnery="4" piloting="6" artillery="4" externalId="eafe943b-876d-4b34-8d7b-0a751823cbad" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<Game id="3"/>
+		</entity>
+
+</unit>
