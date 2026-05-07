@@ -1,4 +1,4 @@
-generator:MegaMek Suite 0.50.11 on 2026-03-22
+generator:MegaMek Suite 1337.50.12 on 2026-05-06
 chassis:Hunchback IIC
 model:M
 mul id:1569
@@ -6,7 +6,7 @@ mul id:1569
 Config:Biped
 techbase:Clan
 era:3081
-source:TR:3058U
+source:My Ass
 rules level:3
 role:Ambusher
 
@@ -14,7 +14,7 @@ quirk:bad_rep_clan
 
 mass:50
 engine:250 XL (Clan) Engine
-structure:IS Standard
+structure:Clan Endo Steel
 myomer:Standard
 
 heat sinks:22 Clan Double
@@ -22,26 +22,28 @@ walk mp:5
 jump mp:0
 
 armor:Standard(Inner Sphere)
-LA armor:14
-RA armor:14
-LT armor:17
-RT armor:17
-CT armor:22
+LA armor:16
+RA armor:16
+LT armor:19
+RT armor:19
+CT armor:25
 HD armor:9
-LL armor:21
-RL armor:21
+LL armor:23
+RL armor:24
 RTL armor:5
 RTR armor:5
 RTC armor:7
 
-Weapons:7
+Weapons:9
 Improved Heavy Medium Laser, Left Torso
 Improved Heavy Medium Laser, Left Torso
-Improved Heavy Medium Laser, Left Torso
-Improved Heavy Medium Laser, Right Torso
 Improved Heavy Medium Laser, Right Torso
 Improved Heavy Medium Laser, Right Torso
 Medium Pulse Laser, Head
+ER Medium Laser, Center Torso
+ER Medium Laser, Right Torso
+ER Medium Laser, Left Torso
+ER Small Laser, Left Torso
 
 Left Arm:
 Shoulder
@@ -54,8 +56,8 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
--Empty-
--Empty-
+Clan Endo Steel
+Clan Endo Steel
 
 Right Arm:
 Shoulder
@@ -66,10 +68,10 @@ CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
 CLDoubleHeatSink
--Empty-
--Empty-
--Empty-
--Empty-
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
+Clan Endo Steel
 
 Left Torso:
 Fusion Engine
@@ -82,8 +84,8 @@ CLImprovedMediumHeavyLaser
 CLImprovedMediumHeavyLaser
 CLImprovedMediumHeavyLaser
 CLImprovedMediumHeavyLaser
-CLImprovedMediumHeavyLaser
-CLImprovedMediumHeavyLaser
+CLERMediumLaser
+CLERSmallLaser
 
 Right Torso:
 Fusion Engine
@@ -94,10 +96,10 @@ CLImprovedMediumHeavyLaser
 CLImprovedMediumHeavyLaser
 CLImprovedMediumHeavyLaser
 CLImprovedMediumHeavyLaser
-CLImprovedMediumHeavyLaser
-CLImprovedMediumHeavyLaser
+CLERMediumLaser
 CLMASC
 CLMASC
+Clan Endo Steel
 
 Center Torso:
 Fusion Engine
@@ -110,8 +112,8 @@ Gyro
 Fusion Engine
 Fusion Engine
 Fusion Engine
+CLERMediumLaser
 Supercharger
--Empty-
 
 Head:
 Life Support
