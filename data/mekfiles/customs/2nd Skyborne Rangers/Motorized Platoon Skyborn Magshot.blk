@@ -1,0 +1,73 @@
+#Saved from version 1337.50.12 on 2026-05-02
+<UnitType>
+Infantry
+</UnitType>
+
+<Name>
+Motorized Platoon
+</Name>
+
+<Model>
+Skyborn Magshot
+</Model>
+
+<mul id:>
+2238
+</mul id:>
+
+<year>
+3154
+</year>
+
+<originalBuildYear>
+3154
+</originalBuildYear>
+
+<type>
+IS Level 4
+</type>
+
+<role>
+Ambusher
+</role>
+
+<motion_type>
+Motorized
+</motion_type>
+
+<Troopers Equipment>
+AntiMekGear
+Ballistic Plate, Standard
+</Troopers Equipment>
+
+<Field Guns Equipment>
+</Field Guns Equipment>
+
+<source>
+TW
+</source>
+
+<squad_size>
+6
+</squad_size>
+
+<squadn>
+5
+</squadn>
+
+<secondn>
+2
+</secondn>
+
+<Primary>
+InfantryAssaultRifle
+</Primary>
+
+<Secondary>
+Gauss Rifle (Magshot)
+</Secondary>
+
+<encumberingarmor>
+true
+</encumberingarmor>
+

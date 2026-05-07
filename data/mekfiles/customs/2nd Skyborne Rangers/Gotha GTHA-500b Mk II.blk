@@ -1,0 +1,115 @@
+#Saved from version 1337.50.12 on 2026-05-02
+<UnitType>
+AeroSpaceFighter
+</UnitType>
+
+<Name>
+Gotha
+</Name>
+
+<Model>
+GTHA-500b Mk II
+</Model>
+
+<mul id:>
+4229
+</mul id:>
+
+<year>
+3154
+</year>
+
+<originalBuildYear>
+3154
+</originalBuildYear>
+
+<type>
+IS Level 4
+</type>
+
+<role>
+Attack Fighter
+</role>
+
+<motion_type>
+Aerodyne
+</motion_type>
+
+<SafeThrust>
+5
+</SafeThrust>
+
+<cockpit_type>
+0
+</cockpit_type>
+
+<heatsinks>
+15
+</heatsinks>
+
+<sink_type>
+1
+</sink_type>
+
+<fuel>
+480
+</fuel>
+
+<engine_type>
+0
+</engine_type>
+
+<armor_type>
+19
+</armor_type>
+
+<armor_tech_rating>
+0
+</armor_tech_rating>
+
+<armor_tech_level>
+3
+</armor_tech_level>
+
+<armor>
+76
+54
+54
+48
+</armor>
+
+<Nose Equipment>
+ISLargePulseLaser
+Medium Laser
+Medium Laser
+</Nose Equipment>
+
+<Left Wing Equipment>
+Small Laser
+ISLargePulseLaser
+</Left Wing Equipment>
+
+<Right Wing Equipment>
+Small Laser
+ISLargePulseLaser
+</Right Wing Equipment>
+
+<Aft Equipment>
+Medium Laser
+Medium Laser
+</Aft Equipment>
+
+<Wings Equipment>
+</Wings Equipment>
+
+<Fuselage Equipment>
+</Fuselage Equipment>
+
+<source>
+TR:3075
+</source>
+
+<tonnage>
+60.0
+</tonnage>
+

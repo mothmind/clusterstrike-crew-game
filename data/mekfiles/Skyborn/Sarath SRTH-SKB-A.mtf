@@ -1,0 +1,162 @@
+generator:MegaMek Suite 1337.50.12 on 2026-05-03
+chassis:Sarath
+model:SRTH-SKB-A
+mul id:6506
+
+Config:Quad OmniMek
+techbase:Inner Sphere
+era:3154
+source:TR:3145:FWL
+rules level:3
+role:Skirmisher
+
+quirk:bad_rep_is
+quirk:compact_mech
+quirk:distracting
+quirk:low_profile
+
+mass:50
+engine:250 XL Engine
+structure:IS Standard
+myomer:Triple-Strength
+
+heat sinks:10 IS Double
+base chassis heat sinks:10
+walk mp:5
+jump mp:0
+
+armor:Standard(Inner Sphere)
+FLL armor:24
+FRL armor:24
+LT armor:20
+RT armor:20
+CT armor:25
+HD armor:8
+RLL armor:24
+RRL armor:24
+RTL armor:4
+RTR armor:4
+RTC armor:7
+
+Weapons:7
+ER Medium Laser, Right Torso
+ER Small Laser, Head
+Streak SRM 6, Right Torso
+Streak SRM 6, Right Torso
+Medium X-Pulse Laser, Right Torso
+ER Small Laser, Rear Left Leg
+ER Small Laser, Rear Right Leg
+
+Front Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+Spikes (OMNIPOD)
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Front Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+Spikes (OMNIPOD)
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+BeagleActiveProbe (OMNIPOD)
+BeagleActiveProbe (OMNIPOD)
+Spikes (OMNIPOD)
+Triple Strength Myomer
+Triple Strength Myomer
+Triple Strength Myomer
+Triple Strength Myomer
+Triple Strength Myomer
+Triple Strength Myomer
+
+Right Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+ISERMediumLaser (T) (OMNIPOD)
+ISQuadTurret
+Spikes (OMNIPOD)
+ISStreakSRM6 (T) (OMNIPOD)
+ISStreakSRM6 (T) (OMNIPOD)
+IS Streak SRM 6 Ammo (OMNIPOD)
+ISStreakSRM6 (T) (OMNIPOD)
+ISStreakSRM6 (T) (OMNIPOD)
+ISMediumXPulseLaser (T) (OMNIPOD)
+
+Center Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Gyro
+Gyro
+Gyro
+Gyro
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Spikes (OMNIPOD)
+Supercharger (OMNIPOD)
+
+Head:
+Life Support
+Sensors
+Cockpit
+ISERSmallLaser
+Sensors
+Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Rear Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+ISERSmallLaser (R) (OMNIPOD)
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Rear Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+ISERSmallLaser (R) (OMNIPOD)
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+
