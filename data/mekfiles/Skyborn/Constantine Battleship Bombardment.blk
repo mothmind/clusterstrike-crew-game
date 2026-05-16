@@ -1,0 +1,112 @@
+#Saved from version 1337.50.12 on 2026-05-08
+<UnitType>
+Tank
+</UnitType>
+
+<Name>
+Constantine Battleship
+</Name>
+
+<Model>
+Bombardment
+</Model>
+
+<year>
+3145
+</year>
+
+<originalBuildYear>
+3145
+</originalBuildYear>
+
+<type>
+IS Level 4
+</type>
+
+<motion_type>
+Naval
+</motion_type>
+
+<cruiseMP>
+1
+</cruiseMP>
+
+<engine_type>
+0
+</engine_type>
+
+<armor_type>
+4
+</armor_type>
+
+<armor_tech_rating>
+0
+</armor_tech_rating>
+
+<armor_tech_level>
+5
+</armor_tech_level>
+
+<armor>
+170
+170
+170
+170
+170
+170
+</armor>
+
+<Body Equipment>
+Communications Equipment:SIZE:1.0
+Advanced Fire Control
+ISTargeting Computer
+ISAngelECMSuite
+ISAMS Ammo
+ISLongTomAmmo
+ISLongTomAmmo
+ISLongTomAmmo
+ISLongTomAmmo
+Copperhead Long Tom Ammo
+Copperhead Long Tom Ammo
+Cluster Long Tom Ammo
+Fuel-Air Long Tom Ammo
+Flechette Long Tom Ammo
+Smoke Long Tom Ammo
+ISRotaryAC2 Ammo
+ISRotaryAC2 Ammo
+Illumination Long Tom Ammo
+</Body Equipment>
+
+<Front Equipment>
+ISAntiMissileSystem
+</Front Equipment>
+
+<Right Equipment>
+ISAntiMissileSystem
+</Right Equipment>
+
+<Left Equipment>
+ISAntiMissileSystem
+</Left Equipment>
+
+<Rear Equipment>
+ISAntiMissileSystem
+</Rear Equipment>
+
+<Rear Turret Equipment>
+ISTAG
+ISAntiMissileSystem
+ISLongTom
+ISLongTom
+</Rear Turret Equipment>
+
+<Front Turret Equipment>
+ISAntiMissileSystem
+ISRotaryAC2
+</Front Turret Equipment>
+
+<tonnage>
+300.0
+</tonnage>
+
+

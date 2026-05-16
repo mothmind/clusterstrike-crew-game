@@ -3,93 +3,240 @@
 <record version="1337.50.12" >
 	<survivors>
 
-		<entity chassis="Ironsides" model="CX-19" type="Aerodyne" commander="true" offboard="false" hidden="false" deployment="7" deploymentZone="2" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" velocity="1" altitude="5" externalId="9be39f38-c280-4b63-8b02-1e3a969c6ecf" quirks="bad_rep_is::non_standard::prototype">
+		<entity chassis="Ironsides" model="CX-19" type="Aerodyne" commander="false" offboard="false" hidden="false" deployment="5" deploymentZone="2" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" velocity="3" altitude="4" externalId="9be39f38-c280-4b63-8b02-1e3a969c6ecf" quirks="bad_rep_is::non_standard::prototype">
 			<pilot size="1" name="Acolyte Pi Janne &quot;Overlord&quot; Rechnio" nick="Overlord" gender="OTHER_FEMALE" clanperson="false" gunnery="2" piloting="0" artillery="8" portraitCat="Female/Aerospace Pilot/" portraitFile="ASF_F_9.png" externalId="d30e20c0-4262-4614-a53b-83cf38438a83" ejected="false" advantages="zweihander" edge="edge 1::edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
 			<fuel left="400"/>
 			<structural integrity="6"/>
 			<heat sinks="14"/>
       The first slot in a location is at index="1".
 			<location index="5"> Fuselage
-				<slot index="1" type="Clan Streak SRM 6 Ammo" shots="15"/>
-				<slot index="2" type="Clan Streak SRM 6 Ammo" shots="15"/>
+				<slot index="1" type="Clan Streak SRM 6 Ammo" shots="0"/>
+				<slot index="2" type="Clan Streak SRM 6 Ammo" shots="13"/>
 			</location>
 			<Game id="20"/>
 			<Force force="Comstar Explorer Remnants|0||Greenday Company|1||Forge Squadron|2||"/>
 		</entity>
 
-		<entity chassis="Ironsides" model="CX-19" type="Aerodyne" commander="false" offboard="false" hidden="false" deployment="29" deploymentZone="8" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" velocity="1" altitude="5" externalId="bb0c1b73-7837-4c07-b0df-db1ec89229cf" quirks="bad_rep_is::non_standard::prototype">
+		<entity chassis="Ironsides" model="CX-19" type="Aerodyne" commander="false" offboard="false" hidden="false" deployment="10" deploymentZone="4" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" velocity="1" altitude="5" externalId="bb0c1b73-7837-4c07-b0df-db1ec89229cf" quirks="bad_rep_is::non_standard::prototype">
 			<pilot size="1" name="Acolyte Pi Shane &quot;Bolt&quot; Allunga" nick="Bolt" gender="OTHER_MALE" clanperson="false" gunnery="3" piloting="0" artillery="8" portraitCat="Male/Aerospace Pilot/" portraitFile="ASF_M_33.png" externalId="c6ef8abf-a1da-4b52-8f65-4afa722e168a" ejected="false" advantages="cluster_hitter" edge="edge 1::edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
 			<fuel left="400"/>
 			<structural integrity="6"/>
 			<heat sinks="14"/>
       The first slot in a location is at index="1".
+			<location index="1"> Left Wing
+				<armor points="18"/>
+				<slot index="4" type="CLStreakSRM6" isHit="true" isDestroyed="true"/>
+			</location>
 			<location index="5"> Fuselage
-				<slot index="1" type="Clan Streak SRM 6 Ammo" shots="15"/>
+				<slot index="1" type="Clan Streak SRM 6 Ammo" shots="4"/>
 				<slot index="2" type="Clan Streak SRM 6 Ammo" shots="15"/>
 			</location>
 			<Game id="21"/>
 			<Force force="Comstar Explorer Remnants|0||Greenday Company|1||Forge Squadron|2||"/>
 		</entity>
 
+		<entity chassis="Shugenja" model="SJA-7D" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="ca7e749e-09e9-4b1f-9c73-07bc37e3846a" quirks="cowl::hyper_actuator::exp_actuator" c3UUID="136ae968-428a-43f5-8d11-9edb3ca4768c">
+			<pilot size="1" name="Demi-Precentor Epsilon VI Lynn &quot;Azrael&quot; Kamkha" nick="Azrael" gender="FEMALE" clanperson="false" gunnery="1" piloting="2" artillery="3" portraitCat="Female/MekWarrior/" portraitFile="MW_F_47.png" externalId="5201ccd9-f07e-42e8-ac4f-d2efda6126da" commandB="2" ejected="false" advantages="cluster_hitter" edge="edge 1::edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="3"> Left Torso
+				<slot index="9" type="IS MRM 30 Ammo" shots="8"/>
+				<slot index="10" type="IS MRM 30 Ammo" shots="8"/>
+			</location>
+			<Game id="6"/>
+			<Force force="Comstar Explorer Remnants|0||Red Section|3||Thug Lance|4||"/>
+		</entity>
+
+		<entity chassis="Atlas III" model="AS7-D2" type="Biped" commander="true" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="56095766-4d41-46c8-b9e3-742923074c74" quirks="command_mech::distracting::pro_actuator">
+			<pilot size="1" name="Demi-Precentor Epsilon IX Tony &quot;Headhunter&quot; Liu" nick="Headhunter" gender="OTHER_MALE" clanperson="false" gunnery="1" piloting="2" artillery="8" portraitCat="MHQ Real Portraits/Male/Combat/" portraitFile="Male_177.jpg" externalId="3cadfe5c-c978-488c-95da-98df5b90fd93" ejected="false" advantages="blood_stalker::sandblaster HAG/30" edge="edge 1::edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="false"/>
+      The first slot in a location is at index="1".
+			<location index="1"> Center Torso
+				<armor points="49"/>
+			</location>
+			<location index="2"> Right Torso
+				<slot index="6" type="Clan Streak LRM 20 Ammo" shots="3"/>
+				<slot index="7" type="Clan Streak LRM 20 Ammo" shots="6"/>
+				<slot index="8" type="Hyper-Assault Gauss Rifle/30 Ammo" shots="0"/>
+				<slot index="9" type="Hyper-Assault Gauss Rifle/30 Ammo" shots="4"/>
+				<slot index="10" type="Hyper-Assault Gauss Rifle/30 Ammo" shots="4"/>
+				<slot index="11" type="Hyper-Assault Gauss Rifle/30 Ammo" shots="4"/>
+			</location>
+			<location index="3"> Left Torso
+				<slot index="3" type="IS Streak SRM 6 Ammo" shots="15"/>
+			</location>
+			<location index="4"> Right Arm
+				<slot index="5" type="CLHAG30" quirks="jettison_capable" isDestroyed="false"/>
+				<slot index="6" type="CLHAG30" quirks="jettison_capable" isDestroyed="false"/>
+				<slot index="7" type="CLHAG30" quirks="jettison_capable" isDestroyed="false"/>
+				<slot index="8" type="CLHAG30" quirks="jettison_capable" isDestroyed="false"/>
+				<slot index="9" type="CLHAG30" quirks="jettison_capable" isDestroyed="false"/>
+				<slot index="10" type="CLHAG30" quirks="jettison_capable" isDestroyed="false"/>
+				<slot index="11" type="CLHAG30" quirks="jettison_capable" isDestroyed="false"/>
+				<slot index="12" type="CLHAG30" quirks="jettison_capable" isDestroyed="false"/>
+			</location>
+			<Game id="38"/>
+			<Force force="Comstar Explorer Remnants|0||Red Section|3||Thug Lance|4||"/>
+		</entity>
+
 	</survivors>
 
 	<salvage>
 
-		<entity chassis="Hetzer Wheeled Assault Gun" model="" type="Wheeled" commander="false" offboard="false" hidden="false" deployment="2" deploymentZone="6" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="0dbf8db1-104f-45bd-bd4a-3c7383a89005" quirks="low_profile::bad_rep_is::poor_work">
-			<pilot size="3" name="Egan Cann" nick="" gender="MALE" clanperson="false" gunnery="5" piloting="6" artillery="5" externalId="0ba4cfc2-33d9-489e-b70e-3996597b03ed" extraData="surname=Cann|givenName=Egan" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
-      <motive damage="0" penalty="0"/>
+		<entity chassis="Vehicle Crew" model="Yasmine Datta" type="Leg" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="e84bf2fa-ceba-4431-8a38-360b962b2d84">
+			<pilot size="3" name="Yasmine Datta" nick="" gender="OTHER_FEMALE" clanperson="false" gunnery="7" piloting="7" artillery="7" externalId="e3567f87-8f87-4b18-870e-f7bb7f1253dc" extraData="surname=Datta|givenName=Yasmine" ejected="true" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<location index="0"> Troopers
+				<armor points="2" type="Internal"/>
+			</location>
+			<Game id="46"/>
+			<ONumberOfMen number="3"/>
+		</entity>
+
+		<entity chassis="Cormorant Medium Cargo Craft" model="" type="WiGE" commander="true" offboard="false" hidden="false" deployment="0" deploymentZone="2" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="a84c0146-2109-4b18-8d22-39944eb07639">
+			<pilot size="3" name="Hallisey O'Farrissy" nick="" gender="MALE" clanperson="false" gunnery="7" piloting="7" artillery="7" externalId="2ca7bb79-530b-4009-b372-e78ad9d3d38e" extraData="surname=O'Farrissy|givenName=Hallisey" ejected="true" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+      <motive damage="5" penalty="0"/>
+      <tcriticals sensors="1" driver="hit"/>
       Tanks have special needs, so don't delete any ammo slots.
       The first slot in a location is at index="1".
 			<location index="0"> Body
-				<slot index="1" type="IS Flak Ammo AC/20" shots="5"/>
-				<slot index="2" type="IS Ammo AC/20" shots="5"/>
-				<slot index="3" type="IS Caseless Ammo AC/20" shots="10"/>
-				<slot index="4" type="IS Precision Playtest Ammo AC/20" shots="3"/>
+				<slot index="2" type="IS Machine Gun Ammo - Half" shots="100"/>
 			</location>
-			<Game id="22"/>
-			<Force force="Federated Suns OpFor|3||Defcon Lance|4||"/>
+			<location index="1" isDestroyed="true" /> Front
+			<Game id="40"/>
 		</entity>
 
-		<entity chassis="Tokugawa Heavy Tank" model="" type="Wheeled" commander="true" offboard="false" hidden="false" deployment="2" deploymentZone="6" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="59c785c5-e95e-42b1-82e1-25eb76c8bcfe">
-			<pilot size="4" name="Ann Schovajsa" nick="" gender="OTHER_FEMALE" clanperson="false" gunnery="6" piloting="7" artillery="6" externalId="02bf96f8-179d-42f6-ba2f-ed2dad9c954f" extraData="surname=Schovajsa|givenName=Ann" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
-      <motive damage="0" penalty="0"/>
+		<entity chassis="Cormorant Medium Cargo Craft" model="" type="WiGE" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="2" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="bad99dea-902f-4209-88a9-88c8171b9edf">
+			<pilot size="3" name="Yasmine Datta" nick="" gender="OTHER_FEMALE" clanperson="false" gunnery="7" piloting="7" artillery="7" externalId="e3567f87-8f87-4b18-870e-f7bb7f1253dc" extraData="surname=Datta|givenName=Yasmine" ejected="true" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+      <motive damage="5" penalty="0"/>
+      <tcriticals sensors="3"/>
       Tanks have special needs, so don't delete any ammo slots.
       The first slot in a location is at index="1".
 			<location index="0"> Body
-				<slot index="1" type="IS LB 10-X AC Ammo" shots="10"/>
-				<slot index="2" type="IS LB 10-X AC Ammo" shots="10"/>
-				<slot index="3" type="IS LB 10-X Cluster Ammo" shots="10"/>
-				<slot index="4" type="IS Ammo SRM-6 Artemis-capable" shots="15"/>
-				<slot index="5" type="IS Ammo SRM-6 Artemis-capable" shots="15"/>
+				<slot index="2" type="IS Machine Gun Ammo - Half" shots="100"/>
 			</location>
-			<Game id="23"/>
-			<Force force="Federated Suns OpFor|3||Defcon Lance|4||"/>
+			<location index="1" isDestroyed="true" /> Front
+			<Game id="41"/>
 		</entity>
 
-		<entity chassis="Storm Raider" model="STM-R1" type="Biped" commander="false" offboard="false" hidden="false" deployment="4" deploymentZone="5" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="93cc3c3c-85b7-44fa-ad58-f2cef224c540">
-			<pilot size="1" name="Dallis Mitul" nick="" gender="FEMALE" clanperson="false" gunnery="6" piloting="7" artillery="6" externalId="4928cbec-9056-4b8d-bfbf-5350ebeaf37b" extraData="surname=Mitul|givenName=Dallis" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="false"/>
+		<entity chassis="Prime Mover" model="(Succession Wars)" type="Wheeled" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="2" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="2984e8c0-32f6-4aa5-b8f6-98d36de8c83e">
+			<pilot size="3" name="Cecil bin Sameh" nick="" gender="MALE" clanperson="false" gunnery="5" piloting="5" artillery="5" externalId="da14075c-95f1-4834-9827-3668fc07aae0" extraData="surname=bin Sameh|givenName=Cecil" ejected="true" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+      <motive damage="5" penalty="4"/>
+      <turretlock direction="3"/>
+      <tcriticals engine="hit"/>
+      Tanks have special needs, so don't delete any ammo slots.
       The first slot in a location is at index="1".
-			<location index="3"> Left Torso
-				<slot index="6" type="IS Caseless Ammo AC/10" shots="20"/>
+			<location index="0"> Body
+				<slot index="2" type="IS Ammo SRM-6 Dead-Fire" shots="15"/>
+				<slot index="3" type="IS Ammo MG - Full" shots="200"/>
 			</location>
-			<location index="4"> Right Arm
-				<slot index="5" type="Mace" quirks="jettison_capable" isDestroyed="false"/>
-				<slot index="6" type="Mace" quirks="jettison_capable" isDestroyed="false"/>
-				<slot index="7" type="Mace" quirks="jettison_capable" isDestroyed="false"/>
-				<slot index="8" type="Mace" quirks="jettison_capable" isDestroyed="false"/>
+			<location index="1"> Front
+				<armor points="20"/>
 			</location>
-			<location index="5"> Left Arm
-				<slot index="5" type="Autocannon/10" quirks="jettison_capable" isDestroyed="false"/>
-				<slot index="6" type="Autocannon/10" quirks="jettison_capable" isDestroyed="false"/>
-				<slot index="7" type="Autocannon/10" quirks="jettison_capable" isDestroyed="false"/>
-				<slot index="8" type="Autocannon/10" quirks="jettison_capable" isDestroyed="false"/>
-				<slot index="9" type="Autocannon/10" quirks="jettison_capable" isDestroyed="false"/>
-				<slot index="10" type="Autocannon/10" quirks="jettison_capable" isDestroyed="false"/>
-				<slot index="11" type="Autocannon/10" quirks="jettison_capable" isDestroyed="false"/>
+			<location index="3" isDestroyed="true" /> Left
+			<location index="4"> Rear
+				<armor points="10"/>
 			</location>
-			<Game id="24"/>
-			<Force force="Federated Suns Rapid Response Force|5||Charisma Lance|6||"/>
+			<location index="5"> Turret
+				<armor points="14"/>
+			</location>
+			<Game id="42"/>
 		</entity>
 
 	</salvage>
+
+	<retreated>
+
+		<entity chassis="Vehicle Crew" model="Hallisey O'Farrissy" type="Leg" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="4" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="eed3f56a-4558-46d5-97b3-e6aa73dcba94">
+			<pilot size="3" name="Hallisey O'Farrissy" nick="" gender="MALE" clanperson="false" gunnery="7" piloting="7" artillery="7" externalId="2ca7bb79-530b-4009-b372-e78ad9d3d38e" extraData="surname=O'Farrissy|givenName=Hallisey" ejected="true" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<Game id="44"/>
+			<ONumberOfMen number="3"/>
+		</entity>
+
+		<entity chassis="Vehicle Crew" model="Cecil bin Sameh" type="Leg" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="2" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="39ebeb16-a719-4975-9e9c-acc559e7f7ad">
+			<pilot size="3" name="Cecil bin Sameh" nick="" gender="MALE" clanperson="false" gunnery="5" piloting="5" artillery="5" externalId="da14075c-95f1-4834-9827-3668fc07aae0" extraData="surname=bin Sameh|givenName=Cecil" ejected="true" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<Game id="47"/>
+			<ONumberOfMen number="3"/>
+		</entity>
+
+		<entity chassis="Zeus" model="ZEU-9T" type="Biped" commander="false" offboard="false" hidden="false" deployment="6" deploymentZone="4" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="77be8bbd-f20f-4795-a1fd-0bd850cccd69" quirks="barrel_fists_ra::easy_maintain">
+			<pilot size="1" name="Gerald Malik" nick="" gender="MALE" clanperson="false" gunnery="5" piloting="6" artillery="5" hits="4" externalId="ca315b91-5b75-4c8c-a05f-e7f5b06ff661" extraData="surname=Malik|givenName=Gerald" commandB="1" ejected="false" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="false"/>
+      The first slot in a location is at index="1".
+			<location index="0"> Head
+				<armor points="4"/>
+			</location>
+			<location index="1"> Center Torso
+				<armor points="1"/>
+				<armor points="8" type="Rear"/>
+			</location>
+			<location index="2" isDestroyed="true" /> Right Torso
+			<location index="3"> Left Torso
+				<armor points="9"/>
+			</location>
+			<location index="4"> Right Arm has been blown off.
+				<armor points="Destroyed"/>
+				<armor points="4" type="Internal"/>
+				<blownOff/>
+				<slot index="1" type="System" isMissing="true" isDestroyed="false"/>
+				<slot index="2" type="System" isMissing="true" isDestroyed="false"/>
+				<slot index="3" type="System" isMissing="true" isDestroyed="false"/>
+				<slot index="4" type="LRM 15" isMissing="true" isDestroyed="false"/>
+				<slot index="5" type="LRM 15" isMissing="true" isDestroyed="false"/>
+				<slot index="6" type="LRM 15" isMissing="true" isDestroyed="false"/>
+				<slot index="7" type="ISArtemisIV" isMissing="true" isDestroyed="false"/>
+				<slot index="8" type="ISDoubleHeatSink" isMissing="true" isDestroyed="false"/>
+				<slot index="9" type="ISDoubleHeatSink" isHit="true" isMissing="true" isDestroyed="true"/>
+				<slot index="10" type="ISDoubleHeatSink" isMissing="true" isDestroyed="false"/>
+				<slot index="11" type="IS Ferro-Fibrous" isMissing="true" isDestroyed="false"/>
+				<slot index="12" type="IS Ferro-Fibrous" isMissing="true" isDestroyed="false"/>
+			</location>
+			<location index="5"> Left Arm
+				<armor points="18"/>
+			</location>
+			<location index="6"> Right Leg
+				<armor points="11"/>
+			</location>
+			<location index="7"> Left Leg
+				<armor points="31"/>
+			</location>
+			<Game id="43"/>
+		</entity>
+
+	</retreated>
+
+	<devastated>
+
+		<entity chassis="Hermes II" model="HER-5Sr" type="Biped" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="2" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="f5aa98c2-16d0-4393-9718-083de1a988f3" quirks="easy_maintain::imp_com">
+			<pilot size="1" name="Quentin MacFetridge" nick="" gender="MALE" clanperson="false" gunnery="5" piloting="6" artillery="5" hits="Dead" externalId="fd25ab70-7de9-4ed2-b1d6-3dbbf7353db3" extraData="surname=MacFetridge|givenName=Quentin" commandB="1" ejected="true" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost" autoeject="true"/>
+      The first slot in a location is at index="1".
+			<location index="0"> Head
+				<armor points="4"/>
+				<slot index="3" type="System" isDestroyed="true"/>
+			</location>
+			<location index="1" isDestroyed="true" /> Center Torso
+			<location index="2" isDestroyed="true" /> Right Torso
+			<location index="3" isDestroyed="true" /> Left Torso
+			<location index="4" isDestroyed="true" /> Right Arm
+			<location index="5" isDestroyed="true" /> Left Arm
+			<location index="6" isDestroyed="true" /> Right Leg
+			<location index="7" isDestroyed="true" /> Left Leg
+			<Game id="39"/>
+		</entity>
+
+		<entity chassis="Pilot" model="Quentin MacFetridge" type="Leg" commander="false" offboard="false" hidden="false" deployment="0" deploymentZone="-1" deploymentZoneWidth="3" deploymentZoneOffset="0" deploymentZoneAnyNWx="-1" deploymentZoneAnyNWy="-1" deploymentZoneAnySEx="-1" deploymentZoneAnySEy="-1" neverDeployed="false" externalId="7ffb4449-fcd0-4b87-9ba1-c6818bd60b3d">
+			<pilot size="1" name="Quentin MacFetridge" nick="" gender="MALE" clanperson="false" gunnery="5" piloting="6" artillery="5" hits="Dead" externalId="fd25ab70-7de9-4ed2-b1d6-3dbbf7353db3" extraData="surname=MacFetridge|givenName=Quentin" commandB="1" ejected="true" edge="edge_when_headhit::edge_when_tac::edge_when_ko::edge_when_explosion::edge_when_masc_fails::edge_when_aero_alt_loss::edge_when_aero_explosion::edge_when_aero_ko::edge_when_aero_lucky_crit::edge_when_aero_nuke_crit::edge_when_aero_unit_cargo_lost"/>
+			<location index="0"> Troopers
+				<armor points="0" type="Internal"/>
+			</location>
+			<Game id="45"/>
+			<ONumberOfMen number="1"/>
+		</entity>
+
+	</devastated>
+
+	<kills>
+
+		<kill killed="Cormorant Medium Cargo Craft #2 (Federated Suns Convoy)" killer="56095766-4d41-46c8-b9e3-742923074c74"/>
+		<kill killed="Cormorant Medium Cargo Craft (Federated Suns Convoy)" killer="56095766-4d41-46c8-b9e3-742923074c74"/>
+		<kill killed="Pilot Quentin MacFetridge (Federated Suns OpFor)" killer="None"/>
+		<kill killed="Hermes II HER-5Sr (Federated Suns OpFor)" killer="9be39f38-c280-4b63-8b02-1e3a969c6ecf"/>
+		<kill killed="Prime Mover (Succession Wars) (Federated Suns Convoy)" killer="9be39f38-c280-4b63-8b02-1e3a969c6ecf"/>
+	</kills>
 </record>
