@@ -1,0 +1,174 @@
+generator:MegaMek Suite 1337.50.12 on 2026-05-16
+chassis:Bandersnatch
+model:BNDR-01B (BS-B)
+mul id:219
+
+Config:Biped
+techbase:Inner Sphere
+era:3133
+source:TR:3055U
+rules level:2
+role:Brawler
+
+quirk:stable
+quirk:ubiquitous_is
+
+mass:75
+engine:300 Light Engine
+structure:IS Standard
+myomer:Standard
+
+heat sinks:12 IS Double
+walk mp:4
+jump mp:0
+
+armor:Heavy Ferro-Fibrous(Inner Sphere)
+LA armor:22
+RA armor:22
+LT armor:24
+RT armor:24
+CT armor:33
+HD armor:9
+LL armor:30
+RL armor:30
+RTL armor:7
+RTR armor:7
+RTC armor:10
+
+Weapons:7
+Ultra AC/10, Left Arm
+Medium Laser, Left Arm
+Medium Laser, Left Arm
+PPC, Right Arm
+Medium Laser, Right Arm
+Medium Laser, Right Arm
+LRM 5, Left Torso
+
+Left Arm:
+Shoulder
+Upper Arm Actuator
+Lower Arm Actuator
+ISUltraAC10
+ISUltraAC10
+ISUltraAC10
+ISUltraAC10
+ISUltraAC10
+ISUltraAC10
+ISUltraAC10
+Medium Laser
+Medium Laser
+
+Right Arm:
+Shoulder
+Upper Arm Actuator
+Lower Arm Actuator
+PPC
+PPC
+PPC
+Medium Laser
+Medium Laser
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+-Empty-
+
+Left Torso:
+Fusion Engine
+Fusion Engine
+LRM 5
+IS Ammo LRM-5 Semi-Guided
+IS Ultra AC/10 Ammo
+IS Ultra AC/10 Ammo
+ISCASEII
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+
+Right Torso:
+Fusion Engine
+Fusion Engine
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+
+Center Torso:
+Fusion Engine
+Fusion Engine
+Fusion Engine
+Gyro
+Gyro
+Gyro
+Gyro
+Fusion Engine
+Fusion Engine
+Fusion Engine
+IS Heavy Ferro-Fibrous
+IS Heavy Ferro-Fibrous
+
+Head:
+Life Support
+Sensors
+Cockpit
+IS Heavy Ferro-Fibrous
+Sensors
+Life Support
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Left Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+Right Leg:
+Hip
+Upper Leg Actuator
+Lower Leg Actuator
+Foot Actuator
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+-Empty-
+
+overview:The Bandersnatch, who receives his name from the monster mentioned in Lewis Carroll's "Wonderland" series, is the brainchild of Felifious Bander and is built around the concept of an affordable and effective BattleMech for sale to mercenary units.
+
+capabilities:The Bandersnatch is built using some common components with the Marauder in an attempt to make the 'Mech cheaper and easier to repair. The 'Mech has a top speed of 64.8 kph which is average for a 'Mech of its weight. The Bandersnatch also uses double heat sinks for their superior heat dissipation capabilities, allowing a heavy weapons payload to be used by the 'Mech. Finally, the Bandersnatch carries a respectable eleven tons of armor. While not the maximum amount of armor that the chassis can handle, the 'Mech is still well protected.
+
+deployment:A complete upgrade of the original design, the 01B variant replaces the XL engine with a Light Fusion Engine. To make up for the weight lost to the engine, the entire weapons arsenal has been re-evaluated and the 'Mech carries a new weapons compliment. The primary long-range weapons are a pair of LRM-5 launchers. For intermediate ranges, the 01B model carries an Ultra Autocannon/10 and a PPC providing it with a powerful punch. Finally, for close range combat, the 'Mech has four Medium Lasers and a Streak SRM-2 launcher.
+
+manufacturer:Bander BattleMechs, Kressly WarWorks
+
+primaryfactory:Terra Firma (Bander BattleMechs), Epsilon Eridani (Kressly WarWorks)
+
+systemmanufacturer:CHASSIS:Bander Custom 1
+systemmanufacturer:ENGINE:Vlar 300 XL
+systemmanufacturer:ARMOR:Valiant Chainmail
+systemmanufacturer:COMMUNICATIONS:Winston Mega Boozee Mark IX
+systemmanufacturer:TARGETING:Winston Sidewinder
+
