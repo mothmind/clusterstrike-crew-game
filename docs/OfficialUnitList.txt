@@ -169,6 +169,7 @@ Elemental Battle Armor [MicroPL](Sqd4)|
 Elemental Battle Armor [MicroPL](Sqd5)|
 Elemental Battle Armor [MicroPL](Sqd6)|
 Elemental Battle Armor (Headhunter)(Sqd3)|
+Elemental Battle Armor [MG](Sqd5)|
 Fa Shih Battle Armor [Flamer](Sqd4)|
 Fa Shih Battle Armor [Flamer](Sqd5)|
 Fa Shih Battle Armor [Flamer](Sqd6)|
@@ -1295,6 +1296,7 @@ Fenrir Battle Armor 'Longshot' (Sqd6)|
 Gray Death Strike Suit (Prototype)(Sqd4)|
 Gray Death Strike Suit (Prototype)(Sqd5)|
 Gray Death Strike Suit (Prototype)(Sqd6)|
+Heavy Emplacement|
 Boeing Jump Bomber|
 Boomerang Spotter Plane|
 Guardian Fighter B|
@@ -1340,6 +1342,7 @@ Bullet Suicide Drone|
 Drake Medium Stealth Fighter|
 Planetlifter Tactical Support|
 Seabuster Strike Fighter|
+Mechbuster (Mary)|
 Chariot High-Speed Medevac|
 Comet Airliner ACL-800|
 Delta Air Cruiser MA-80|
@@ -1383,7 +1386,7 @@ Jumbo|
 Polaris|
 Cockatrice Monitor Platform (Drone)|
 Dragau Assault Interceptor (CASPAR II Drone)|
-Tiamat Pocket Warship (CASPAR II Drone)|
+Tiamat Pocket WarShip (CASPAR II Drone)|
 Danais|
 Trojan (Blockade Runner)|
 Buccaneer Rezak|
@@ -1532,25 +1535,25 @@ Leopard 'Pocket Warship'|
 Mule 'Pocket Warship'|
 Mule (Armored Pocket Warship)|
 Union 'Pocket Warship'|
-Aesir Assault Dropship|
+Aesir Assault DropShip|
 Isegrim Assault DropShip|
-Vanir Assault Dropship|
-Arondight Pocket Warship (Refit)|
-Arondight Pocket Warship (SCC)|
-Arondight Pocket Warship|
-Interdictor Pocket Warship (SCC)|
-Interdictor Pocket Warship (Sub-Capital)|
-Interdictor Pocket Warship|
-Taihou Assault Dropship|
+Vanir Assault DropShip|
+Arondight Pocket WarShip (Refit)|
+Arondight Pocket WarShip (SCC)|
+Arondight Pocket WarShip|
+Interdictor Pocket WarShip (SCC)|
+Interdictor Pocket WarShip (Sub-Capital)|
+Interdictor Pocket WarShip|
+Taihou Assault DropShip|
 Nekohono'o (SCL)|
 Dragau II Assault Interceptor|
-Tiamat Pocket Warship|
+Tiamat Pocket WarShip|
 Gorgon Carrier|
 Seleucus Infantry Transport|
 Nagasawa|
 Achilles (3088)|
 Dragau II (3097)|
-Interdictor Pocket Warship (3115)|
+Interdictor Pocket WarShip (3115)|
 Tiamat II (3112)|
 Vampire III|
 Duat Military Transport|
@@ -1564,9 +1567,9 @@ Vengeance (Danai Centrella)|
 Vampire II|
 Leopard PA-Class Dropship|
 Black Eagle|
-Czar Dropship (Armored Carrier)|
-Czar Dropship (Mech Carrier)|
-Czar Dropship|
+Czar DropShip (Armored Carrier)|
+Czar DropShip (Mech Carrier)|
+Czar DropShip|
 DroST IIa Transport (2445)|
 DroST IIa Transport (2470)|
 DroST IIb Transport (2445)|
@@ -1607,7 +1610,7 @@ Sabre SB-27b-EC|
 Tomahawk THK-63-EC|
 Voidseeker Mk 39-004 Interceptor|
 Voidseeker Mk 39-007 Striker|
-DragonFly MM-1|
+Dragonfly MM-1|
 Blackwasp Mk. 30|
 Aeshna Heavy Drone Fighter|
 Scarab Medium Drone Fighter|
@@ -1640,7 +1643,6 @@ Chippewa CHP-W7 (Manfred)|
 Corsair (Bob) 'Roswell'|
 Hydaspes (Algar)|
 Issus (Erika)|
-Mechbuster (Mary)|
 Seydlitz (Mary) 'Yari'|
 Slayer SL-15 (Eric)|
 Stingray F-92 (Michael)|
@@ -2076,7 +2078,6 @@ Star Dagger S-2|
 Rapier RPR-300X|
 Starfire SF-1X (Prototype)|
 Starfire SF-1X|
-Starfire SF-1X (Prototype)|
 Calliope Turret (2800)|
 Calliope Turret (3053)|
 ATM/12 Turret (Dual)|
@@ -3112,6 +3113,7 @@ Medium Siege Turret (2300)|
 Medium Siege Turret (3039)|
 Medium Sniper Turret (2300)|
 Medium Sniper Turret (3075)|
+AP Gauss Weapon (3 Tons)|
 ER Medium Laser Weapon|
 Enhanced LRM Weapon|
 Flamer Weapon|
@@ -3123,18 +3125,25 @@ Heavy LRM Weapon|
 Heavy Rotary AC Weapon|
 Heavy Streak Weapon|
 Heavy Thunderbolt Weapon|
+LRM Weapon (3 Tons)|
 LRM Weapon|
 Light Anti-Infantry Weapon|
 Light Autocannon Weapon|
 Light Laser Weapon|
 Light Machine Gun Weapon|
 MML Weapon|
+MML Weapons (2 tons)|
+Machine Gun Weapon (2 Tons)|
 Machine Gun Weapon|
 Magshot Gauss Weapon|
+Medium Chemical Laser Weapon (3 Tons)|
 Nail/Rivet Gun Tool|
 Rocket Launcher Weapon|
 Small Laser Weapon|
+Streak LRM Weapon (3 Tons)|
+Streak SRM Weapon (3 Tons)|
 Streak SRM Weapon|
+TAG Weapon (1.5 Tons)|
 Triple Nail/Rivet Gun Tool|
 Clan Anti-Infantry Clan Jade Falcon Police|
 Clan Heavy Foot Infantry Ebon Keshik Point|
@@ -3146,7 +3155,7 @@ Space Marine Com Guards Warship Fleet Marine|
 Surveillance Specialist Com Guards Battlefield Data Miners|
 Heavy Support Infantry Irian Technologies SWAT Team|
 Hover Assault Infantry Johnston Industries Rapid Response Force|
-Jump Support Infantry Star Corps Jump Assault Infantry|
+Jump Support Infantry StarCorps Jump Assault Infantry|
 VTOL Infantry Hachiman Taro Enterprise Extraction Force|
 Firefighter Twenty-fourth Hellfire Firefighting Battalion; 84th Avalon LI; 17th Avalon Hussars|
 Frogmen Blue Water Marine Response Teams (Frogmen)|
@@ -3935,6 +3944,9 @@ Mechanized Wheeled Platoon (ComStar) (Laser)|
 Mechanized Wheeled Platoon (ComStar) (MG)|
 Mechanized Wheeled Platoon (ComStar) (Rifle)|
 Mechanized Wheeled Platoon (ComStar) (SRM)|
+Clan Engineer Point (Demolition)|
+Clan Engineer Point (Fieldworks)|
+Clan Engineer Point (Minesweeper)|
 Clan Field Artillery Point (Tracked Arrow IV)|
 Clan Field Artillery Point (Tracked Sniper)|
 Clan Field Artillery Point (Tracked Thumper)|
@@ -4658,6 +4670,31 @@ Mob (Huge)|
 Mob (Large)|
 Mob (Medium)|
 Mob (Small)|
+VIP|
+Clan Support Person (1 person)|
+Clan Support Point (25 person)|
+Clan Support Squad (2 person)|
+Clan Support Squad (3 person)|
+Clan Support Squad (4 person)|
+Clan Support Squad (5 person)|
+Clan Support Squad (6 person)|
+Clan Support Squad (7 person)|
+ComStar Support Level I (18 person)|
+ComStar Support Person (1 person)|
+ComStar Support Squad (2 person)|
+ComStar Support Squad (3 person)|
+ComStar Support Squad (4 person)|
+ComStar Support Squad (5 person)|
+ComStar Support Squad (6 person)|
+ComStar Support Squad (7 person)|
+Support Person (1 person)|
+Support Platoon (28 person)|
+Support Squad (2 person)|
+Support Squad (3 person)|
+Support Squad (4 person)|
+Support Squad (5 person)|
+Support Squad (6 person)|
+Support Squad (7 person)|
 Field Gun Infantry Platoon (AC/10)|
 Clan Foot Point (Anti-'Mech) (Flamer)|
 Clan Foot Point (Anti-'Mech) (LRM)|
@@ -4791,6 +4828,7 @@ Foot Platoon (Flamer)|
 Foot Platoon (LRM)|
 Foot Platoon (Laser)|
 Foot Platoon (MG)|
+Foot Platoon (Rifle)|
 Foot Platoon (Rifle)|
 Foot Platoon (SRM)|
 Jump Platoon (Flamer)|
@@ -4929,23 +4967,23 @@ Motorized Platoon (Taurian 3047+) (MG)|
 Motorized Platoon (Taurian 3047+) (Rifle)|
 Motorized Platoon (Taurian 3047+) (SRM)|
 Comitatus JumpShip (2995)|
-Hunter Jumpship (2832)|
-Hunter Jumpship (2948) (LF)|
-Invader Jumpship (2850)|
-Merchant Jumpship (2901)|
-Monolith Jumpship (2839)|
-Odyssey Jumpship (2887)|
+Hunter JumpShip (2832)|
+Hunter JumpShip (2948) (LF)|
+Invader JumpShip (2850)|
+Merchant JumpShip (2901)|
+Monolith JumpShip (2839)|
+Odyssey JumpShip (2887)|
 Scout JumpShip (2895)|
 Star Lord JumpShip (2841)|
 Chimeisho JumpShip (3056)|
-Invader Jumpship (2631) (LF)|
-Invader Jumpship (2631) (PPC)|
-Invader Jumpship (2631)|
-Magellan Jumpship (2960)|
-Merchant Jumpship (2503)|
-Merchant Jumpship (2602)|
-Merchant Jumpship (2602)(Passenger)|
-Monolith Jumpship (2776)|
+Invader JumpShip (2631) (LF)|
+Invader JumpShip (2631) (PPC)|
+Invader JumpShip (2631)|
+Magellan JumpShip (2960)|
+Merchant JumpShip (2503)|
+Merchant JumpShip (2602)|
+Merchant JumpShip (2602)(Passenger)|
+Monolith JumpShip (2776)|
 Quetzalcoatl-Scout JumpShip|
 Scout JumpShip (2712)|
 Star Lord JumpShip (2590) (LF)|
@@ -4955,9 +4993,55 @@ Tramp JumpShip (2755) (LF)|
 Tramp JumpShip (3071)|
 Explorer JumpShip (HPG)|
 Explorer JumpShip|
-Aquilla Transport Jumpship|
-Liberty Jumpship|
-Leviathan Jumpship|
+Liberty JumpShip|
+Leviathan JumpShip|
+Sprayer Fluid Test Mek|
+Atlas AS7-A|
+Banshee BNC-3S-X|
+Charger CGR-1A2|
+Goliath GOL-1M|
+Archer ARC-2D|
+Archer ARC-2L|
+Grasshopper GHR-5S|
+JagerMech JM6-B|
+Marauder MAD-3J|
+Marauder MAD-3V|
+Orion ON1-KA|
+Ostroc OSR-2OWR|
+Quickdraw QKD-4R|
+Rifleman RFL-3K 'Cool Head'|
+Thunderbolt TDR-5SS1|
+Warhammer WHM-6B|
+Warhammer WHM-6J|
+Javelin JVN-10U|
+Jenner JR7-Y|
+Locust LCT-1E2|
+Locust LCT-1P|
+Locust LCT-1Y|
+Locust LCT-1Y2|
+Stinger STG-3Y|
+Stinger STG-3Y2|
+UrbanMech UM-R60G|
+UrbanMech UM-R60R|
+UrbanMech UM-R61|
+UrbanMech UM-R62|
+Wasp WSP-1Y|
+Assassin ASN-22|
+Assassin ASN-SB|
+Centurion CN9-K|
+Cicada CDA-2C|
+Dervish DV-7A|
+Dervish DV-7S|
+Enforcer ENF-5A 'Enforcer II'|
+Griffin GRF-1M|
+Hatchetman HCT-3FX|
+Hatchetman HCT-3FY|
+Scorpion SCP-1A|
+Vulcan VL-3T|
+Vulcan VL-3T2|
+Vulcan VL-4T|
+Wolverine WVR-3N|
+Wolverine WVR-6D|
 Archer ARC-2K|
 Archer ARC-2R|
 Archer ARC-2S|
@@ -5915,6 +5999,8 @@ Raijin RJN-101-A|
 Rakshasa MDG-1A|
 Rakshasa MDG-1B|
 Rakshasa MDG-2A|
+Rifleman II RFL-3N-2 (Legend Killer)|
+Rifleman RFL-3N (Legend Killer 2)|
 Ronin SA-RN|
 Ronin SA-RN7|
 Salamander PPR-5S|
@@ -7672,18 +7758,25 @@ Rifleman RFL-4D (Cyrus)|
 Shadow Hawk SHD-2H (Berkowitz)|
 Thug THG-11E (Flanagan)|
 Valkyrie VLK-QD (Karano)|
+Archer ARC-2Kh|
 Atlas AS7-S (Hanssen)|
 Catapult CPLT-K2 (Kasigi)|
+Grasshopper GHR-5Hh|
 Griffin GRF-1DS (Almstedt)|
 Guillotine GLT-3N (Estridsen)|
 Hatamoto-Chi HTM-27T (Lowenbrau)|
 Jenner JR7-D (Webster)|
-Kintaro KTO-18 (Akbani)|
+Kintaro KTO-19 (Omar)|
 Ostsol OTL-4D (Ragnar)|
 Ostsol OTL-5M (Maki)|
 Panther PNT-10ALAG|
 Panther PNT-9ALAG|
+Panther PNT-9Rh|
 Panther PNT-CM|
+Quickdraw QKD-4Gh|
+Thunderbolt TDR-5Sh|
+Wolverine WVR-6Kh|
+Wolverine WVR-7Kh|
 Archer ARC-4M (Ismail)|
 Banshee BNC-3E (El Gaupo)|
 Crockett CRK-5003-0 (Saddleford)|
@@ -7698,7 +7791,6 @@ UrbanMech LAM S-UM-1XLA|
 UrbanMech LAM UM-A07|
 UrbanMech UM-R27|
 Archer C 2|
-Blackjack C|
 Cestus CTS-6Y-EC|
 Coyotl A|
 Coyotl B|
@@ -7914,10 +8006,8 @@ Notos D|
 Notos Prime|
 Deimos H|
 Shadow Hawk SHD-11CS2|
-Atlas AS7-A|
 Javelin JVN-10A|
 Thunderbolt TDR-5D|
-Wolverine WVR-6D|
 Zeus ZEU-6A|
 Assassin ASN-30 (Alice)|
 Bandersnatch BNDR-01A (Horus)|
@@ -8631,7 +8721,6 @@ Commando COM-7Z|
 Commando COM-7Z2|
 Jackalope JLP-BD-L 'Harvey'|
 Jackalope JLP-IC|
-Jackalope JLP-KA|
 Jackalope JLP-KB|
 Jackalope JLP-NH 'Tepoztecatl'|
 'Wing' Wraith TR4-X|
@@ -8658,6 +8747,18 @@ Hermes II HER-2R|
 Hermes III HER-4K|
 Hermes III HER-6K|
 Hermes III HER-7K|
+Falconer FLC-10R|
+Falconer FLC-11R|
+Falconer FLC-12X|
+Axman AXM-1X|
+Axman AXM-2R|
+Axman AXM-5R|
+Axman AXM-5S|
+Dragon DRG-1ALAG|
+Dragon DRG-2ALAG|
+Dragon DRG-5ALAG|
+Dragon DRG-7ALAG|
+Dragon DRG-8ALAG|
 Thunder Stallion 4|
 SuburbanMech UM-R100|
 SuburbanMech UM-R90|
@@ -8682,6 +8783,8 @@ Dragon Fire DGR-9D|
 Grotesque (Mongrel) Prime|
 Sidewinder Prime|
 Starhawk Prime|
+Hybrid Rifleman RFL-3N (Sneede II)|
+Hybrid Rifleman RFL-3N (Sneede)|
 Awesome C|
 Nightstar NSR-9J (Holt)|
 Titan TI-1Ak 'Highshooter'|
@@ -8992,6 +9095,7 @@ Wolfhound WLF-4WA|
 Zeus-X ZEU-9WD (Stacy)|
 Merlin MLN-SX|
 Spindrift Aquatic SecurityMech SDT-1|
+Temax Cat Ninjabolt TMC-NB|
 Whitworth WTH-5S|
 Liberator LIB-4T|
 Ostscout IIC|
@@ -9010,7 +9114,7 @@ Valkyrie VLK-QD5|
 Volkh VKH-68|
 Wasp WSP-3X|
 Cougar XR|
-Ha Otoko-HR|
+Ha Otoko -HR|
 Kraken-XR|
 Ursus PR|
 Beowulf BEO-X-7a|
@@ -9058,6 +9162,7 @@ Sarissa MN1-D|
 Annihilator ANH-2AX|
 Grasshopper GHR-7X|
 Hoplite HOP-4X|
+Schwerer Gustav|
 Wolfhound WLF-2X|
 Black Knight BL-X-KNT 'Red Reaper'|
 Fireball ALM-XF|
@@ -9122,7 +9227,7 @@ Legionnaire LGN-2K-RISC|
 Mad Cat Mk IV PR (Savage Wolf) RISC|
 Malice MAL-Y-SH-RISC|
 Templar TLR1-ORISC|
-Wendigo-XP (Prime)|
+Wendigo-XR (Prime)|
 Beowulf IIC PR|
 Roadrunner (Emerald Harrier) RD-1R|
 Enforcer III ENF-7D|
@@ -9441,6 +9546,7 @@ Manticore Heavy Tank|
 Maxim Heavy Hover Transport (SRM2)|
 Maxim Heavy Hover Transport (SRM4)|
 Maxim Heavy Hover Transport|
+Maxim Heavy Hover Transport|
 Mobile Headquarters (ICE - LL)|
 Mobile Headquarters (ICE - LRM)|
 Mobile Headquarters (ICE)|
@@ -9449,6 +9555,7 @@ Mobile Headquarters (LRM)|
 Mobile Headquarters|
 Mobile Long Tom Artillery LT-MOB-25 (Ammunition Carriage)|
 Mobile Long Tom Artillery LT-MOB-25 (Support Carriage)|
+Mobile Long Tom Artillery LT-MOB-25|
 Mobile Long Tom Artillery LT-MOB-25|
 Monitor Naval Vessel|
 Neptune Submarine (LRT)|
@@ -9566,7 +9673,7 @@ Thor Artillery Vehicle (Clan)|
 Thor Artillery Vehicle|
 Zephyr Hovertank (C3i)|
 Zephyr Hovertank (LRM)|
-Zephyr Hovertank (SRM2)|
+Zephyr Hovertank (Original)|
 Zephyr Hovertank|
 AC/2 Carrier (LB-X)|
 Alacorn Heavy Tank Mk III|
@@ -9617,6 +9724,7 @@ Brutus Assault Tank (LRM)|
 Brutus Assault Tank (PPC 2)|
 Brutus Assault Tank (PPC)|
 Brutus Assault Tank|
+Cavalry Attack Helicopter (BA)|
 Cavalry Attack Helicopter (Infantry)|
 Cavalry Attack Helicopter (LRM)|
 Cavalry Attack Helicopter (SRM)|
@@ -10257,17 +10365,17 @@ JES III Missile Carrier (Thunderbolt)|
 JES III Missile Carrier|
 MHI Amphibious APC|
 MHI Defense AA Tank|
-Scapha Hovertank (A)|
-Scapha Hovertank (B)|
-Scapha Hovertank (C)|
-Scapha Hovertank (D)|
-Scapha Hovertank (E)|
-Scapha Hovertank (F)|
-Scapha Hovertank (G)|
-Scapha Hovertank (H)|
-Scapha Hovertank (I)|
-Scapha Hovertank (J)|
-Scapha Hovertank (Primary)|
+Scapha Hovertank Prime|
+Scapha Hovertank A|
+Scapha Hovertank B|
+Scapha Hovertank C|
+Scapha Hovertank D|
+Scapha Hovertank E|
+Scapha Hovertank F|
+Scapha Hovertank G|
+Scapha Hovertank H|
+Scapha Hovertank I|
+Scapha Hovertank J|
 Shandra Advanced Scout Vehicle (Original)|
 Shandra Advanced Scout Vehicle|
 DI Multipurpose VTOL (Gunship)|
@@ -10319,7 +10427,6 @@ Death Trike|
 Dune Buggy|
 Eagre Firefighting ATV|
 Tracked Quad|
-Mobile Tactical Command HQ|
 Shackleton AESV|
 Estevez MBT (Anti-Aircraft)|
 Estevez MBT|
@@ -10391,7 +10498,6 @@ Challenger MBT Mk. XV|
 Enyo Strike Tank (ER Pulse)|
 Fulcrum Heavy HoverTank (Hybrid)|
 Garuda Heavy VTOL|
-Heavy LRM Weapon|
 Heavy NLRM Carrier|
 Hephaestus Jump Tank (AP)|
 Hephaestus Jump Tank|
@@ -10469,6 +10575,7 @@ Whirlwind Scout Hover Tank (AAA)|
 Whirlwind Scout Hover Tank (IFV)|
 Whirlwind Scout Hover Tank|
 Browning Mobile HQ (Half Track)|
+Browning Mobile HQ|
 Browning Mobile HQ|
 Command Van (ICE)|
 Command Van (Q-Vehicle)|
@@ -10598,6 +10705,11 @@ Silverfin Coastal Cutter|
 Whitestreak Jetski|
 Whitestreak Speedboat|
 Adelante Passenger/Cargo Train|
+TGV Omni Railcar A (Passengers)|
+TGV Omni Railcar B (Military Support)|
+TGV Omni Railcar C (Cargo)|
+TGV Omni Railcar D (MASH)|
+TGV Omni Railcar Primary (Luxury)|
 TGV Omni Railcar Primary Configuration|
 Cellco Ranger UPU-3000|
 Corx Mobile Tunnel Miner|
@@ -10908,7 +11020,8 @@ Bug-Eye Surveillance Ship|
 Faslane Yardship|
 Newgrange III Yardship 'Eyrines'|
 Naga Destroyer (Caspar II Control Ship)|
-Conestoga Transport Jumpship|
+Conestoga Transport JumpShip|
 Enterprise Super Carrier|
 Kimagure Pursuit Cruiser (Surprise)|
 Leviathan III Battleship|
+Aquilla Transport JumpShip|

@@ -29,6 +29,7 @@ had been upgraded to BA by that date. -->
         <unitType>Mek</unitType>
         <echelon>%BATTALION%</echelon>
         <rankSystem>%RANK_CC_WH%</rankSystem>
+        <rating>C</rating>
     </defaults>
 
     <toc>
@@ -87,11 +88,11 @@ had been upgraded to BA by that date. -->
 
         <attachedForces ifUnitType="Mek">
             <subforce unitType="Infantry"
-                      name="Infantry Support">%BATTALION%
+                      name="Infantry {echelon}">%BATTALION%
             </subforce>
             <subforceOption>
                 <option unitType="AeroSpaceFighter"
-                        name="Aerospace Support">%FLIGHT%
+                        name="Aerospace {echelon}">%FLIGHT%
                 </option>
                 <option weight="3" />
             </subforceOption>
@@ -225,10 +226,10 @@ had been upgraded to BA by that date. -->
         </subforces>
 
         <attachedForces ifUnitType="Mek">
-            <subforce unitType="BattleArmor" augmented="1" name="Infantry Support">%BATTALION%</subforce>
+            <subforce unitType="BattleArmor" augmented="1" name="Infantry {echelon}">%BATTALION%</subforce>
             <subforceOption>
                 <option unitType="AeroSpaceFighter"
-                        name="Aerospace Support">%FLIGHT%
+                        name="Aerospace {echelon}">%FLIGHT%
                 </option>
                 <option weight="3" />
             </subforceOption>
@@ -285,13 +286,13 @@ had been upgraded to BA by that date. -->
             <formation ifIndex="0|1" ifRole="!command">
                 <option weight="32">Fire</option>
                 <option weight="6">Fire Support</option>
-                <option weight="4">Direct Fire</option>
+                <option weight="4" ifWeightClass="H|A">Direct Fire</option>
                 <option weight="4" ifWeightClass="L|M">Light Fire</option>
                 <option weight="2">Anti-Air</option>
-                <option weight="17">Battle</option>
+                <option weight="17" ifWeightClass="H|A">Battle</option>
                 <option weight="8" ifWeightClass="H|A">Heavy Battle</option>
-                <option weight="4" ifWeightClass="M">Medium Battle</option>
-                <option weight="2" ifWeightClass="L">Light Battle</option>
+                <option weight="20" ifWeightClass="M">Medium Battle</option>
+                <option weight="20" ifWeightClass="L">Light Battle</option>
                 <option weight="3" ifWeightClass="H|A">Assault</option>
                 <option weight="1" ifWeightClass="H|A">Berserker/Close</option>
                 <option weight="4" ifWeightClass="L|M|H">Striker/Cavalry</option>
@@ -308,10 +309,10 @@ had been upgraded to BA by that date. -->
                 <option weight="31">Recon</option>
                 <option weight="10" ifWeightClass="H|A">Heavy Recon</option>
                 <option weight="10" ifWeightClass="L">Light Recon</option>
-                <option weight="21">Battle</option>
+                <option weight="21" ifWeightClass="H|A">Battle</option>
                 <option weight="10" ifWeightClass="H|A">Heavy Battle</option>
-                <option weight="5" ifWeightClass="M">Medium Battle</option>
-                <option weight="2" ifWeightClass="L">Light Battle</option>
+                <option weight="20" ifWeightClass="M">Medium Battle</option>
+                <option weight="20" ifWeightClass="L">Light Battle</option>
                 <option weight="7" ifWeightClass="H|A">Assault</option>
                 <option weight="2" ifWeightClass="L|M|H">Striker/Cavalry</option>
                 <option weight="1" ifWeightClass="H|A">Heavy Striker/Cavalry</option>

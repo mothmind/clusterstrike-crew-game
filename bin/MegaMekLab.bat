@@ -19,7 +19,7 @@
 @if "%DEBUG%"=="" @echo off
 @rem ##########################################################################
 @rem
-@rem  megameklab startup script for Windows
+@rem  MegaMekLab startup script for Windows
 @rem
 @rem ##########################################################################
 
@@ -35,8 +35,8 @@ set APP_HOME=%DIRNAME%..
 @rem Resolve any "." and ".." in APP_HOME to make it shorter.
 for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
 
-@rem Add default JVM options here. You can also use JAVA_OPTS and MEGAMEKLAB_OPTS to pass JVM options to this script.
-set DEFAULT_JVM_OPTS="-Xmx1024m"
+@rem Add default JVM options here. You can also use JAVA_OPTS and MEGA_MEK_LAB_OPTS to pass JVM options to this script.
+set DEFAULT_JVM_OPTS=
 
 @rem Find java.exe
 if defined JAVA_HOME goto findJavaFromJavaHome
@@ -70,22 +70,22 @@ goto fail
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\MegaMekLab.jar;%APP_HOME%\lib\MegaMek.jar;%APP_HOME%\lib\jackson-datatype-jsr310-2.20.0.jar;%APP_HOME%\lib\jackson-dataformat-yaml-2.20.0.jar;%APP_HOME%\lib\jackson-databind-2.20.0.jar;%APP_HOME%\lib\jackson-core-2.20.0.jar;%APP_HOME%\lib\jaxb-runtime-4.0.5.jar;%APP_HOME%\lib\jaxb-core-4.0.5.jar;%APP_HOME%\lib\jakarta.xml.bind-api-4.0.2.jar;%APP_HOME%\lib\jakarta.annotation-api-3.0.0.jar;%APP_HOME%\lib\log4j-core-2.25.3.jar;%APP_HOME%\lib\pdfbox-3.0.5.jar;%APP_HOME%\lib\batik-rasterizer-1.19.jar;%APP_HOME%\lib\batik-svgrasterizer-1.19.jar;%APP_HOME%\lib\fop-2.11.jar;%APP_HOME%\lib\fop-core-2.11.jar;%APP_HOME%\lib\batik-codec-1.19.jar;%APP_HOME%\lib\batik-transcoder-1.19.jar;%APP_HOME%\lib\batik-extension-1.19.jar;%APP_HOME%\lib\batik-bridge-1.19.jar;%APP_HOME%\lib\batik-script-1.19.jar;%APP_HOME%\lib\batik-anim-1.19.jar;%APP_HOME%\lib\batik-svg-dom-1.19.jar;%APP_HOME%\lib\batik-dom-1.19.jar;%APP_HOME%\lib\batik-svggen-1.19.jar;%APP_HOME%\lib\flatlaf-extras-3.6.1.jar;%APP_HOME%\lib\flatlaf-3.6.1.jar;%APP_HOME%\lib\commons-collections4-4.5.0.jar;%APP_HOME%\lib\log4j-api-2.25.3.jar;%APP_HOME%\lib\sentry-log4j2-8.14.0.jar;%APP_HOME%\lib\sentry-8.14.0.jar;%APP_HOME%\lib\batik-parser-1.19.jar;%APP_HOME%\lib\batik-css-1.19.jar;%APP_HOME%\lib\xml-apis-ext-1.3.04.jar;%APP_HOME%\lib\jakarta.mail-2.0.2.jar;%APP_HOME%\lib\xstream-1.4.21.jar;%APP_HOME%\lib\batik-gvt-1.19.jar;%APP_HOME%\lib\batik-awt-util-1.19.jar;%APP_HOME%\lib\fop-events-2.11.jar;%APP_HOME%\lib\fop-util-2.11.jar;%APP_HOME%\lib\xmlgraphics-commons-2.11.jar;%APP_HOME%\lib\commons-io-2.20.0.jar;%APP_HOME%\lib\commons-text-1.14.0.jar;%APP_HOME%\lib\commons-lang3-3.20.0.jar;%APP_HOME%\lib\freemarker-2.3.34.jar;%APP_HOME%\lib\commonmark-0.25.1.jar;%APP_HOME%\lib\gifencoder-0.10.1.jar;%APP_HOME%\lib\icu4j-77.1.jar;%APP_HOME%\lib\jackson-annotations-2.20.jar;%APP_HOME%\lib\angus-activation-2.0.2.jar;%APP_HOME%\lib\jakarta.activation-api-2.1.3.jar;%APP_HOME%\lib\fontbox-3.0.5.jar;%APP_HOME%\lib\pdfbox-io-3.0.5.jar;%APP_HOME%\lib\commons-logging-1.3.5.jar;%APP_HOME%\lib\batik-xml-1.19.jar;%APP_HOME%\lib\batik-util-1.19.jar;%APP_HOME%\lib\batik-ext-1.19.jar;%APP_HOME%\lib\batik-constants-1.19.jar;%APP_HOME%\lib\batik-i18n-1.19.jar;%APP_HOME%\lib\batik-shared-resources-1.19.jar;%APP_HOME%\lib\jsvg-2.0.0.jar;%APP_HOME%\lib\snakeyaml-2.4.jar;%APP_HOME%\lib\jakarta.activation-2.0.1.jar;%APP_HOME%\lib\mxparser-1.2.2.jar;%APP_HOME%\lib\qdox-1.12.jar;%APP_HOME%\lib\txw2-4.0.5.jar;%APP_HOME%\lib\istack-commons-runtime-4.1.2.jar;%APP_HOME%\lib\xmlpull-1.1.3.1.jar;%APP_HOME%\lib\xml-apis-1.4.01.jar
+set CLASSPATH=%APP_HOME%\lib\MegaMekLab.jar;%APP_HOME%\lib\MegaMek.jar;%APP_HOME%\lib\jackson-dataformat-yaml-2.22.1.jar;%APP_HOME%\lib\jackson-datatype-jsr310-2.22.1.jar;%APP_HOME%\lib\jackson-databind-2.22.1.jar;%APP_HOME%\lib\jackson-core-2.22.1.jar;%APP_HOME%\lib\jaxb-runtime-4.0.7.jar;%APP_HOME%\lib\jaxb-core-4.0.7.jar;%APP_HOME%\lib\jakarta.xml.bind-api-4.0.5.jar;%APP_HOME%\lib\jakarta.annotation-api-3.0.0.jar;%APP_HOME%\lib\log4j-core-2.25.5.jar;%APP_HOME%\lib\pdfbox-3.0.7.jar;%APP_HOME%\lib\batik-rasterizer-1.19.jar;%APP_HOME%\lib\batik-svgrasterizer-1.19.jar;%APP_HOME%\lib\fop-2.11.jar;%APP_HOME%\lib\fop-core-2.11.jar;%APP_HOME%\lib\batik-codec-1.19.jar;%APP_HOME%\lib\batik-transcoder-1.19.jar;%APP_HOME%\lib\batik-extension-1.19.jar;%APP_HOME%\lib\batik-bridge-1.19.jar;%APP_HOME%\lib\batik-script-1.19.jar;%APP_HOME%\lib\batik-anim-1.19.jar;%APP_HOME%\lib\batik-svg-dom-1.19.jar;%APP_HOME%\lib\batik-dom-1.19.jar;%APP_HOME%\lib\batik-svggen-1.19.jar;%APP_HOME%\lib\flatlaf-extras-3.7.1.jar;%APP_HOME%\lib\flatlaf-3.7.1.jar;%APP_HOME%\lib\commons-collections4-4.5.0.jar;%APP_HOME%\lib\log4j-api-2.25.5.jar;%APP_HOME%\lib\sentry-log4j2-8.38.0.jar;%APP_HOME%\lib\sentry-8.38.0.jar;%APP_HOME%\lib\batik-css-1.19.jar;%APP_HOME%\lib\batik-parser-1.19.jar;%APP_HOME%\lib\xml-apis-ext-1.3.04.jar;%APP_HOME%\lib\jakarta.mail-2.0.2.jar;%APP_HOME%\lib\xstream-1.4.21.jar;%APP_HOME%\lib\batik-gvt-1.19.jar;%APP_HOME%\lib\batik-awt-util-1.19.jar;%APP_HOME%\lib\fop-events-2.11.jar;%APP_HOME%\lib\fop-util-2.11.jar;%APP_HOME%\lib\xmlgraphics-commons-2.11.jar;%APP_HOME%\lib\commons-io-2.21.0.jar;%APP_HOME%\lib\commons-text-1.15.0.jar;%APP_HOME%\lib\commons-lang3-3.20.0.jar;%APP_HOME%\lib\freemarker-2.3.34.jar;%APP_HOME%\lib\commonmark-0.28.0.jar;%APP_HOME%\lib\gifencoder-0.10.1.jar;%APP_HOME%\lib\icu4j-78.3.jar;%APP_HOME%\lib\jackson-annotations-2.22.jar;%APP_HOME%\lib\angus-activation-2.0.3.jar;%APP_HOME%\lib\jakarta.activation-api-2.1.4.jar;%APP_HOME%\lib\fontbox-3.0.7.jar;%APP_HOME%\lib\pdfbox-io-3.0.7.jar;%APP_HOME%\lib\commons-logging-1.3.5.jar;%APP_HOME%\lib\batik-xml-1.19.jar;%APP_HOME%\lib\batik-util-1.19.jar;%APP_HOME%\lib\batik-ext-1.19.jar;%APP_HOME%\lib\batik-constants-1.19.jar;%APP_HOME%\lib\batik-i18n-1.19.jar;%APP_HOME%\lib\batik-shared-resources-1.19.jar;%APP_HOME%\lib\jsvg-2.0.0.jar;%APP_HOME%\lib\snakeyaml-2.5.jar;%APP_HOME%\lib\jakarta.activation-2.0.1.jar;%APP_HOME%\lib\mxparser-1.2.2.jar;%APP_HOME%\lib\qdox-1.12.jar;%APP_HOME%\lib\txw2-4.0.7.jar;%APP_HOME%\lib\istack-commons-runtime-4.1.2.jar;%APP_HOME%\lib\xmlpull-1.1.3.1.jar;%APP_HOME%\lib\xml-apis-1.4.01.jar
 
 
-@rem Execute megameklab
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %MEGAMEKLAB_OPTS%  -classpath "%CLASSPATH%" megameklab.MegaMekLab %*
+@rem Execute MegaMekLab
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %MEGA_MEK_LAB_OPTS%  -classpath "%CLASSPATH%" megameklab.MegaMekLab %*
 
 :end
 @rem End local scope for the variables with windows NT shell
 if %ERRORLEVEL% equ 0 goto mainEnd
 
 :fail
-rem Set variable MEGAMEKLAB_EXIT_CONSOLE if you need the _script_ return code instead of
+rem Set variable MEGA_MEK_LAB_EXIT_CONSOLE if you need the _script_ return code instead of
 rem the _cmd.exe /c_ return code!
 set EXIT_CODE=%ERRORLEVEL%
 if %EXIT_CODE% equ 0 set EXIT_CODE=1
-if not ""=="%MEGAMEKLAB_EXIT_CONSOLE%" exit %EXIT_CODE%
+if not ""=="%MEGA_MEK_LAB_EXIT_CONSOLE%" exit %EXIT_CODE%
 exit /b %EXIT_CODE%
 
 :mainEnd

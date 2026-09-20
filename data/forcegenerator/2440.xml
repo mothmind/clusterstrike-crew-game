@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!--
-# MegaMek Data (C) 2025 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
 # To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0/
 #
 # NOTICE: The MegaMek organization is a non-profit group of volunteers
@@ -243,6 +243,33 @@
                 <availability>General:6</availability>
             </model>
         </chassis>
+        <chassis name='Assault Laser Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS:1</availability>
+            <model name='(2300) (Fusion)'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Assault Missile Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:4!B:4!C:4!D:3!F:2</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>fire_support</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Assault Shredder Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS:1</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>sr_fire_support</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Assault Sniper Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS:1</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>fire_support</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
         <chassis name='Banshee' unitType='Mek'>
             <availability>TH!A:6</availability>
             <model name='BNC-1E'>
@@ -292,11 +319,11 @@
         <chassis name='Büffel Engineering Support Vehicle VII' unitType='Tank'>
             <availability>IS:5,Periphery:4,Periphery.Deep:0,PIR:2</availability>
             <model name=''>
-                <roles>support,engineer,minesweeper</roles>
+                <roles>support,engineer,minesweeper,recovery</roles>
                 <availability>IS:8,Periphery:8,PIR:3</availability>
             </model>
             <model name='(Cargo)'>
-                <roles>support,engineer,minesweeper</roles>
+                <roles>support,engineer,minesweeper,recovery</roles>
                 <availability>IS:4:2451,Periphery:4:2451,PIR:8:2451</availability>
             </model>
         </chassis>
@@ -466,7 +493,7 @@
             </model>
         </chassis>
         <chassis name='Field Artillery' unitType='Infantry'>
-            <availability>IS:3,Periphery:3</availability>
+            <availability>IS:3,CC:0,Periphery:3</availability>
             <model name='(Sniper)'>
                 <roles>artillery</roles>
                 <availability>General:6</availability>
@@ -476,8 +503,86 @@
                 <availability>General:6</availability>
             </model>
         </chassis>
+        <chassis name='Field Artillery Platoon (CCAF)' unitType='Infantry'>
+            <availability>CC!A:4!B:3!C:3!D:2</availability>
+            <model name='(Motorized Sniper 2367+)'>
+                <roles>mixed_artillery</roles>
+                <availability>CC!A:4!B:3!C:3!D:5</availability>
+            </model>
+            <model name='(Motorized Thumper 2367+)'>
+                <roles>mixed_artillery</roles>
+                <availability>CC!A:4!B:3!C:3!D:5</availability>
+            </model>
+            <model name='(Tracked Sniper 2367+)'>
+                <roles>mixed_artillery</roles>
+                <availability>CC:6+</availability>
+            </model>
+            <model name='(Tracked Thumper 2367+)'>
+                <roles>mixed_artillery</roles>
+                <availability>CC:7+</availability>
+            </model>
+            <model name='(Wheeled Sniper 2367+)'>
+                <roles>mixed_artillery</roles>
+                <availability>CC:7+</availability>
+            </model>
+            <model name='(Wheeled Thumper 2367+)'>
+                <roles>mixed_artillery</roles>
+                <availability>CC:8+</availability>
+            </model>
+        </chassis>
+        <chassis name='Field Gun Platoon (CCAF)' unitType='Infantry'>
+            <availability>CC:5+</availability>
+            <model name='(Motorized AC2 2367+)'>
+                <roles>anti_aircraft,field_gun,fire_support,paratrooper</roles>
+                <availability>CC!A:3!B:2!C:1!D:2!F:3</availability>
+            </model>
+            <model name='(Motorized AC5 2367+)'>
+                <roles>anti_aircraft,field_gun,fire_support,paratrooper</roles>
+                <availability>CC!A:4!B:2!C:1!D:2!F:4</availability>
+            </model>
+            <model name='(Motorized Heavy Cannon 2367+)'>
+                <roles>field_gun,fire_support,paratrooper</roles>
+                <availability>CC:3-</availability>
+            </model>
+            <model name='(Motorized Medium Cannon 2367+)'>
+                <roles>field_gun,fire_support,paratrooper</roles>
+                <availability>CC!C:1!D:3!F:4</availability>
+            </model>
+            <model name='(Tracked AC2 2367+)'>
+                <roles>anti_aircraft,field_gun,fire_support</roles>
+                <availability>CC:5+</availability>
+            </model>
+            <model name='(Tracked AC5 2367+)'>
+                <roles>anti_aircraft,field_gun,fire_support</roles>
+                <availability>CC!A:7!B:6!C:5!D:3!F:1</availability>
+            </model>
+            <model name='(Tracked Heavy Cannon 2367+)'>
+                <roles>field_gun,fire_support</roles>
+                <availability>CC!C:1!D:1</availability>
+            </model>
+            <model name='(Tracked Medium Cannon 2367+)'>
+                <roles>field_gun,fire_support</roles>
+                <availability>CC!C:1!D:2</availability>
+            </model>
+            <model name='(Wheeled AC2 2367+)'>
+                <roles>anti_aircraft,field_gun,fire_support,urban</roles>
+                <availability>CC!A:4!B:4!C:3!D:2!F:1</availability>
+            </model>
+            <model name='(Wheeled AC5 2367+)'>
+                <roles>anti_aircraft,field_gun,fire_support,urban</roles>
+                <availability>CC!A:6!B:6!C:5!D:3!F:1</availability>
+            </model>
+            <model name='(Wheeled Heavy Cannon 2367+)'>
+                <roles>field_gun,fire_support,urban</roles>
+                <availability>CC!C:1!D:1!F:2</availability>
+            </model>
+            <model name='(Wheeled Medium Cannon 2367+)'>
+                <roles>field_gun,fire_support,urban</roles>
+                <availability>CC:3-</availability>
+            </model>
+        </chassis>
         <chassis name='Field Gunners' unitType='Infantry'>
-            <availability>IS:4,Periphery:2</availability>
+            <availability>IS:4,CC:0,Periphery:2</availability>
             <model name='(AC10)'>
                 <roles>field_gun</roles>
                 <availability>General:8</availability>
@@ -502,7 +607,7 @@
             </model>
         </chassis>
         <chassis name='Foot Platoon' unitType='Infantry'>
-            <availability>IS:10,Periphery:10,TC:4-,Periphery.Deep:10</availability>
+            <availability>IS:10,CC:0,Periphery:10,TC:4-,Periphery.Deep:10</availability>
             <model name='(Flamer)'>
                 <roles>urban</roles>
                 <availability>IS:8,Periphery:8,TC:6-,Periphery.Deep:8</availability>
@@ -537,6 +642,49 @@
             </model>
             <model name='(SRM)'>
                 <availability>IS:5,Periphery:5,TC:3+,Periphery.Deep:5+</availability>
+            </model>
+        </chassis>
+        <chassis name='Foot Platoon (CCAF)' unitType='Infantry'>
+            <availability>CC:8</availability>
+            <model name='(Flamer 2367+)'>
+                <roles>urban</roles>
+                <availability>CC:4-</availability>
+            </model>
+            <model name='(Laser 2367+)'>
+                <availability>CC!A:6!B:3!C:1</availability>
+            </model>
+            <model name='(Laser Marine 2367+)'>
+                <roles>marine</roles>
+                <availability>CC:1+</availability>
+            </model>
+            <model name='(Laser XCT 2400+)'>
+                <roles>xct</roles>
+                <availability>CC:1+</availability>
+            </model>
+            <model name='(MG 2367+)'>
+                <roles>anti_infantry</roles>
+                <availability>CC:6</availability>
+            </model>
+            <model name='(Mortar 2367+)'>
+                <roles>fire_support</roles>
+                <availability>CC!B:1!C:2!D:2!F:2</availability>
+            </model>
+            <model name='(Recoilless 2367+)'>
+                <availability>CC!B:2!C:3!D:2!F:1</availability>
+            </model>
+            <model name='(Rifle 2367+)'>
+                <availability>CC:8</availability>
+            </model>
+            <model name='(Riot Police 2367+)'>
+                <roles>civilian</roles>
+                <availability>CC:8</availability>
+            </model>
+            <model name='(Sappers 2367+)'>
+                <roles>engineer,minesweeper</roles>
+                <availability>CC:1+</availability>
+            </model>
+            <model name='(SRM 2400+)'>
+                <availability>CC:4+</availability>
             </model>
         </chassis>
         <chassis name='Foot Platoon (Taurian)' unitType='Infantry'>
@@ -588,6 +736,47 @@
                 <availability>TH:8</availability>
             </model>
         </chassis>
+        <chassis name='Heavy Flak Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:5!B:5!C:6!D:6!F:6</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>anti_aircraft</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Heavy Laser Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:2!B:2!C:3!D:3!F:5</availability>
+            <model name='(2300) (Fusion)'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Heavy Missile Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:7!B:7!C:7!D:6!F:5</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>fire_support</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Heavy Shredder Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:2!B:2!C:3!D:3!F:5</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>sr_fire_support</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Heavy Siege Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:2!B:2!C:2</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>fire_support</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Heavy Sniper Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:2!B:2!C:3!D:3!F:5</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>fire_support</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
         <chassis name='Helepolis' unitType='Mek'>
             <availability>TH!A:2</availability>
             <model name='HEP-1H'>
@@ -616,7 +805,7 @@
             </model>
         </chassis>
         <chassis name='Jump Platoon' unitType='Infantry'>
-            <availability>IS:8,Periphery:7,TC:2-,Periphery.Deep:5+</availability>
+            <availability>IS:8,CC:0,Periphery:7,TC:2-,Periphery.Deep:5+</availability>
             <model name='(Flamer)'>
                 <roles>urban</roles>
                 <availability>IS:8,Periphery:8,TC:3-,Periphery.Deep:8</availability>
@@ -636,6 +825,26 @@
             </model>
             <model name='(SRM)'>
                 <availability>IS:5,Periphery:5,TC:4+,Periphery.Deep:4+</availability>
+            </model>
+        </chassis>
+        <chassis name='Jump Platoon (CCAF)' unitType='Infantry'>
+            <availability>CC!A:5!B:4!C:1</availability>
+            <model name='(Flamer 2367+)'>
+                <roles>urban</roles>
+                <availability>CC:4-</availability>
+            </model>
+            <model name='(Laser 2367+)'>
+                <availability>CC:6+</availability>
+            </model>
+            <model name='(MG 2367+)'>
+                <roles>anti_infantry</roles>
+                <availability>CC:4</availability>
+            </model>
+            <model name='(Rifle 2367+)'>
+                <availability>CC:8-</availability>
+            </model>
+            <model name='(SRM 2400+)'>
+                <availability>CC:5+</availability>
             </model>
         </chassis>
         <chassis name='Jump Platoon (Taurian)' unitType='Infantry'>
@@ -690,6 +899,40 @@
                 <availability>FWL:8</availability>
             </model>
         </chassis>
+        <chassis name='Light Flak Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:9!B:9!C:10!D:10!F:10</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>anti_aircraft</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Light Laser Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:6!B:6!C:6!D:7!F:8</availability>
+            <model name='(2300) (Fusion)'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Light Missile Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:10!B:10!C:10!D:10!F:9</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>fire_support</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Light Shredder Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:6!B:6!C:6!D:7!F:8</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>sr_fire_support</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Light Sniper Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:6!B:6!C:6!D:7!F:8</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>fire_support</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
         <chassis name='Lola I Destroyer' unitType='Warship'>
             <availability>CC:1,TH:6,LA:1,FWL:1,FS:1,DC:1</availability>
             <model name='(2345)'>
@@ -731,7 +974,7 @@
             </model>
         </chassis>
         <chassis name='Mechanized Hover Platoon' unitType='Infantry'>
-            <availability>IS:5,Periphery:5,TC:2-,Periphery.Deep:4+</availability>
+            <availability>IS:5,CC:0,Periphery:5,TC:2-,Periphery.Deep:4+</availability>
             <model name='(Flamer)'>
                 <availability>IS:8,Periphery:8,TC:2-,Periphery.Deep:8</availability>
             </model>
@@ -752,6 +995,28 @@
             </model>
             <model name='(SRM)'>
                 <availability>IS:5,Periphery:5,TC:4+,Periphery.Deep:5+</availability>
+            </model>
+        </chassis>
+        <chassis name='Mechanized Hover Platoon (CCAF)' unitType='Infantry'>
+            <availability>CC!A:4!B:3!C:1</availability>
+            <model name='(Flamer 2367+)'>
+                <roles>urban</roles>
+                <availability>CC:3-</availability>
+            </model>
+            <model name='(Laser 2367+)'>
+                <roles>recon</roles>
+                <availability>CC:6+</availability>
+            </model>
+            <model name='(MG 2367+)'>
+                <roles>anti_infantry</roles>
+                <availability>CC:4</availability>
+            </model>
+            <model name='(Rifle 2367+)'>
+                <roles>recon</roles>
+                <availability>CC:8-</availability>
+            </model>
+            <model name='(SRM 2400+)'>
+                <availability>CC:4+</availability>
             </model>
         </chassis>
         <chassis name='Mechanized Hover Platoon (Taurian)' unitType='Infantry'>
@@ -776,7 +1041,7 @@
             </model>
         </chassis>
         <chassis name='Mechanized Tracked Platoon' unitType='Infantry'>
-            <availability>IS:7,Periphery:7,TC:4-,Periphery.Deep:6+</availability>
+            <availability>IS:7,CC:0,Periphery:7,TC:4-,Periphery.Deep:6+</availability>
             <model name='(Flamer)'>
                 <roles>urban</roles>
                 <availability>IS:8,Periphery:8,TC:3-,Periphery.Deep:8</availability>
@@ -796,6 +1061,41 @@
             </model>
             <model name='(SRM)'>
                 <availability>IS:5,Periphery:5,TC:4+,Periphery.Deep:4+</availability>
+            </model>
+        </chassis>
+        <chassis name='Mechanized Tracked Platoon (CCAF)' unitType='Infantry'>
+            <availability>CC!A:7!B:6!C:3!D:1</availability>
+            <model name='(Combat Engineers 2367+)'>
+                <roles>engineer</roles>
+                <availability>CC:1+</availability>
+            </model>
+            <model name='(Flamer 2367+)'>
+                <roles>urban</roles>
+                <availability>CC:4-</availability>
+            </model>
+            <model name='(Laser 2367+)'>
+                <availability>CC!A:6!B:4!C:2!D:1</availability>
+            </model>
+            <model name='(MG 2367+)'>
+                <roles>anti_infantry</roles>
+                <availability>CC:4</availability>
+            </model>
+            <model name='(Mortar 2367+)'>
+                <roles>fire_support</roles>
+                <availability>CC!B:1!C:2!D:2!F:2</availability>
+            </model>
+            <model name='(Recoilless 2367+)'>
+                <availability>CC!B:2!C:4!D:3!F:2</availability>
+            </model>
+            <model name='(Rifle 2367+)'>
+                <availability>CC:8</availability>
+            </model>
+            <model name='(Sappers 2367+)'>
+                <roles>engineer,minesweeper</roles>
+                <availability>CC:1+</availability>
+            </model>
+            <model name='(SRM 2400+)'>
+                <availability>CC:5+</availability>
             </model>
         </chassis>
         <chassis name='Mechanized Tracked Platoon (Taurian)' unitType='Infantry'>
@@ -819,7 +1119,7 @@
             </model>
         </chassis>
         <chassis name='Mechanized Wheeled Platoon' unitType='Infantry'>
-            <availability>IS:7,Periphery:7,TC:3-,Periphery.Deep:8+</availability>
+            <availability>IS:7,CC:0,Periphery:7,TC:3-,Periphery.Deep:8+</availability>
             <model name='(Flamer)'>
                 <roles>urban</roles>
                 <availability>IS:8,Periphery:8,TC:4-,Periphery.Deep:8</availability>
@@ -845,6 +1145,45 @@
                 <availability>IS:5,Periphery:5,TC:4+,Periphery.Deep:4+</availability>
             </model>
         </chassis>
+        <chassis name='Mechanized Wheeled Platoon (CCAF)' unitType='Infantry'>
+            <availability>CC!A:6!B:6!C:4!D:2!F:1</availability>
+            <model name='(Combat Engineers 2367+)'>
+                <roles>engineer,urban</roles>
+                <availability>CC:1+</availability>
+            </model>
+            <model name='(Flamer 2367+)'>
+                <roles>urban</roles>
+                <availability>CC:3-</availability>
+            </model>
+            <model name='(Laser 2367+)'>
+                <roles>urban</roles>
+                <availability>CC!A:6!B:4!C:2!D:1</availability>
+            </model>
+            <model name='(Laser XCT 2380+)'>
+                <roles>xct</roles>
+                <availability>CC:1+</availability>
+            </model>
+            <model name='(MG 2367+)'>
+                <roles>anti_infantry,urban</roles>
+                <availability>CC:4</availability>
+            </model>
+            <model name='(Mortar 2367+)'>
+                <roles>fire_support,urban</roles>
+                <availability>CC!B:1!C:2!D:2!F:2</availability>
+            </model>
+            <model name='(Recoilless 2367+)'>
+                <roles>urban</roles>
+                <availability>CC!B:2!C:4!D:3!F:2</availability>
+            </model>
+            <model name='(Rifle 2367+)'>
+                <roles>urban</roles>
+                <availability>CC:8</availability>
+            </model>
+            <model name='(SRM 2400+)'>
+                <roles>urban</roles>
+                <availability>CC:4+</availability>
+            </model>
+        </chassis>
         <chassis name='Mechanized Wheeled Platoon (Taurian)' unitType='Infantry'>
             <availability>TC:6+</availability>
             <model name='(Flamer)'>
@@ -868,6 +1207,54 @@
                 <availability>TC:5+</availability>
             </model>
         </chassis>
+        <chassis name='Medium Command Tower' unitType='Advanced Building'>
+            <availability>IS!A:10!B:10!C:9!D:9</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>command</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Medium Flak Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:6!B:6!C:7!D:7!F:7</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>anti_aircraft</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Medium Laser Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:3!B:3!C:4!D:5!F:6</availability>
+            <model name='(2300) (Fusion)'>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Medium Missile Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:9!B:9!C:8!D:8!F:7</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>fire_support</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Medium Shredder Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:3!B:3!C:4!D:5!F:6</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>sr_fire_support</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Medium Siege Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:6!B:6!C:6</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>fire_support</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
+        <chassis name='Medium Sniper Gun Emplacement' unitType='Advanced Building'>
+            <availability>IS!A:3!B:3!C:4!D:5!F:6</availability>
+            <model name='(2300) (Fusion)'>
+                <roles>fire_support</roles>
+                <availability>General:8</availability>
+            </model>
+        </chassis>
         <chassis name='Merkava Heavy Tank' unitType='Tank'>
             <availability>TH:8</availability>
             <model name='Mk VI'>
@@ -875,6 +1262,13 @@
             </model>
             <model name='Mk VII'>
                 <availability>General:4</availability>
+            </model>
+        </chassis>
+        <chassis name='Mingo' unitType='Dropship'>
+            <availability>IS:7,Periphery:8,Periphery.Deep:8</availability>
+            <model name=''>
+                <roles>cargo,civilian</roles>
+                <availability>General:8</availability>
             </model>
         </chassis>
         <chassis name='Monsoon Battleship' unitType='Warship'>
@@ -891,7 +1285,7 @@
             </model>
         </chassis>
         <chassis name='Motorized Platoon' unitType='Infantry'>
-            <availability>IS:9,Periphery:9,TC:4-,Periphery.Deep:8</availability>
+            <availability>IS:9,CC:0,Periphery:9,TC:4-,Periphery.Deep:8</availability>
             <model name='(Fieldworks)'>
                 <roles>engineer</roles>
                 <availability>IS:2,Periphery:1</availability>
@@ -919,6 +1313,49 @@
             </model>
             <model name='(SRM)'>
                 <availability>IS:5,Periphery:5,TC:4+,Periphery.Deep:5+</availability>
+            </model>
+        </chassis>
+        <chassis name='Motorized Platoon (CCAF)' unitType='Infantry'>
+            <availability>CC!A:1!B:1!C:2!D:4!F:6</availability>
+            <model name='(Combat Engineers 2367+)'>
+                <roles>engineer</roles>
+                <availability>CC:1+</availability>
+            </model>
+            <model name='(Flamer 2367+)'>
+                <roles>urban</roles>
+                <availability>CC:4-</availability>
+            </model>
+            <model name='(Laser 2367+)'>
+                <availability>CC!A:5!B:4!C:2!D:1</availability>
+            </model>
+            <model name='(Laser XCT 2400+)'>
+                <roles>xct</roles>
+                <availability>CC:1+</availability>
+            </model>
+            <model name='(MG 2367+)'>
+                <roles>anti_infantry</roles>
+                <availability>CC:5</availability>
+            </model>
+            <model name='(Mortar 2367+)'>
+                <roles>fire_support</roles>
+                <availability>CC!B:1!C:3!D:3!F:3</availability>
+            </model>
+            <model name='(Recoilless 2367+)'>
+                <availability>CC!B:2!C:3!D:2!F:1</availability>
+            </model>
+            <model name='(Rifle 2367+)'>
+                <availability>CC:8</availability>
+            </model>
+            <model name='(Riot Police 2367+)'>
+                <roles>civilian</roles>
+                <availability>CC:8</availability>
+            </model>
+            <model name='(Sappers 2367+)'>
+                <roles>engineer,minesweeper</roles>
+                <availability>CC:1+</availability>
+            </model>
+            <model name='(SRM 2400+)'>
+                <availability>CC:4+</availability>
             </model>
         </chassis>
         <chassis name='Motorized Platoon (Taurian)' unitType='Infantry'>
@@ -1004,7 +1441,7 @@
         <chassis name='RR-3 Recovery Vehicle' unitType='Tank'>
             <availability>IS:3,Periphery:3</availability>
             <model name=''>
-                <roles>cargo,support</roles>
+                <roles>cargo,support,recovery</roles>
                 <availability>IS:8,Periphery:8</availability>
             </model>
         </chassis>
@@ -1110,6 +1547,7 @@
         <chassis name='UTR-588 Recovery Vehicle' unitType='Tank'>
             <availability>IS:3,Periphery:3</availability>
             <model name=''>
+                <roles>recovery</roles>
                 <availability>IS:8,Periphery:8</availability>
             </model>
         </chassis>

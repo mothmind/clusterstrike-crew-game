@@ -1,0 +1,64 @@
+# MegaMek Data (C) 2025-2026 by The MegaMek Team is licensed under CC BY-NC-SA 4.0.
+# To view a copy of this license, visit https: //creativecommons.org/licenses/by-nc-sa/4.0/
+#
+# NOTICE: The MegaMek organization is a non-profit group of volunteers
+# creating free software for the BattleTech community.
+#
+# MechWarrior, BattleMech, `Mech and AeroTech are registered trademarks
+# of The Topps Company, Inc. All Rights Reserved.
+#
+# Catalyst Game Labs and the Catalyst Game Labs logo are trademarks of
+# InMediaRes Productions, LLC.
+#
+# MechWarrior Copyright Microsoft Corporation. MegaMek Data was created under
+# Microsoft's "Game Content Usage Rules"
+# <https: //www.xbox.com/en-US/developers/rules> and it is not endorsed by or
+# affiliated with Microsoft.
+
+{
+"scenarioFileNames": {
+"0": "Annihilation.json",
+"1": "Assassination.json",
+"2": "Base Defense.json",
+"3": "Breakthrough.json",
+"4": "Close Air Support.json",
+"5": "Convoy Escort.json",
+"6": "Convoy Interdiction.json",
+"7": "Covert Strike.json",
+"8": "Decoy Engagement.json",
+"9": "Decoy Interception.json",
+"10": "Diversion Engagement.json",
+"11": "Mole Hunt.json",
+"12": "Low-Atmosphere - Bomber Escort.json",
+"13": "Low-Atmosphere - Fighter Sweep.json",
+"14": "Escalation.json",
+"15": "Hostile Facility.json",
+"16": "Intercept Engagement.json",
+"17": "Interception Defense.json",
+"18": "Clear the Guns.json",
+"19": "Low-Atmosphere - Air Intercept.json",
+"20": "Minor Engagement.json",
+"21": "Pivotal Engagement.json",
+"22": "Recon Evasion.json",
+"23": "Tactical Withdrawal.json",
+"24": "Engagement.json",
+"25": "Official Challenge.json",
+"26": "Relief Column.json",
+"27": "Prisoner Liberation.json",
+"28": "Last Stand.json",
+"29": "Combat Drop.json",
+"30": "Decapitation Strike.json",
+"31": "Enveloped.json",
+"32": "Screening Action.json",
+"33": "Gauntlet Run.json",
+"34": "Hold Until Relief.json",
+"35": "Convoy Hijack.json",
+"36": "Ambush the Column.json",
+"37": "Meeting Engagement.json",
+"38": "Rolling Thunder.json",
+"39": "Breakout.json",
+"40": "Infantry Suppression.json",
+"41": "Space - Fighter Sweep.json",
+"42": "Space - Intercept.json"
+}
+}

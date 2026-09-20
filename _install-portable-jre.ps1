@@ -1,8 +1,9 @@
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
-$javaUrl = 'https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.18%2B8/OpenJDK17U-jre_x64_windows_hotspot_17.0.18_8.zip'
+$javaUrl = 'https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jre_x64_windows_hotspot_21.0.12.1_1.zip'
 $javaDir = Join-Path $PSScriptRoot '_java'
+$requiredJavaMajor = 21
 
 function Invoke-FastDownload {
   param(
@@ -47,6 +48,32 @@ function Get-PortableJavaExePath {
   return $javaExe.FullName
 }
 
+function Get-PortableJavaMajorVersion {
+  param(
+    [Parameter(Mandatory = $true)]
+    [string]$JavaExePath
+  )
+
+  $releaseFile = Join-Path (Split-Path -Parent (Split-Path -Parent $JavaExePath)) 'release'
+  if (Test-Path -LiteralPath $releaseFile) {
+    $line = Get-Content -LiteralPath $releaseFile | Where-Object { $_ -match '^JAVA_VERSION="?(\d+)' } | Select-Object -First 1
+    if ($null -ne $line -and $line -match '^JAVA_VERSION="?(\d+)') {
+      return [int]$Matches[1]
+    }
+  }
+
+  try {
+    $versionOutput = (& $JavaExePath -version 2>&1 | Out-String)
+    if ($versionOutput -match 'version "(\d+)') {
+      return [int]$Matches[1]
+    }
+  }
+  catch {
+  }
+
+  return 0
+}
+
 function Normalize-PortableJavaLayout {
   param(
     [Parameter(Mandatory = $true)]
@@ -76,13 +103,21 @@ function Ensure-PortableJava {
 
   $existingJavaExe = Get-PortableJavaExePath -BasePath $javaDir
   if (-not [string]::IsNullOrWhiteSpace($existingJavaExe)) {
-    Write-Host "Portable Java already present at '$existingJavaExe'."
-    return
+    $existingMajor = Get-PortableJavaMajorVersion -JavaExePath $existingJavaExe
+    if ($existingMajor -ge $requiredJavaMajor) {
+      Write-Host "Portable Java $existingMajor already present at '$existingJavaExe'."
+      return
+    }
+
+    Write-Host "Portable Java $existingMajor at '$existingJavaExe' is too old (need $requiredJavaMajor). Replacing it..."
+  }
+  else {
+    Write-Host "Portable Java not found in '$javaDir'."
   }
 
-  Write-Host "Portable Java not found in '$javaDir'. Downloading Java 17 runtime..."
-  $tmpJavaZip = Join-Path $env:TEMP ("PortableJava17-" + [Guid]::NewGuid().ToString('N') + ".zip")
-  $tmpJavaExtractDir = Join-Path $env:TEMP ("PortableJava17-extract-" + [Guid]::NewGuid().ToString('N'))
+  Write-Host "Downloading Java $requiredJavaMajor runtime..."
+  $tmpJavaZip = Join-Path $env:TEMP ("PortableJava$requiredJavaMajor-" + [Guid]::NewGuid().ToString('N') + ".zip")
+  $tmpJavaExtractDir = Join-Path $env:TEMP ("PortableJava$requiredJavaMajor-extract-" + [Guid]::NewGuid().ToString('N'))
 
   try {
     Invoke-FastDownload -Url $javaUrl -OutFile $tmpJavaZip
